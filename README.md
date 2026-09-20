@@ -4,7 +4,8 @@ Every day at 08:00 London time, GitHub posts the next approved "finance term of 
 carousel to **@equivisionbasics**. Nothing runs on your computer.
 
 ```
-queue/posts.json         the posts (text, numbers, caption). One entry per day.
+queue/*.json             the posts (text, numbers, caption), one file per batch, one entry per day.
+                         e.g. posts.json (batch 1), batch-2.json, batch-3.json ...
 src/templates.py         the slide designs
 src/render.py            turns a post into 6 JPEG slides (1080x1350)
 src/publish.py           uploads and publishes to Instagram, with safety checks
@@ -41,17 +42,32 @@ tests/                   offline tests (no Instagram needed)
 ## Every day
 
 Nothing. At 08:00 London time the workflow posts the earliest approved post that is due, marks
-it `"published": true` in `queue/posts.json`, and commits that change. You get a GitHub email
+it `"published": true` in the file it came from, and commits that change. You get a GitHub email
 if a run fails. The run page shows a link to the live post.
 
 If a day is missed, the next run posts the overdue one, so no post is skipped.
 
-## Adding more posts
+## Adding a new batch (about once a month)
 
-Add entries to the `posts` list in `queue/posts.json` (same shape as the existing ones), each
-with a unique `id`, a `date`, and `"approved": false`. Preview by running
-`python src/render.py queue/posts.json out 0` (the last number is the post's position). When you
-are happy, set `"approved": true`. The run warns you when fewer than 3 approved posts remain.
+1. Get the new file from Claude, for example `batch-2.json`.
+2. In the repo open the `queue` folder, then **Add file > Upload files**, drop the new file in and
+   **Commit changes**. Only add new files. Never replace or delete an old batch file: they hold the
+   record of what has already been published.
+3. Run **Actions > Daily Instagram post > Run workflow > mode `check`**. A green tick means every
+   post is valid and none repeats an earlier one.
+
+Every file in `queue` is read. Posts are published in date order, one per day, only if
+`"approved": true`. The run warns you when fewer than 3 approved posts remain.
+
+### Duplicate protection
+
+- A post whose id, term or caption title matches another post is refused (`check` goes red).
+- A post that repeats something already published is skipped (`"skipped"` is written on it), the
+  next valid post goes out instead, and the run ends red so GitHub emails you.
+- Two unpublished posts on the same date are refused.
+- Before posting, the last 30 posts on the account are checked. If today's post is already there
+  it is marked as published instead of being posted again.
+- One post per London day, whatever happens.
 
 Slide types: `cover`, `definition`, `steps`, `compare`, `points`, `recap`.
 In text, `[[word]]` highlights in light blue and `**word**` is bold.
