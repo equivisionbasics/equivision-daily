@@ -72,8 +72,8 @@ jobs:
         run: |
           git config user.name "equivision-bot"
           git config user.email "equivision-bot@users.noreply.github.com"
-          if ! git diff --quiet -- queue/posts.json; then
-            git add queue/posts.json
+          if ! git diff --quiet -- queue; then
+            git add queue
             git commit -m "Mark post as published"
             for i in 1 2 3 4; do
               git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break
