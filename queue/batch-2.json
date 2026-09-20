@@ -1,0 +1,3543 @@
+{
+  "posts": [
+    {
+      "id": "2026-09-27-income",
+      "date": "2026-09-27",
+      "term": "Income",
+      "caption": "Income, explained simply 👇\n\nIncome is the money you receive, usually from work, a business or investments. It's the starting point of every money plan.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#income #money #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Income",
+          "art": "coins"
+        },
+        {
+          "type": "definition",
+          "headline": "Income is the money you [[receive]], usually from [[work]] or investments.",
+          "visual": {
+            "arcText": "money coming in",
+            "midText": "every month",
+            "left": {
+              "icon": "person",
+              "title": "YOU",
+              "sub": "Work or invest"
+            },
+            "right": {
+              "icon": "wallet",
+              "title": "INCOME",
+              "sub": "Money comes to you"
+            }
+          },
+          "footer": "It's the starting point of every money plan."
+        },
+        {
+          "type": "steps",
+          "headline": "You take a part-time job paying [[$15]] an hour.",
+          "steps": [
+            {
+              "icon": "clock",
+              "title": "You work 20 hours a week",
+              "sub": "That's your time."
+            },
+            {
+              "icon": "coins",
+              "title": "20 hours × $15 = $300",
+              "sub": "That's one week's pay, before tax."
+            },
+            {
+              "icon": "wallet",
+              "title": "About $1,200 a month",
+              "sub": "$300 × 4 weeks = $1,200."
+            }
+          ],
+          "closing": "Money coming in is [[income]]."
+        },
+        {
+          "type": "points",
+          "label": "WHERE IT COMES FROM",
+          "headline": "Income has [[many]] forms.",
+          "sub": "It isn't only a paycheck.",
+          "rows": [
+            {
+              "mark": "JOB",
+              "text": "Wages or a salary from work"
+            },
+            {
+              "mark": "SALES",
+              "text": "Profit from selling something"
+            },
+            {
+              "mark": "INVEST",
+              "text": "Interest and dividends"
+            }
+          ],
+          "note": "Some income is taxed before it reaches you."
+        },
+        {
+          "type": "points",
+          "label": "WHY IT MATTERS",
+          "headline": "Income isn't the same as [[wealth]].",
+          "sub": "Wealth is what you keep, not what you earn.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Spend less than you earn: wealth grows"
+            },
+            {
+              "dir": "down",
+              "text": "Spend more than you earn: debt grows"
+            }
+          ],
+          "note": "Earning a lot and keeping a lot are different things."
+        },
+        {
+          "type": "recap",
+          "title": "Income = Money in",
+          "sub": "Money that comes to you.",
+          "checks": [
+            "Money **coming in** to you",
+            "It can come from **work or investments**",
+            "What you **keep** builds wealth"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-28-budget",
+      "date": "2026-09-28",
+      "term": "Budget",
+      "caption": "Budget, explained simply 👇\n\nA budget is a plan for what you'll do with your money each month. You decide where every dollar goes before you spend it.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#budget #savingmoney #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Budget",
+          "art": {
+            "kind": "doc",
+            "title": "BUDGET"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A budget is a [[plan]] for what you'll do with your [[money]] each month.",
+          "visual": {
+            "arcText": "a plan for your money",
+            "midText": "before you spend",
+            "left": {
+              "icon": "wallet",
+              "title": "MONEY IN",
+              "sub": "Your income"
+            },
+            "right": {
+              "icon": "basket",
+              "title": "MONEY OUT",
+              "sub": "Your spending"
+            }
+          },
+          "footer": "You tell your money where to go."
+        },
+        {
+          "type": "steps",
+          "headline": "You earn [[$2,000]] a month. Time to plan.",
+          "steps": [
+            {
+              "icon": "house",
+              "title": "Needs: $1,000",
+              "sub": "Rent, food, bills."
+            },
+            {
+              "icon": "gift",
+              "title": "Wants: $600",
+              "sub": "Fun, eating out, hobbies."
+            },
+            {
+              "icon": "plant",
+              "title": "Savings: $400",
+              "sub": "Your future self says thanks."
+            }
+          ],
+          "closing": "Every dollar has a job. That's a [[budget]]."
+        },
+        {
+          "type": "points",
+          "label": "A POPULAR RULE",
+          "headline": "Try the [[50/30/20]] rule.",
+          "sub": "One simple way to split your income.",
+          "rows": [
+            {
+              "mark": "50%",
+              "text": "Needs: rent, food, bills"
+            },
+            {
+              "mark": "30%",
+              "text": "Wants: fun and treats"
+            },
+            {
+              "mark": "20%",
+              "text": "Savings or paying off debt"
+            }
+          ],
+          "note": "It's a guideline, not a law. Adjust it to fit your life."
+        },
+        {
+          "type": "points",
+          "label": "WHY IT MATTERS",
+          "headline": "A budget shows where money [[goes]].",
+          "sub": "Most people are surprised by their own spending.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "You spot leaks before they grow"
+            },
+            {
+              "dir": "up",
+              "text": "You can afford your goals on purpose"
+            },
+            {
+              "dir": "down",
+              "text": "With no plan, money quietly disappears"
+            }
+          ],
+          "note": "You don't need an app. A notebook works."
+        },
+        {
+          "type": "recap",
+          "title": "Budget = A plan",
+          "sub": "Tell your money where to go.",
+          "checks": [
+            "Plan your **income** before you spend it",
+            "Cover **needs**, **save**, then enjoy wants",
+            "Check it **every month** and adjust"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-29-savings",
+      "date": "2026-09-29",
+      "term": "Savings",
+      "caption": "Savings, explained simply 👇\n\nSavings is money you set aside today instead of spending it, so it's there for goals or surprises later.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#savings #savemoney #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Savings",
+          "art": "growth"
+        },
+        {
+          "type": "definition",
+          "headline": "Savings is money you [[set aside]] today instead of [[spending]] it.",
+          "visual": {
+            "arcText": "set aside for later",
+            "midText": "kept safe",
+            "left": {
+              "icon": "wallet",
+              "title": "TODAY",
+              "sub": "You keep some"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "LATER",
+              "sub": "It's there for you"
+            }
+          },
+          "footer": "Saving means spending less than you earn."
+        },
+        {
+          "type": "steps",
+          "headline": "You save [[$50]] every month.",
+          "steps": [
+            {
+              "icon": "clock",
+              "title": "After 1 year: $600",
+              "sub": "$50 × 12 months = $600."
+            },
+            {
+              "icon": "percent",
+              "title": "Your bank may add interest",
+              "sub": "It pays you to keep money there."
+            },
+            {
+              "icon": "shield",
+              "title": "It's ready when you need it",
+              "sub": "A trip, a car, or a surprise bill."
+            }
+          ],
+          "closing": "Money set aside is [[savings]]."
+        },
+        {
+          "type": "points",
+          "label": "A SIMPLE HABIT",
+          "headline": "Pay [[yourself]] first.",
+          "sub": "Save first, then spend what's left.",
+          "rows": [
+            {
+              "mark": "1",
+              "text": "Your money arrives"
+            },
+            {
+              "mark": "2",
+              "text": "Move some to savings straight away"
+            },
+            {
+              "mark": "3",
+              "text": "Spend the rest"
+            }
+          ],
+          "note": "Even small amounts add up over time."
+        },
+        {
+          "type": "points",
+          "label": "WHERE TO KEEP IT",
+          "headline": "Safe and [[easy to reach]].",
+          "sub": "Savings should be there the moment you need them.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Low risk: the value doesn't swing wildly"
+            },
+            {
+              "dir": "up",
+              "text": "Easy to withdraw when you need it"
+            },
+            {
+              "dir": "down",
+              "text": "Usually grows slower than investing"
+            }
+          ],
+          "note": "Deposit protection rules vary by country."
+        },
+        {
+          "type": "recap",
+          "title": "Savings = Set aside",
+          "sub": "Keep some of what you earn.",
+          "checks": [
+            "Money you **don't spend today**",
+            "It's there for **goals and surprises**",
+            "**Small, regular** amounts add up"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-30-interest",
+      "date": "2026-09-30",
+      "term": "Interest",
+      "caption": "Interest, explained simply 👇\n\nInterest is the price of using money. Banks pay it to you when you save, and you pay it to lenders when you borrow.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#interest #banking #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Interest",
+          "art": {
+            "kind": "coins",
+            "stacks": [
+              3,
+              6,
+              4
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Interest is the [[price]] of using [[money]].",
+          "visual": {
+            "arcText": "the price of money",
+            "midText": "paid over time",
+            "left": {
+              "icon": "person",
+              "title": "SAVER",
+              "sub": "Gets paid interest"
+            },
+            "right": {
+              "icon": "bank",
+              "title": "BORROWER",
+              "sub": "Pays interest"
+            }
+          },
+          "footer": "It works in both directions."
+        },
+        {
+          "type": "steps",
+          "headline": "You put [[$1,000]] in a savings account paying 3%.",
+          "steps": [
+            {
+              "icon": "bank",
+              "title": "The bank uses your money",
+              "sub": "It lends it out to others."
+            },
+            {
+              "icon": "percent",
+              "title": "It pays you 3% a year",
+              "sub": "3% of $1,000 = $30."
+            },
+            {
+              "icon": "wallet",
+              "title": "After a year you have $1,030",
+              "sub": "That extra $30 is interest."
+            }
+          ],
+          "closing": "Payment for using money is [[interest]]."
+        },
+        {
+          "type": "compare",
+          "label": "TWO SIDES",
+          "headline": "Both directions.",
+          "sub": "You earn it when you save, and pay it when you borrow.",
+          "chart": {
+            "title": "In one year, on $1,000",
+            "bars": [
+              {
+                "label": "You save at 3%",
+                "value": 1000,
+                "text": "$1,000",
+                "extra": 30,
+                "extraText": "+$30"
+              },
+              {
+                "label": "You borrow at 10%",
+                "value": 1000,
+                "text": "$1,000",
+                "extra": 100,
+                "extraText": "+$100"
+              }
+            ]
+          },
+          "note": "Simple example: one year, nothing added or withdrawn."
+        },
+        {
+          "type": "points",
+          "label": "WHY IT MATTERS",
+          "headline": "The [[rate]] makes the difference.",
+          "sub": "A small change in the rate can mean a big change in cost.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Saving: a higher rate means you earn more"
+            },
+            {
+              "dir": "down",
+              "text": "Borrowing: a higher rate means you pay more"
+            }
+          ],
+          "note": "Rates change with the economy and differ by lender."
+        },
+        {
+          "type": "recap",
+          "title": "Interest = Price of money",
+          "sub": "Paid to savers, paid by borrowers.",
+          "checks": [
+            "Savers **earn** it",
+            "Borrowers **pay** it",
+            "A higher rate means a **bigger amount**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-01-debt",
+      "date": "2026-10-01",
+      "term": "Debt",
+      "caption": "Debt, explained simply 👇\n\nDebt is money you owe to someone else and have to pay back, usually with interest on top.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#debt #borrowing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Debt",
+          "art": "card"
+        },
+        {
+          "type": "definition",
+          "headline": "Debt is money you [[owe]] to someone else and must [[pay back]].",
+          "visual": {
+            "arcText": "money you owe",
+            "midText": "until it's repaid",
+            "left": {
+              "icon": "person",
+              "title": "YOU",
+              "sub": "Borrowed the money"
+            },
+            "right": {
+              "icon": "bank",
+              "title": "LENDER",
+              "sub": "Expects it back"
+            }
+          },
+          "footer": "Most debt comes with interest on top."
+        },
+        {
+          "type": "steps",
+          "headline": "You borrow [[$500]] to fix your laptop.",
+          "steps": [
+            {
+              "icon": "bank",
+              "title": "A lender gives you $500",
+              "sub": "You fix the laptop today."
+            },
+            {
+              "icon": "clock",
+              "title": "You agree to repay it",
+              "sub": "Say $55 a month for 10 months."
+            },
+            {
+              "icon": "percent",
+              "title": "You usually pay extra",
+              "sub": "That extra is called interest."
+            }
+          ],
+          "closing": "Money you owe is [[debt]]."
+        },
+        {
+          "type": "points",
+          "label": "NOT ALL DEBT IS EQUAL",
+          "headline": "It depends on the [[loan]].",
+          "sub": "The purpose and the cost both matter.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Can help: paying for education or a home"
+            },
+            {
+              "dir": "down",
+              "text": "Can hurt: costly debt for things that lose value"
+            },
+            {
+              "mark": "TIP",
+              "text": "Check the interest rate before you borrow"
+            }
+          ],
+          "note": "General education only. Everyone's situation is different."
+        },
+        {
+          "type": "compare",
+          "label": "THE SNOWBALL",
+          "headline": "Debt can grow.",
+          "sub": "Unpaid debt gets bigger as interest is added.",
+          "chart": {
+            "title": "$1,000 owed at 20% a year",
+            "bars": [
+              {
+                "label": "At the start",
+                "value": 1000,
+                "text": "$1,000"
+              },
+              {
+                "label": "After 2 years",
+                "value": 1000,
+                "text": "$1,000",
+                "extra": 440,
+                "extraText": "+$440"
+              }
+            ]
+          },
+          "note": "Example: 20% added yearly, nothing repaid."
+        },
+        {
+          "type": "recap",
+          "title": "Debt = Money you owe",
+          "sub": "Borrow carefully.",
+          "checks": [
+            "Money **borrowed** that must be repaid",
+            "It usually costs **interest**",
+            "Unpaid debt **grows over time**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-02-net-worth",
+      "date": "2026-10-02",
+      "term": "Net worth",
+      "caption": "Net worth, explained simply 👇\n\nNet worth is what you own minus what you owe. It's a snapshot of where you stand financially today.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#networth #wealth #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Net worth",
+          "art": {
+            "kind": "pie",
+            "values": [
+              34,
+              26,
+              20,
+              12,
+              8
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Net worth is what you [[own]] minus what you [[owe]].",
+          "visual": {
+            "arcText": "own minus owe",
+            "midText": "the difference",
+            "left": {
+              "icon": "wallet",
+              "title": "OWN",
+              "sub": "Cash, home, savings"
+            },
+            "right": {
+              "icon": "doc",
+              "title": "OWE",
+              "sub": "Loans and bills"
+            }
+          },
+          "footer": "It's a snapshot of where you stand."
+        },
+        {
+          "type": "steps",
+          "headline": "Add up what you own, then take away what you owe.",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "You own $30,000",
+              "sub": "Savings, a car, belongings."
+            },
+            {
+              "icon": "doc",
+              "title": "You owe $12,000",
+              "sub": "A student loan and a card balance."
+            },
+            {
+              "icon": "scale",
+              "title": "Net worth: $18,000",
+              "sub": "$30,000 - $12,000 = $18,000."
+            }
+          ],
+          "closing": "Own minus owe is your [[net worth]]."
+        },
+        {
+          "type": "compare",
+          "label": "THE GAP",
+          "headline": "The gap counts.",
+          "sub": "The difference between the two bars is your net worth.",
+          "chart": {
+            "title": "What you own vs what you owe",
+            "bars": [
+              {
+                "label": "You own",
+                "value": 30000,
+                "text": "$30,000"
+              },
+              {
+                "label": "You owe",
+                "value": 12000,
+                "text": "$12,000"
+              }
+            ]
+          },
+          "note": "Net worth is negative if you owe more than you own."
+        },
+        {
+          "type": "points",
+          "label": "WHY IT MATTERS",
+          "headline": "It can [[change]].",
+          "sub": "Small actions move it in either direction.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Pay off debt: net worth rises"
+            },
+            {
+              "dir": "up",
+              "text": "Save or invest more: it rises"
+            },
+            {
+              "dir": "down",
+              "text": "Borrow more than you build: it falls"
+            }
+          ],
+          "note": "Check it once or twice a year to see your progress."
+        },
+        {
+          "type": "recap",
+          "title": "Net worth = Own - Owe",
+          "sub": "Your financial snapshot.",
+          "checks": [
+            "**Add up** everything you own",
+            "**Subtract** everything you owe",
+            "Aim to see it **grow** over time"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-03-emergency-fund",
+      "date": "2026-10-03",
+      "term": "Emergency fund",
+      "caption": "Emergency fund, explained simply 👇\n\nAn emergency fund is money set aside only for surprises, like a car repair or a lost job, so a bad day doesn't turn into debt.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#emergencyfund #savings #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Emergency fund",
+          "art": {
+            "kind": "coins",
+            "stacks": [
+              7,
+              4,
+              9
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "An emergency fund is a [[cushion]] for [[surprise]] costs.",
+          "visual": {
+            "arcText": "a cushion for bad days",
+            "midText": "instead of borrowing",
+            "left": {
+              "icon": "doc",
+              "title": "SURPRISE",
+              "sub": "Car repair, lost job"
+            },
+            "right": {
+              "icon": "shield",
+              "title": "YOUR FUND",
+              "sub": "Pays for it"
+            }
+          },
+          "footer": "It keeps a bad day from becoming debt."
+        },
+        {
+          "type": "steps",
+          "headline": "Your car breaks down. The repair costs [[$800]].",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "Without a fund",
+              "sub": "You may borrow and pay interest."
+            },
+            {
+              "icon": "shield",
+              "title": "With a fund",
+              "sub": "You pay the $800 from savings."
+            },
+            {
+              "icon": "plant",
+              "title": "You refill it over time",
+              "sub": "Save a little each month."
+            }
+          ],
+          "closing": "That cushion is an [[emergency fund]]."
+        },
+        {
+          "type": "points",
+          "label": "HOW MUCH?",
+          "headline": "How much is [[enough]]?",
+          "sub": "A common guide: 3 to 6 months of basic costs.",
+          "rows": [
+            {
+              "mark": "3 MO",
+              "text": "$1,500 × 3 = $4,500"
+            },
+            {
+              "mark": "6 MO",
+              "text": "$1,500 × 6 = $9,000"
+            }
+          ],
+          "note": "Start small. Even $500 helps. Needs differ for everyone.",
+          "gauge": {
+            "left": "Too thin",
+            "right": "Comfortable",
+            "needle": 0.7
+          }
+        },
+        {
+          "type": "points",
+          "label": "THE RULES",
+          "headline": "Keep it [[separate]].",
+          "sub": "Hard to spend by accident, easy to reach in a real emergency.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Keep it in a savings account, apart from spending"
+            },
+            {
+              "dir": "down",
+              "text": "Spending it on holidays or sales"
+            },
+            {
+              "dir": "up",
+              "text": "Keep it out of risky investments"
+            }
+          ],
+          "note": "Emergencies only: car, medical, or a lost job."
+        },
+        {
+          "type": "recap",
+          "title": "Emergency fund = Cushion",
+          "sub": "For surprises only.",
+          "checks": [
+            "Money **set aside** for surprises",
+            "A common guide: **3 to 6 months**",
+            "Keep it **safe and easy to reach**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-04-credit-score",
+      "date": "2026-10-04",
+      "term": "Credit score",
+      "caption": "Credit score, explained simply 👇\n\nA credit score is a number that shows lenders how reliably you repay what you borrow. A higher score usually means cheaper loans.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#creditscore #credit #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Credit score",
+          "art": {
+            "kind": "card"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A credit score is a [[number]] that shows how [[reliably]] you repay.",
+          "visual": {
+            "arcText": "your reliability grade",
+            "midText": "lenders check it",
+            "left": {
+              "icon": "person",
+              "title": "YOU",
+              "sub": "Borrow and repay"
+            },
+            "right": {
+              "icon": "bank",
+              "title": "LENDER",
+              "sub": "Checks your score"
+            }
+          },
+          "footer": "A higher score usually means cheaper loans."
+        },
+        {
+          "type": "steps",
+          "headline": "Two people ask for the [[same loan]].",
+          "steps": [
+            {
+              "icon": "person",
+              "title": "Sam repays on time",
+              "sub": "Sam's score is high."
+            },
+            {
+              "icon": "person",
+              "title": "Alex repays late",
+              "sub": "Alex's score is lower."
+            },
+            {
+              "icon": "percent",
+              "title": "The lender charges Alex more",
+              "sub": "Higher risk means a higher rate."
+            }
+          ],
+          "closing": "The score helps lenders [[decide]]."
+        },
+        {
+          "type": "points",
+          "label": "WHAT MOVES IT",
+          "headline": "A few habits [[shape]] it.",
+          "sub": "The same habits work almost everywhere.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Pay every bill on time"
+            },
+            {
+              "dir": "down",
+              "text": "Missed payments and maxed-out cards"
+            }
+          ],
+          "note": "Ranges and rules differ by country.",
+          "gauge": {
+            "left": "Low",
+            "right": "High",
+            "needle": 0.72
+          }
+        },
+        {
+          "type": "points",
+          "label": "WHY IT MATTERS",
+          "headline": "It opens [[doors]].",
+          "sub": "Lenders and landlords often check it.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Lower interest rates on loans"
+            },
+            {
+              "dir": "up",
+              "text": "Easier to rent or get approved"
+            },
+            {
+              "dir": "down",
+              "text": "A low score can mean a no, or higher costs"
+            }
+          ],
+          "note": "Score names and ranges vary from country to country."
+        },
+        {
+          "type": "recap",
+          "title": "Credit score = Trust grade",
+          "sub": "Your reputation as a borrower.",
+          "checks": [
+            "A number showing **how reliably you repay**",
+            "**On-time payments** raise it",
+            "A higher score means **cheaper loans**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-05-apr",
+      "date": "2026-10-05",
+      "term": "APR",
+      "caption": "APR, explained simply 👇\n\nAPR, or annual percentage rate, is the yearly cost of borrowing shown as a percentage. It helps you compare similar loans.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#apr #loans #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "APR",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                500
+              ],
+              [
+                230,
+                470
+              ],
+              [
+                330,
+                380
+              ],
+              [
+                470,
+                400
+              ],
+              [
+                590,
+                300
+              ],
+              [
+                720,
+                280
+              ],
+              [
+                850,
+                190
+              ],
+              [
+                1000,
+                140
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "APR is the [[yearly cost]] of borrowing, shown as a [[percentage]].",
+          "visual": {
+            "arcText": "borrowing cost per year",
+            "midText": "a percentage",
+            "left": {
+              "icon": "coins",
+              "title": "YOU BORROW",
+              "sub": "$1,000"
+            },
+            "right": {
+              "icon": "percent",
+              "title": "YOU PAY",
+              "sub": "APR each year"
+            }
+          },
+          "footer": "It helps you compare similar loans."
+        },
+        {
+          "type": "steps",
+          "headline": "A card charges [[24%]] APR. You owe $1,000.",
+          "steps": [
+            {
+              "icon": "percent",
+              "title": "24% APR is per year",
+              "sub": "It's the yearly price of borrowing."
+            },
+            {
+              "icon": "clock",
+              "title": "That's about 2% a month",
+              "sub": "24% ÷ 12 months = 2%."
+            },
+            {
+              "icon": "coins",
+              "title": "About $20 interest a month",
+              "sub": "2% of $1,000 = $20."
+            }
+          ],
+          "closing": "That yearly price tag is the [[APR]]."
+        },
+        {
+          "type": "compare",
+          "label": "COMPARE LOANS",
+          "headline": "Compare the rate.",
+          "sub": "Same loan, different APR, different cost.",
+          "chart": {
+            "title": "Cost of borrowing $1,000 for a year",
+            "bars": [
+              {
+                "label": "At 5% APR",
+                "value": 1000,
+                "text": "$1,000",
+                "extra": 50,
+                "extraText": "+$50"
+              },
+              {
+                "label": "At 20% APR",
+                "value": 1000,
+                "text": "$1,000",
+                "extra": 200,
+                "extraText": "+$200"
+              }
+            ]
+          },
+          "note": "Simple example: one year, nothing repaid along the way."
+        },
+        {
+          "type": "points",
+          "label": "HOW TO USE IT",
+          "headline": "Read the [[APR]].",
+          "sub": "Check it before you agree to any loan.",
+          "rows": [
+            {
+              "mark": "LOW",
+              "text": "A lower APR is cheaper to borrow"
+            },
+            {
+              "mark": "HIGH",
+              "text": "A higher APR costs you more"
+            },
+            {
+              "mark": "TIP",
+              "text": "Compare APRs, not just monthly payments"
+            }
+          ],
+          "note": "What APR includes varies by country and product."
+        },
+        {
+          "type": "recap",
+          "title": "APR = Yearly cost",
+          "sub": "The price of borrowing.",
+          "checks": [
+            "The **yearly cost** of a loan, in %",
+            "**Lower** is cheaper",
+            "Use it to **compare** offers"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-06-mortgage",
+      "date": "2026-10-06",
+      "term": "Mortgage",
+      "caption": "Mortgage, explained simply 👇\n\nA mortgage is a loan used to buy a home. The home itself secures the loan, and you repay it in monthly payments over many years.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#mortgage #homebuying #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Mortgage",
+          "art": {
+            "kind": "coins",
+            "stacks": [
+              8,
+              5,
+              6
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A mortgage is a [[loan]] to buy a [[home]], secured by that home.",
+          "visual": {
+            "arcText": "a loan secured by the home",
+            "midText": "repaid monthly",
+            "left": {
+              "icon": "house",
+              "title": "HOME BUYER",
+              "sub": "Borrows to buy"
+            },
+            "right": {
+              "icon": "bank",
+              "title": "LENDER",
+              "sub": "Lends the money"
+            }
+          },
+          "footer": "If payments stop, the lender may take the home."
+        },
+        {
+          "type": "steps",
+          "headline": "You want to buy a [[$200,000]] home.",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "You put $40,000 down",
+              "sub": "20% of $200,000 = $40,000."
+            },
+            {
+              "icon": "bank",
+              "title": "The lender lends $160,000",
+              "sub": "That loan is the mortgage."
+            },
+            {
+              "icon": "clock",
+              "title": "You repay over many years",
+              "sub": "Often 25 to 30 years."
+            }
+          ],
+          "closing": "A home loan is a [[mortgage]]."
+        },
+        {
+          "type": "compare",
+          "label": "THE LONG GAME",
+          "headline": "Time costs money.",
+          "sub": "Over many years, the interest adds up to a big number.",
+          "chart": {
+            "title": "A $160,000 loan at 4% over 30 years",
+            "bars": [
+              {
+                "label": "You borrow",
+                "value": 160,
+                "text": "$160k"
+              },
+              {
+                "label": "You repay in total",
+                "value": 160,
+                "text": "$160k",
+                "extra": 115,
+                "extraText": "+$115k"
+              }
+            ]
+          },
+          "note": "Example: fixed 4% for 30 years. Real rates vary."
+        },
+        {
+          "type": "points",
+          "label": "GOOD TO KNOW",
+          "headline": "Two things to [[know]].",
+          "sub": "Details differ, but these ideas are common.",
+          "rows": [
+            {
+              "mark": "FIXED",
+              "text": "The rate stays the same"
+            },
+            {
+              "mark": "VARIES",
+              "text": "The rate can go up or down"
+            },
+            {
+              "mark": "TIP",
+              "text": "A bigger deposit means a smaller loan"
+            }
+          ],
+          "note": "Terms and rules differ by country."
+        },
+        {
+          "type": "recap",
+          "title": "Mortgage = Home loan",
+          "sub": "Borrow to buy, repay over time.",
+          "checks": [
+            "A **loan** used to buy a home",
+            "The home **secures** the loan",
+            "Repaid **monthly** over many years"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-07-risk",
+      "date": "2026-10-07",
+      "term": "Risk",
+      "caption": "Risk, explained simply 👇\n\nRisk is the chance that things turn out worse than you expected, including losing some or all of your money. Higher potential reward usually comes with higher risk.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#risk #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Risk",
+          "art": "chart"
+        },
+        {
+          "type": "definition",
+          "headline": "Risk is the [[chance]] you lose money or get a [[worse]] result.",
+          "visual": {
+            "arcText": "risk and reward travel together",
+            "midText": "bigger swings, bigger stakes",
+            "left": {
+              "icon": "shield",
+              "title": "SAFER",
+              "sub": "Small, steady gains"
+            },
+            "right": {
+              "icon": "chart",
+              "title": "RISKIER",
+              "sub": "Bigger swings"
+            }
+          },
+          "footer": "Higher possible reward usually means higher risk."
+        },
+        {
+          "type": "steps",
+          "headline": "You have [[$1,000]] and two choices.",
+          "steps": [
+            {
+              "icon": "shield",
+              "title": "A: a savings account",
+              "sub": "Grows slowly. Low chance of losing money."
+            },
+            {
+              "icon": "chart",
+              "title": "B: company shares",
+              "sub": "Could grow more. Could also fall."
+            },
+            {
+              "icon": "scale",
+              "title": "You choose what you can accept",
+              "sub": "That's your risk tolerance."
+            }
+          ],
+          "closing": "The chance of loss is [[risk]]."
+        },
+        {
+          "type": "points",
+          "label": "IT'S PERSONAL",
+          "headline": "Your [[comfort]] level counts.",
+          "sub": "The right amount of risk differs from person to person.",
+          "rows": [
+            {
+              "mark": "TIME",
+              "text": "How long until you need the money"
+            },
+            {
+              "mark": "NEEDS",
+              "text": "How much a loss would hurt you"
+            },
+            {
+              "mark": "NERVES",
+              "text": "How you feel when prices fall"
+            }
+          ],
+          "note": "There is no single right answer for everyone."
+        },
+        {
+          "type": "points",
+          "label": "BOTH SIDES",
+          "headline": "Risk isn't [[bad]].",
+          "sub": "But taking none has a cost too.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Some risk is how investments can grow"
+            },
+            {
+              "dir": "down",
+              "text": "Too much can hurt when you need the cash"
+            },
+            {
+              "dir": "down",
+              "text": "Too little: inflation can eat your savings"
+            }
+          ],
+          "note": "Educational only. Not a recommendation."
+        },
+        {
+          "type": "recap",
+          "title": "Risk = Chance of loss",
+          "sub": "The price of possible reward.",
+          "checks": [
+            "The **chance** of losing money",
+            "More **potential reward**, more risk",
+            "Match it to **your goals and comfort**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-08-return",
+      "date": "2026-10-08",
+      "term": "Return",
+      "caption": "Return, explained simply 👇\n\nA return is the gain or loss on an investment, usually shown as a percentage of what you put in.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#return #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Return",
+          "art": "growth"
+        },
+        {
+          "type": "definition",
+          "headline": "A return is your [[gain]] or [[loss]] on an investment, shown as a percentage.",
+          "visual": {
+            "arcText": "what you gained or lost",
+            "midText": "as a percentage",
+            "left": {
+              "icon": "wallet",
+              "title": "PUT IN",
+              "sub": "$1,000"
+            },
+            "right": {
+              "icon": "chart",
+              "title": "NOW WORTH",
+              "sub": "$1,080"
+            }
+          },
+          "footer": "It shows how well an investment did."
+        },
+        {
+          "type": "steps",
+          "headline": "You invest [[$1,000]]. A year later it's worth $1,080.",
+          "steps": [
+            {
+              "icon": "coins",
+              "title": "You put in $1,000",
+              "sub": "That's your starting amount."
+            },
+            {
+              "icon": "chart",
+              "title": "It grows to $1,080",
+              "sub": "You're $80 better off."
+            },
+            {
+              "icon": "percent",
+              "title": "$80 ÷ $1,000 = 8%",
+              "sub": "That's your return."
+            }
+          ],
+          "closing": "Your gain as a percentage is your [[return]]."
+        },
+        {
+          "type": "compare",
+          "label": "UP OR DOWN",
+          "headline": "Up or down.",
+          "sub": "A return can be a gain or a loss.",
+          "chart": {
+            "title": "Same $1,000, two possible outcomes",
+            "bars": [
+              {
+                "label": "A gain of 8%",
+                "value": 1000,
+                "text": "$1,000",
+                "extra": 80,
+                "extraText": "+$80"
+              },
+              {
+                "label": "A loss of 8%",
+                "value": 920,
+                "text": "$920"
+              }
+            ]
+          },
+          "note": "Illustrative numbers only."
+        },
+        {
+          "type": "points",
+          "label": "USE IT WELL",
+          "headline": "Always ask '[[over how long]]?'",
+          "sub": "A return only makes sense with a time frame.",
+          "rows": [
+            {
+              "mark": "1 YR",
+              "text": "8% in one year"
+            },
+            {
+              "mark": "10 YR",
+              "text": "8% in ten years: under 1% a year"
+            },
+            {
+              "mark": "TIP",
+              "text": "Compare returns over the same period"
+            }
+          ],
+          "note": "Past returns don't predict future returns."
+        },
+        {
+          "type": "recap",
+          "title": "Return = Gain or loss",
+          "sub": "Measured as a percentage.",
+          "checks": [
+            "Gain or loss **on what you put in**",
+            "It can be **positive or negative**",
+            "Always check the **time frame**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-09-liquidity",
+      "date": "2026-10-09",
+      "term": "Liquidity",
+      "caption": "Liquidity, explained simply 👇\n\nLiquidity is how quickly you can turn something into cash without losing much value. Cash is the most liquid thing there is; a house is not.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#liquidity #money #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Liquidity",
+          "art": {
+            "kind": "coins",
+            "stacks": [
+              4,
+              9,
+              3
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Liquidity is how [[fast]] you can turn something into [[cash]].",
+          "visual": {
+            "arcText": "how fast it becomes cash",
+            "midText": "slow to fast",
+            "left": {
+              "icon": "house",
+              "title": "A HOUSE",
+              "sub": "Takes months to sell"
+            },
+            "right": {
+              "icon": "wallet",
+              "title": "CASH",
+              "sub": "Ready right now"
+            }
+          },
+          "footer": "Cash is the most liquid thing there is."
+        },
+        {
+          "type": "steps",
+          "headline": "You need [[$500]] today. What can you use?",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "Cash or a bank account",
+              "sub": "Instant. Very liquid."
+            },
+            {
+              "icon": "chart",
+              "title": "Shares",
+              "sub": "Often a day or two to get cash."
+            },
+            {
+              "icon": "house",
+              "title": "Your home",
+              "sub": "Could take months. Not liquid."
+            }
+          ],
+          "closing": "Speed to cash is [[liquidity]]."
+        },
+        {
+          "type": "points",
+          "label": "A ROUGH RANKING",
+          "headline": "Fastest to [[slowest]].",
+          "sub": "Speed depends on the asset and the market.",
+          "rows": [
+            {
+              "mark": "1",
+              "text": "Cash and bank accounts"
+            },
+            {
+              "mark": "2",
+              "text": "Shares and funds"
+            },
+            {
+              "mark": "3",
+              "text": "Property, art, collectibles"
+            }
+          ],
+          "note": "A rough guide. Real speed varies."
+        },
+        {
+          "type": "points",
+          "label": "THE TRADE-OFF",
+          "headline": "Speed can [[cost]] you.",
+          "sub": "Selling in a hurry may mean a lower price.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "A forced quick sale may fetch less"
+            },
+            {
+              "dir": "up",
+              "text": "Liquid assets keep you flexible in emergencies"
+            },
+            {
+              "dir": "down",
+              "text": "Cash itself often earns very little"
+            }
+          ],
+          "note": "Most people hold a mix of quick and slow assets."
+        },
+        {
+          "type": "recap",
+          "title": "Liquidity = Speed to cash",
+          "sub": "How quickly you can get to your money.",
+          "checks": [
+            "How **fast** something becomes cash",
+            "Cash is **the most liquid**",
+            "Keep **some** money easy to reach"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-10-portfolio",
+      "date": "2026-10-10",
+      "term": "Portfolio",
+      "caption": "Portfolio, explained simply 👇\n\nA portfolio is the collection of all your investments together, such as stocks, bonds and funds.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#portfolio #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Portfolio",
+          "art": {
+            "kind": "pie",
+            "values": [
+              35,
+              25,
+              18,
+              14,
+              8
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A portfolio is [[all your investments]] seen [[together]].",
+          "visual": {
+            "arcText": "everything you invest in",
+            "midText": "one collection",
+            "left": {
+              "icon": "pie",
+              "title": "THE PIECES",
+              "sub": "Stocks, bonds, funds"
+            },
+            "right": {
+              "icon": "basket",
+              "title": "PORTFOLIO",
+              "sub": "All of it together"
+            }
+          },
+          "footer": "It shows the whole picture, not just one holding."
+        },
+        {
+          "type": "steps",
+          "headline": "You own [[three]] investments.",
+          "steps": [
+            {
+              "icon": "chart",
+              "title": "$500 in a stock",
+              "sub": "A small piece of a company."
+            },
+            {
+              "icon": "bank",
+              "title": "$300 in a bond",
+              "sub": "A loan that pays interest."
+            },
+            {
+              "icon": "pie",
+              "title": "$200 in a fund",
+              "sub": "A basket of investments."
+            }
+          ],
+          "closing": "All three together are your [[portfolio]]."
+        },
+        {
+          "type": "points",
+          "label": "KEEP AN EYE ON IT",
+          "headline": "Check it [[regularly]].",
+          "sub": "Prices move, so your mix drifts over time.",
+          "rows": [
+            {
+              "mark": "1",
+              "text": "See what you own"
+            },
+            {
+              "mark": "2",
+              "text": "Compare it with your goals"
+            },
+            {
+              "mark": "3",
+              "text": "Adjust if the mix has drifted"
+            }
+          ],
+          "note": "Checking often doesn't mean trading often."
+        },
+        {
+          "type": "points",
+          "label": "WHAT IT SHOWS",
+          "headline": "It tells you [[three]] things.",
+          "sub": "One view answers the big questions.",
+          "rows": [
+            {
+              "mark": "VALUE",
+              "text": "What it's all worth together"
+            },
+            {
+              "mark": "MIX",
+              "text": "How spread out it is"
+            },
+            {
+              "mark": "RISK",
+              "text": "Where the big bets are"
+            }
+          ],
+          "note": "A portfolio can be small or large."
+        },
+        {
+          "type": "recap",
+          "title": "Portfolio = All together",
+          "sub": "Everything you invest in.",
+          "checks": [
+            "**All** your investments, together",
+            "It shows your **total value**",
+            "It shows how **spread out** you are"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-11-mutual-fund",
+      "date": "2026-10-11",
+      "term": "Mutual fund",
+      "caption": "Mutual fund, explained simply 👇\n\nA mutual fund pools money from many investors, and a professional manager invests it in a mix of stocks, bonds or other assets.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#mutualfund #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Mutual fund",
+          "art": {
+            "kind": "pie",
+            "values": [
+              28,
+              24,
+              20,
+              16,
+              12
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A mutual fund [[pools]] money from many people and invests it [[together]].",
+          "visual": {
+            "arcText": "money pooled together",
+            "midText": "a manager invests it",
+            "left": {
+              "icon": "person",
+              "title": "MANY PEOPLE",
+              "sub": "Each add money"
+            },
+            "right": {
+              "icon": "pie",
+              "title": "ONE POOL",
+              "sub": "Managed together"
+            }
+          },
+          "footer": "You own a small share of the whole pool."
+        },
+        {
+          "type": "steps",
+          "headline": "You and 999 others each put in [[$100]].",
+          "steps": [
+            {
+              "icon": "coins",
+              "title": "The pool holds $100,000",
+              "sub": "1,000 people × $100."
+            },
+            {
+              "icon": "person",
+              "title": "A manager invests it",
+              "sub": "In many stocks or bonds."
+            },
+            {
+              "icon": "pie",
+              "title": "You own a small share",
+              "sub": "Yours is 0.1% of the fund."
+            }
+          ],
+          "closing": "A pooled investment is a [[mutual fund]]."
+        },
+        {
+          "type": "points",
+          "label": "THE TRADE-OFFS",
+          "headline": "Pros and [[cons]].",
+          "sub": "Convenience comes at a price.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Instant variety from one purchase"
+            },
+            {
+              "dir": "up",
+              "text": "A professional makes the choices"
+            },
+            {
+              "dir": "down",
+              "text": "Fees come out of your returns"
+            }
+          ],
+          "note": "Fees vary. Always check them before you invest."
+        },
+        {
+          "type": "compare",
+          "label": "FEES ADD UP",
+          "headline": "Fees add up.",
+          "sub": "Small percentages can cost real money.",
+          "chart": {
+            "title": "Yearly cost on $10,000 invested",
+            "bars": [
+              {
+                "label": "A 0.5% fee",
+                "value": 50,
+                "text": "$50"
+              },
+              {
+                "label": "A 1.5% fee",
+                "value": 150,
+                "text": "$150"
+              }
+            ]
+          },
+          "note": "Simple example, before any gains or losses."
+        },
+        {
+          "type": "recap",
+          "title": "Mutual fund = Shared pool",
+          "sub": "Many people, one portfolio.",
+          "checks": [
+            "Money from **many investors** is pooled",
+            "A **manager** picks the investments",
+            "Check the **fees** first"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-12-index-fund",
+      "date": "2026-10-12",
+      "term": "Index fund",
+      "caption": "Index fund, explained simply 👇\n\nAn index fund copies a market index, such as a list of 500 big companies, instead of trying to beat it. That usually means low fees and wide diversification.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#indexfund #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Index fund",
+          "art": "chart"
+        },
+        {
+          "type": "definition",
+          "headline": "An index fund [[copies]] a list of companies instead of trying to [[beat]] it.",
+          "visual": {
+            "arcText": "buy the whole list",
+            "midText": "no guessing",
+            "left": {
+              "icon": "chart",
+              "title": "THE INDEX",
+              "sub": "A list of companies"
+            },
+            "right": {
+              "icon": "pie",
+              "title": "THE FUND",
+              "sub": "Copies that list"
+            }
+          },
+          "footer": "It aims to match the market, not beat it."
+        },
+        {
+          "type": "steps",
+          "headline": "Say an index follows [[500]] big companies.",
+          "steps": [
+            {
+              "icon": "chart",
+              "title": "The index is a scoreboard",
+              "sub": "It shows how those companies do."
+            },
+            {
+              "icon": "pie",
+              "title": "The fund buys them all",
+              "sub": "Same companies, similar proportions."
+            },
+            {
+              "icon": "coins",
+              "title": "You get the market's result",
+              "sub": "Minus a small fee."
+            }
+          ],
+          "closing": "A fund that copies an index is an [[index fund]]."
+        },
+        {
+          "type": "points",
+          "label": "WHY PEOPLE LIKE THEM",
+          "headline": "Simple and [[cheap]].",
+          "sub": "No expensive manager is picking stocks.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Low fees"
+            },
+            {
+              "dir": "up",
+              "text": "Spread across many companies"
+            },
+            {
+              "dir": "down",
+              "text": "You match the market, you can't beat it"
+            }
+          ],
+          "note": "Index funds can still fall when markets fall."
+        },
+        {
+          "type": "points",
+          "label": "TWO STYLES",
+          "headline": "Active vs [[index]].",
+          "sub": "Two ways to run a fund.",
+          "rows": [
+            {
+              "mark": "ACTIVE",
+              "text": "A manager tries to beat the market"
+            },
+            {
+              "mark": "INDEX",
+              "text": "The fund simply copies the market"
+            }
+          ],
+          "note": "Many active funds fail to beat their index over long periods."
+        },
+        {
+          "type": "recap",
+          "title": "Index fund = Copycat",
+          "sub": "It follows the market.",
+          "checks": [
+            "It **copies** a market index",
+            "Usually **low fees**",
+            "Holds **many companies** at once"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-13-dollar-cost-averaging",
+      "date": "2026-10-13",
+      "term": "Dollar-cost averaging",
+      "caption": "Dollar-cost averaging, explained simply 👇\n\nDollar-cost averaging means investing the same amount at regular times, whatever the price. You buy more shares when prices are low and fewer when they're high.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#dollarcostaveraging #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Dollar-cost averaging",
+          "art": "growth"
+        },
+        {
+          "type": "definition",
+          "headline": "Dollar-cost averaging means investing the [[same amount]] on a [[regular schedule]].",
+          "visual": {
+            "arcText": "a fixed amount, regularly",
+            "midText": "whatever the price",
+            "left": {
+              "icon": "coins",
+              "title": "SAME AMOUNT",
+              "sub": "For example $100"
+            },
+            "right": {
+              "icon": "clock",
+              "title": "SAME SCHEDULE",
+              "sub": "For example monthly"
+            }
+          },
+          "footer": "You don't try to guess the perfect moment."
+        },
+        {
+          "type": "steps",
+          "headline": "You invest [[$100]] a month, whatever the price.",
+          "steps": [
+            {
+              "icon": "tag",
+              "title": "Price $10: $100 buys 10",
+              "sub": "Month 1: 10 shares."
+            },
+            {
+              "icon": "tag",
+              "title": "Price $5: $100 buys 20",
+              "sub": "Month 2: 20 shares."
+            },
+            {
+              "icon": "tag",
+              "title": "Price $10: $100 buys 10",
+              "sub": "Month 3: 10 shares."
+            }
+          ],
+          "closing": "$300 bought 40 shares: $7.50 each on average."
+        },
+        {
+          "type": "compare",
+          "label": "WHAT THE SAME $100 BUYS",
+          "headline": "Low price, more shares.",
+          "sub": "The same $100 buys more shares when the price drops.",
+          "chart": {
+            "title": "Shares bought with $100",
+            "bars": [
+              {
+                "label": "Shares at $10 each",
+                "value": 10,
+                "text": "10"
+              },
+              {
+                "label": "Shares at $5 each",
+                "value": 20,
+                "text": "20"
+              }
+            ]
+          },
+          "note": "Illustrative numbers only."
+        },
+        {
+          "type": "points",
+          "label": "HONEST LIMITS",
+          "headline": "It isn't [[magic]].",
+          "sub": "It's a habit, not a guarantee.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Eases the stress of timing the market"
+            },
+            {
+              "dir": "up",
+              "text": "Builds a steady investing habit"
+            },
+            {
+              "dir": "down",
+              "text": "Doesn't prevent losses in a falling market"
+            }
+          ],
+          "note": "It can't guarantee a profit. Educational only."
+        },
+        {
+          "type": "recap",
+          "title": "DCA = Steady investing",
+          "sub": "Same amount, regular schedule.",
+          "checks": [
+            "Invest a **fixed amount** each time",
+            "You buy **more** when prices are low",
+            "**Habit** replaces guessing the timing"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-14-yield",
+      "date": "2026-10-14",
+      "term": "Yield",
+      "caption": "Yield, explained simply 👇\n\nYield is the income an investment pays each year as a percentage of its price, for example the interest on a bond or the dividends on a share.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#yield #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Yield",
+          "art": {
+            "kind": "coins",
+            "stacks": [
+              5,
+              7,
+              3
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Yield is [[yearly income]] as a [[percentage]] of an investment's price.",
+          "visual": {
+            "arcText": "income ÷ price",
+            "midText": "as a percentage",
+            "left": {
+              "icon": "coins",
+              "title": "INCOME",
+              "sub": "$40 a year"
+            },
+            "right": {
+              "icon": "tag",
+              "title": "PRICE",
+              "sub": "$1,000"
+            }
+          },
+          "footer": "It tells you what an investment pays you."
+        },
+        {
+          "type": "steps",
+          "headline": "A bond costs [[$1,000]] and pays $40 a year.",
+          "steps": [
+            {
+              "icon": "coins",
+              "title": "Income: $40 a year",
+              "sub": "The bond pays you interest."
+            },
+            {
+              "icon": "tag",
+              "title": "Price: $1,000",
+              "sub": "What you paid for it."
+            },
+            {
+              "icon": "percent",
+              "title": "$40 ÷ $1,000 = 4%",
+              "sub": "That's the yield."
+            }
+          ],
+          "closing": "Yearly income as a % of price is [[yield]]."
+        },
+        {
+          "type": "compare",
+          "label": "PRICE VS YIELD",
+          "headline": "Price vs yield.",
+          "sub": "The same payment is a bigger percentage when the price is lower.",
+          "chart": {
+            "title": "Same $40 a year, different price",
+            "bars": [
+              {
+                "label": "Bought at $1,000",
+                "value": 4,
+                "text": "4%"
+              },
+              {
+                "label": "Bought at $800",
+                "value": 5,
+                "text": "5%"
+              }
+            ]
+          },
+          "note": "Illustrative numbers only."
+        },
+        {
+          "type": "points",
+          "label": "WATCH OUT",
+          "headline": "A high yield can signal [[risk]].",
+          "sub": "Very high yields can mean doubt about being paid.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "A very high yield may mean high risk"
+            },
+            {
+              "dir": "up",
+              "text": "A steady payout can mean steadier income"
+            },
+            {
+              "mark": "TIP",
+              "text": "Always ask why the yield is high"
+            }
+          ],
+          "note": "Yield is not the same as total return."
+        },
+        {
+          "type": "recap",
+          "title": "Yield = Income ÷ Price",
+          "sub": "What an investment pays you.",
+          "checks": [
+            "Yearly **income** as a % of price",
+            "Higher price means **lower yield**",
+            "A **very high** yield can be a warning"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-15-capital-gains",
+      "date": "2026-10-15",
+      "term": "Capital gains",
+      "caption": "Capital gains, explained simply 👇\n\nA capital gain is the profit you make when you sell an asset, like shares, for more than you paid. If you sell for less, it's a capital loss.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#capitalgains #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Capital gains",
+          "art": "growth"
+        },
+        {
+          "type": "definition",
+          "headline": "A capital gain is the [[profit]] when you [[sell]] something for more than you paid.",
+          "visual": {
+            "arcText": "sell for more than you paid",
+            "midText": "the profit",
+            "left": {
+              "icon": "tag",
+              "title": "BUY",
+              "sub": "You pay $1,000"
+            },
+            "right": {
+              "icon": "wallet",
+              "title": "SELL",
+              "sub": "You get $1,400"
+            }
+          },
+          "footer": "The difference is your gain."
+        },
+        {
+          "type": "steps",
+          "headline": "You buy shares for [[$1,000]].",
+          "steps": [
+            {
+              "icon": "coins",
+              "title": "You pay $1,000",
+              "sub": "That's your cost."
+            },
+            {
+              "icon": "chart",
+              "title": "Later they're worth $1,400",
+              "sub": "You haven't sold yet."
+            },
+            {
+              "icon": "wallet",
+              "title": "You sell for $1,400",
+              "sub": "Profit: $1,400 - $1,000 = $400."
+            }
+          ],
+          "closing": "That $400 profit is a [[capital gain]]."
+        },
+        {
+          "type": "points",
+          "label": "ONLY WHEN SOLD",
+          "headline": "Real once you [[sell]].",
+          "sub": "Before selling, it's called an unrealized gain.",
+          "rows": [
+            {
+              "mark": "PAPER",
+              "text": "The price is up, but you haven't sold"
+            },
+            {
+              "mark": "REAL",
+              "text": "You sold: the gain is realized"
+            },
+            {
+              "mark": "TAX",
+              "text": "Realized gains may be taxed"
+            }
+          ],
+          "note": "Tax rules differ by country and by how long you hold."
+        },
+        {
+          "type": "compare",
+          "label": "THE OTHER SIDE",
+          "headline": "Or a loss.",
+          "sub": "Sell for less than you paid and it's a capital loss.",
+          "chart": {
+            "title": "You bought at $1,000",
+            "bars": [
+              {
+                "label": "Sold for $1,400",
+                "value": 1000,
+                "text": "$1,000",
+                "extra": 400,
+                "extraText": "+$400"
+              },
+              {
+                "label": "Sold for $800: -$200",
+                "value": 800,
+                "text": "$800"
+              }
+            ]
+          },
+          "note": "Illustrative numbers only."
+        },
+        {
+          "type": "recap",
+          "title": "Capital gain = Sale profit",
+          "sub": "Sell higher than you paid.",
+          "checks": [
+            "**Sell for more** than you paid",
+            "It counts once you **actually sell**",
+            "It **may be taxed**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-16-bull-vs-bear",
+      "date": "2026-10-16",
+      "term": "Bull vs Bear",
+      "caption": "Bull vs Bear, explained simply 👇\n\nA bull market is when prices are rising, and a bear market is when prices are falling. They're the two moods of the market.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#bullmarket #bearmarket #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Bull vs Bear",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                200
+              ],
+              [
+                230,
+                260
+              ],
+              [
+                330,
+                220
+              ],
+              [
+                470,
+                340
+              ],
+              [
+                590,
+                300
+              ],
+              [
+                720,
+                440
+              ],
+              [
+                850,
+                400
+              ],
+              [
+                1000,
+                500
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A [[bull]] market is [[rising]]. A [[bear]] market is [[falling]].",
+          "visual": {
+            "arcText": "two market moods",
+            "midText": "up vs down",
+            "left": {
+              "icon": "arrowup",
+              "title": "BULL",
+              "sub": "Prices rising"
+            },
+            "right": {
+              "icon": "arrowdown",
+              "title": "BEAR",
+              "sub": "Prices falling"
+            }
+          },
+          "footer": "Markets swing between the two."
+        },
+        {
+          "type": "steps",
+          "headline": "Why bulls and bears?",
+          "steps": [
+            {
+              "icon": "arrowup",
+              "title": "A bull thrusts its horns up",
+              "sub": "Rising prices: a bull market."
+            },
+            {
+              "icon": "arrowdown",
+              "title": "A bear swipes its paws down",
+              "sub": "Falling prices: a bear market."
+            },
+            {
+              "icon": "scale",
+              "title": "Markets swing between the two",
+              "sub": "It's a normal cycle."
+            }
+          ],
+          "closing": "Rising is [[bull]]. Falling is [[bear]]."
+        },
+        {
+          "type": "compare",
+          "label": "THE 20% RULE",
+          "headline": "The 20% rule.",
+          "sub": "A bear market usually means a fall of 20% or more.",
+          "chart": {
+            "title": "A 20% fall from the peak",
+            "bars": [
+              {
+                "label": "Recent peak",
+                "value": 1000,
+                "text": "1,000"
+              },
+              {
+                "label": "Bear market",
+                "value": 800,
+                "text": "800"
+              }
+            ]
+          },
+          "note": "20% is a common rule of thumb, not an official law."
+        },
+        {
+          "type": "points",
+          "label": "BOTH ARE NORMAL",
+          "headline": "Markets have [[cycles]].",
+          "sub": "Ups and downs have come and gone before.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Bull markets usually last longer"
+            },
+            {
+              "dir": "down",
+              "text": "Bear markets are usually shorter"
+            },
+            {
+              "mark": "NOTE",
+              "text": "No one can time the turns perfectly"
+            }
+          ],
+          "note": "Past patterns don't guarantee future ones."
+        },
+        {
+          "type": "recap",
+          "title": "Bull = Up, Bear = Down",
+          "sub": "The market's two moods.",
+          "checks": [
+            "**Bull** market: prices rising",
+            "**Bear** market: prices falling",
+            "Both are a **normal cycle**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-17-asset-allocation",
+      "date": "2026-10-17",
+      "term": "Asset allocation",
+      "caption": "Asset allocation, explained simply 👇\n\nAsset allocation is how you split your money between types of investments, such as stocks, bonds and cash. It's one of the biggest drivers of risk in a portfolio.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#assetallocation #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Asset allocation",
+          "art": {
+            "kind": "pie",
+            "values": [
+              60,
+              30,
+              10
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Asset allocation is how you [[split]] your money between [[types]] of investments.",
+          "visual": {
+            "arcText": "splitting your money",
+            "midText": "by type",
+            "left": {
+              "icon": "pie",
+              "title": "ASSET TYPES",
+              "sub": "Stocks, bonds, cash"
+            },
+            "right": {
+              "icon": "scale",
+              "title": "YOUR MIX",
+              "sub": "How much of each"
+            }
+          },
+          "footer": "The mix drives how bumpy the ride is."
+        },
+        {
+          "type": "steps",
+          "headline": "You have [[$10,000]] to invest.",
+          "steps": [
+            {
+              "icon": "chart",
+              "title": "$6,000 in stocks",
+              "sub": "60%: more growth, bigger swings."
+            },
+            {
+              "icon": "bank",
+              "title": "$3,000 in bonds",
+              "sub": "30%: steadier, slower growth."
+            },
+            {
+              "icon": "wallet",
+              "title": "$1,000 in cash",
+              "sub": "10%: safe and ready to use."
+            }
+          ],
+          "closing": "That split is your [[asset allocation]]."
+        },
+        {
+          "type": "points",
+          "label": "FIT THE GOAL",
+          "headline": "The mix fits the [[goal]].",
+          "sub": "Time until you need the money matters.",
+          "rows": [
+            {
+              "mark": "LONG",
+              "text": "Years away: can hold more stocks"
+            },
+            {
+              "mark": "SOON",
+              "text": "Needed soon: usually a safer mix"
+            }
+          ],
+          "note": "General idea only. Not personal advice.",
+          "gauge": {
+            "left": "Safer",
+            "right": "Riskier",
+            "needle": 0.6,
+            "reverse": true
+          }
+        },
+        {
+          "type": "points",
+          "label": "REBALANCING",
+          "headline": "Keep the mix [[on track]].",
+          "sub": "Markets move, so your split drifts.",
+          "rows": [
+            {
+              "mark": "1",
+              "text": "Stocks jump: now 70%, not 60%"
+            },
+            {
+              "mark": "2",
+              "text": "Sell a little, or add to the others"
+            },
+            {
+              "mark": "3",
+              "text": "Back to plan: that's rebalancing"
+            }
+          ],
+          "note": "Many people check once or twice a year."
+        },
+        {
+          "type": "recap",
+          "title": "Allocation = Your mix",
+          "sub": "How you split your money.",
+          "checks": [
+            "The **split** between asset types",
+            "It shapes **risk and growth**",
+            "**Rebalance** if it drifts"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-18-recession",
+      "date": "2026-10-18",
+      "term": "Recession",
+      "caption": "Recession, explained simply 👇\n\nA recession is a period when the economy shrinks for a while: people spend less, businesses earn less and jobs get harder to find.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#recession #economy #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Recession",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                150
+              ],
+              [
+                230,
+                190
+              ],
+              [
+                330,
+                170
+              ],
+              [
+                470,
+                280
+              ],
+              [
+                590,
+                340
+              ],
+              [
+                720,
+                430
+              ],
+              [
+                850,
+                460
+              ],
+              [
+                1000,
+                520
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A recession is a period when the [[economy shrinks]] and [[jobs]] get harder to find.",
+          "visual": {
+            "arcText": "the economy slows down",
+            "midText": "for months",
+            "left": {
+              "icon": "arrowdown",
+              "title": "SPENDING",
+              "sub": "Falls"
+            },
+            "right": {
+              "icon": "person",
+              "title": "JOBS",
+              "sub": "Harder to find"
+            }
+          },
+          "footer": "It's a broad slump, not one bad day."
+        },
+        {
+          "type": "steps",
+          "headline": "How a slowdown can [[build]].",
+          "steps": [
+            {
+              "icon": "cart",
+              "title": "People spend less",
+              "sub": "They worry about the future."
+            },
+            {
+              "icon": "store",
+              "title": "Businesses sell less",
+              "sub": "Their profits fall."
+            },
+            {
+              "icon": "person",
+              "title": "Some cut jobs",
+              "sub": "Less income means less spending."
+            }
+          ],
+          "closing": "A broad, lasting slump is a [[recession]]."
+        },
+        {
+          "type": "points",
+          "label": "A RULE OF THUMB",
+          "headline": "Two quarters in a [[row]].",
+          "sub": "Falling output (GDP) twice in a row is a common sign.",
+          "rows": [
+            {
+              "mark": "Q1",
+              "text": "The economy's output falls"
+            },
+            {
+              "mark": "Q2",
+              "text": "It falls again"
+            },
+            {
+              "mark": "SO",
+              "text": "Many call that a recession"
+            }
+          ],
+          "note": "Official definitions vary. Some countries use broader signs."
+        },
+        {
+          "type": "points",
+          "label": "AND THEN?",
+          "headline": "Recessions [[end]].",
+          "sub": "They're temporary, but they hurt while they last.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Central banks may cut rates to help"
+            },
+            {
+              "dir": "up",
+              "text": "Governments can spend to support demand"
+            },
+            {
+              "dir": "down",
+              "text": "Unemployment often rises during one"
+            }
+          ],
+          "note": "Every recession has different causes."
+        },
+        {
+          "type": "recap",
+          "title": "Recession = Economic slump",
+          "sub": "The economy shrinks for a while.",
+          "checks": [
+            "**Spending and output** fall",
+            "**Jobs** get harder to find",
+            "It **ends**, but it can hurt"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-19-central-bank",
+      "date": "2026-10-19",
+      "term": "Central bank",
+      "caption": "Central bank, explained simply 👇\n\nA central bank, like the Federal Reserve, the European Central Bank or the Bank of England, manages a country's or region's money, sets key interest rates and keeps the banking system stable.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#centralbank #economy #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Central bank",
+          "art": {
+            "kind": "doc",
+            "title": "RATES"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A central bank manages a country's or region's [[money]] and sets [[interest rates]].",
+          "visual": {
+            "arcText": "the bank for banks",
+            "midText": "sets the tone",
+            "left": {
+              "icon": "bank",
+              "title": "CENTRAL BANK",
+              "sub": "Sets the key rate"
+            },
+            "right": {
+              "icon": "person",
+              "title": "EVERYONE",
+              "sub": "Loans, savings, prices"
+            }
+          },
+          "footer": "Its choices ripple through the whole economy."
+        },
+        {
+          "type": "steps",
+          "headline": "Prices are rising [[too fast]].",
+          "steps": [
+            {
+              "icon": "bank",
+              "title": "The bank raises rates",
+              "sub": "Borrowing gets more expensive."
+            },
+            {
+              "icon": "cart",
+              "title": "People borrow and spend less",
+              "sub": "Demand cools down."
+            },
+            {
+              "icon": "tag",
+              "title": "Price rises slow down",
+              "sub": "That's the goal."
+            }
+          ],
+          "closing": "Its main tool is the [[interest rate]]."
+        },
+        {
+          "type": "points",
+          "label": "BOTH WAYS",
+          "headline": "Rates go both [[ways]].",
+          "sub": "The bank steers the economy with them.",
+          "rows": [
+            {
+              "mark": "UP",
+              "text": "Rates up: slows spending, cools prices"
+            },
+            {
+              "mark": "DOWN",
+              "text": "Rates down: cheaper loans, more spending"
+            }
+          ],
+          "note": "Central banks also watch jobs and financial stability."
+        },
+        {
+          "type": "points",
+          "label": "WHY YOU'LL NOTICE",
+          "headline": "It reaches your [[wallet]].",
+          "sub": "Central bank decisions ripple outwards.",
+          "rows": [
+            {
+              "mark": "LOANS",
+              "text": "Loans and mortgages get pricier or cheaper"
+            },
+            {
+              "mark": "SAVE",
+              "text": "Savings rates tend to follow"
+            },
+            {
+              "mark": "PRICES",
+              "text": "Rates influence how fast prices rise"
+            }
+          ],
+          "note": "The effect isn't instant. It can take months."
+        },
+        {
+          "type": "recap",
+          "title": "Central bank = Rate setter",
+          "sub": "The bank for the whole country.",
+          "checks": [
+            "It **manages** a country's money",
+            "It sets the **key interest rate**",
+            "Its choices affect **loans and prices**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-20-market-cap",
+      "date": "2026-10-20",
+      "term": "Market cap",
+      "caption": "Market cap, explained simply 👇\n\nMarket capitalization, or market cap, is a company's share price multiplied by its number of shares. It's the market's price tag for the whole company.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#marketcap #stocks #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Market cap",
+          "art": {
+            "kind": "pie",
+            "values": [
+              45,
+              22,
+              15,
+              10,
+              8
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Market cap is the [[share price]] times the [[number of shares]].",
+          "visual": {
+            "arcText": "price × shares",
+            "midText": "= company size",
+            "left": {
+              "icon": "tag",
+              "title": "SHARE PRICE",
+              "sub": "$20 each"
+            },
+            "right": {
+              "icon": "pie",
+              "title": "SHARES",
+              "sub": "1 million exist"
+            }
+          },
+          "footer": "It's the market's price tag for the whole company."
+        },
+        {
+          "type": "steps",
+          "headline": "A company has 1,000,000 shares at [[$20]] each.",
+          "steps": [
+            {
+              "icon": "tag",
+              "title": "Price per share: $20",
+              "sub": "What one slice costs."
+            },
+            {
+              "icon": "pie",
+              "title": "Shares: 1,000,000",
+              "sub": "All the slices together."
+            },
+            {
+              "icon": "scale",
+              "title": "$20 × 1,000,000 = $20M",
+              "sub": "That's its market cap."
+            }
+          ],
+          "closing": "The company's price tag is its [[market cap]]."
+        },
+        {
+          "type": "points",
+          "label": "SIZE GROUPS",
+          "headline": "Small, mid, [[large]].",
+          "sub": "Investors group companies by market cap.",
+          "rows": [
+            {
+              "mark": "SMALL",
+              "text": "Roughly under $2 billion"
+            },
+            {
+              "mark": "MID",
+              "text": "Roughly $2 to $10 billion"
+            },
+            {
+              "mark": "LARGE",
+              "text": "Roughly over $10 billion"
+            }
+          ],
+          "note": "Cutoffs vary by source. These are common rough ranges."
+        },
+        {
+          "type": "compare",
+          "label": "PRICE ISN'T SIZE",
+          "headline": "Price isn't size.",
+          "sub": "A higher share price doesn't mean a bigger company.",
+          "chart": {
+            "title": "Market cap = price × shares",
+            "bars": [
+              {
+                "label": "$30 × 10M shares",
+                "value": 300,
+                "text": "$300M"
+              },
+              {
+                "label": "$10 × 50M shares",
+                "value": 500,
+                "text": "$500M"
+              }
+            ]
+          },
+          "note": "Illustrative numbers only."
+        },
+        {
+          "type": "recap",
+          "title": "Market cap = Price × Shares",
+          "sub": "The company's price tag.",
+          "checks": [
+            "**Share price** times **shares** outstanding",
+            "It measures **company size**",
+            "A cheap share can be a **big company**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-21-pe-ratio",
+      "date": "2026-10-21",
+      "term": "P/E ratio",
+      "caption": "P/E ratio, explained simply 👇\n\nThe price-to-earnings ratio, or P/E, is a share's price divided by its yearly profit per share. It shows how much investors pay for each dollar of profit.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#peratio #stocks #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "P/E ratio",
+          "art": {
+            "kind": "doc",
+            "title": "P / E"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "The P/E ratio is a share's [[price]] divided by its [[yearly profit]] per share.",
+          "visual": {
+            "arcText": "price ÷ earnings",
+            "midText": "= the P/E ratio",
+            "left": {
+              "icon": "tag",
+              "title": "PRICE",
+              "sub": "$50 per share"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "EARNINGS",
+              "sub": "$5 per share"
+            }
+          },
+          "footer": "It shows what investors pay for each $1 of profit."
+        },
+        {
+          "type": "steps",
+          "headline": "A share costs [[$50]]. It earned $5 per share.",
+          "steps": [
+            {
+              "icon": "tag",
+              "title": "Share price: $50",
+              "sub": "What you pay for one share."
+            },
+            {
+              "icon": "coins",
+              "title": "Earnings per share: $5",
+              "sub": "Yearly profit, per share."
+            },
+            {
+              "icon": "scale",
+              "title": "$50 ÷ $5 = 10",
+              "sub": "That's a P/E ratio of 10."
+            }
+          ],
+          "closing": "Investors pay $10 per $1 of profit: [[P/E]] of 10."
+        },
+        {
+          "type": "compare",
+          "label": "CHEAP OR PRICEY?",
+          "headline": "Cheap or pricey?",
+          "sub": "A higher P/E means paying more for each $1 of profit.",
+          "chart": {
+            "title": "Price paid for $1 of yearly profit",
+            "bars": [
+              {
+                "label": "Company X: P/E 10",
+                "value": 10,
+                "text": "10"
+              },
+              {
+                "label": "Company Y: P/E 30",
+                "value": 30,
+                "text": "30"
+              }
+            ]
+          },
+          "note": "A higher P/E can mean investors expect faster growth."
+        },
+        {
+          "type": "points",
+          "label": "HANDLE WITH CARE",
+          "headline": "One number [[isn't enough]].",
+          "sub": "P/E is a starting point, not a verdict.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "A low P/E isn't always a bargain"
+            },
+            {
+              "dir": "down",
+              "text": "A high P/E isn't always expensive"
+            },
+            {
+              "mark": "TIP",
+              "text": "Compare within the same industry"
+            }
+          ],
+          "note": "No single ratio tells the whole story."
+        },
+        {
+          "type": "recap",
+          "title": "P/E = Price ÷ Profit",
+          "sub": "How much you pay for $1 of profit.",
+          "checks": [
+            "**Price** divided by **earnings** per share",
+            "Higher P/E: paying **more** per $1 profit",
+            "Compare **similar companies**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-22-volatility",
+      "date": "2026-10-22",
+      "term": "Volatility",
+      "caption": "Volatility, explained simply 👇\n\nVolatility is how much and how fast a price moves up and down. Calm assets move slowly, while volatile assets swing wildly.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#volatility #markets #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Volatility",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                400
+              ],
+              [
+                190,
+                200
+              ],
+              [
+                300,
+                470
+              ],
+              [
+                430,
+                150
+              ],
+              [
+                560,
+                430
+              ],
+              [
+                690,
+                180
+              ],
+              [
+                830,
+                420
+              ],
+              [
+                1000,
+                260
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Volatility is how much and how fast a price [[swings]] up and down.",
+          "visual": {
+            "arcText": "the size of the swings",
+            "midText": "small vs big",
+            "left": {
+              "icon": "shield",
+              "title": "STEADY",
+              "sub": "Small, slow moves"
+            },
+            "right": {
+              "icon": "chart",
+              "title": "BUMPY",
+              "sub": "Big, fast moves"
+            }
+          },
+          "footer": "It measures the ride, not the destination."
+        },
+        {
+          "type": "steps",
+          "headline": "Two investments both end the year at [[$100]].",
+          "steps": [
+            {
+              "icon": "shield",
+              "title": "Investment A",
+              "sub": "$100, $101, $99, $100. Calm."
+            },
+            {
+              "icon": "chart",
+              "title": "Investment B",
+              "sub": "$100, $130, $70, $100. Wild."
+            },
+            {
+              "icon": "scale",
+              "title": "Same result, different ride",
+              "sub": "B is more volatile."
+            }
+          ],
+          "closing": "The size of the swings is [[volatility]]."
+        },
+        {
+          "type": "points",
+          "label": "READING IT",
+          "headline": "Low, high, and the [[VIX]].",
+          "sub": "Volatility can be measured and compared.",
+          "rows": [
+            {
+              "mark": "LOW",
+              "text": "Small swings, more predictable"
+            },
+            {
+              "mark": "HIGH",
+              "text": "Big swings, bigger surprises"
+            },
+            {
+              "mark": "VIX",
+              "text": "A famous 'fear gauge' for US stocks"
+            }
+          ],
+          "note": "Volatility isn't good or bad. It's how bumpy the ride is."
+        },
+        {
+          "type": "compare",
+          "label": "FALLS HURT MORE",
+          "headline": "Falls hurt more.",
+          "sub": "You need a bigger gain to recover from a fall.",
+          "chart": {
+            "title": "Start with $100",
+            "bars": [
+              {
+                "label": "After a 50% fall",
+                "value": 50,
+                "text": "$50"
+              },
+              {
+                "label": "Needs +100% to recover",
+                "value": 50,
+                "text": "$50",
+                "extra": 50,
+                "extraText": "+100%"
+              }
+            ]
+          },
+          "note": "Math: $50 must double to get back to $100."
+        },
+        {
+          "type": "recap",
+          "title": "Volatility = Price swings",
+          "sub": "How bumpy the ride is.",
+          "checks": [
+            "How much prices **swing**",
+            "**Bigger swings**, bigger surprises",
+            "It's about the **ride**, not the result"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-23-hedging",
+      "date": "2026-10-23",
+      "term": "Hedging",
+      "caption": "Hedging, explained simply 👇\n\nHedging means taking a second position that gains when your first one loses, to reduce the risk of a big loss. It works a bit like insurance.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#hedging #risk #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Hedging",
+          "art": {
+            "kind": "doc",
+            "title": "HEDGE"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Hedging is a [[second position]] that protects you if your [[first one]] goes wrong.",
+          "visual": {
+            "arcText": "cover a possible loss",
+            "midText": "like insurance",
+            "left": {
+              "icon": "chart",
+              "title": "YOUR RISK",
+              "sub": "You could lose"
+            },
+            "right": {
+              "icon": "shield",
+              "title": "THE HEDGE",
+              "sub": "Gains if you lose"
+            }
+          },
+          "footer": "It limits the damage, but has a cost."
+        },
+        {
+          "type": "steps",
+          "headline": "A baker must buy wheat in [[3 months]].",
+          "steps": [
+            {
+              "icon": "chart",
+              "title": "The wheat price could rise",
+              "sub": "That would squeeze profits."
+            },
+            {
+              "icon": "doc",
+              "title": "The baker agrees a price today",
+              "sub": "A deal to buy later at a set price."
+            },
+            {
+              "icon": "shield",
+              "title": "Price rises? Still protected",
+              "sub": "The baker pays the agreed price."
+            }
+          ],
+          "closing": "Protecting against a loss is [[hedging]]."
+        },
+        {
+          "type": "points",
+          "label": "TWO SIDES",
+          "headline": "Protection has a [[price]].",
+          "sub": "Like insurance, you may pay for something you don't use.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Protects you if things go badly"
+            },
+            {
+              "dir": "down",
+              "text": "Costs money or can limit your gains"
+            },
+            {
+              "mark": "NOTE",
+              "text": "Best used against a specific, known risk"
+            }
+          ],
+          "note": "Hedging reduces risk. It doesn't remove it."
+        },
+        {
+          "type": "points",
+          "label": "WHO HEDGES?",
+          "headline": "Many people [[hedge]].",
+          "sub": "Businesses and investors both use it.",
+          "rows": [
+            {
+              "mark": "FARM",
+              "text": "Farmers lock in crop prices"
+            },
+            {
+              "mark": "FIRM",
+              "text": "Airlines lock in fuel costs"
+            },
+            {
+              "mark": "YOU",
+              "text": "Even insurance is a kind of hedge"
+            }
+          ],
+          "note": "Real hedging can be complex. Educational only."
+        },
+        {
+          "type": "recap",
+          "title": "Hedge = Protection",
+          "sub": "A safety net for a possible loss.",
+          "checks": [
+            "A **second position** that offsets risk",
+            "Works like **insurance**",
+            "It **costs something**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-24-leverage",
+      "date": "2026-10-24",
+      "term": "Leverage",
+      "caption": "Leverage, explained simply 👇\n\nLeverage means using borrowed money to invest more than you have. It can boost your gains, but it boosts your losses too.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#leverage #risk #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Leverage",
+          "art": "growth"
+        },
+        {
+          "type": "definition",
+          "headline": "Leverage is using [[borrowed money]] to invest [[more]] than you have.",
+          "visual": {
+            "arcText": "borrow to invest more",
+            "midText": "bigger bets",
+            "left": {
+              "icon": "coins",
+              "title": "YOUR MONEY",
+              "sub": "$1,000"
+            },
+            "right": {
+              "icon": "bank",
+              "title": "BORROWED",
+              "sub": "+ $1,000 more"
+            }
+          },
+          "footer": "It magnifies both gains and losses."
+        },
+        {
+          "type": "steps",
+          "headline": "You have [[$1,000]]. A lender adds another $1,000.",
+          "steps": [
+            {
+              "icon": "coins",
+              "title": "You invest $2,000",
+              "sub": "Your $1,000 plus $1,000 borrowed."
+            },
+            {
+              "icon": "chart",
+              "title": "It rises 10%",
+              "sub": "$2,000 becomes $2,200."
+            },
+            {
+              "icon": "wallet",
+              "title": "Repay $1,000, keep $1,200",
+              "sub": "Profit $200 = 20% on your $1,000."
+            }
+          ],
+          "closing": "Borrowing to boost results is [[leverage]]."
+        },
+        {
+          "type": "compare",
+          "label": "IT CUTS BOTH WAYS",
+          "headline": "It cuts both ways.",
+          "sub": "A 10% rise gives you +20%. A 10% fall costs you 20%.",
+          "chart": {
+            "title": "Your own $1,000 with leverage",
+            "bars": [
+              {
+                "label": "If it rises 10%",
+                "value": 1000,
+                "text": "$1,000",
+                "extra": 200,
+                "extraText": "+$200"
+              },
+              {
+                "label": "If it falls 10%",
+                "value": 800,
+                "text": "$800"
+              }
+            ]
+          },
+          "note": "Simplified: ignores interest and fees on the loan."
+        },
+        {
+          "type": "points",
+          "label": "HANDLE WITH CARE",
+          "headline": "Bigger swings, [[bigger risk]].",
+          "sub": "Leverage is risky, especially for beginners.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "You still owe the loan if the price falls"
+            },
+            {
+              "dir": "down",
+              "text": "Interest costs eat into your gains"
+            },
+            {
+              "dir": "down",
+              "text": "A big fall can wipe out your stake"
+            }
+          ],
+          "note": "Very risky. Educational only, not a recommendation."
+        },
+        {
+          "type": "recap",
+          "title": "Leverage = Borrowed boost",
+          "sub": "Bigger gains, bigger losses.",
+          "checks": [
+            "**Borrowed** money added to yours",
+            "It **magnifies** gains and losses",
+            "The loan must be **repaid** either way"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-25-options",
+      "date": "2026-10-25",
+      "term": "Options",
+      "caption": "Options, explained simply 👇\n\nAn option is a contract that gives you the right, but not the obligation, to buy or sell something at a set price by a set date. You pay a price, the premium, for that right.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#options #derivatives #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Options",
+          "art": {
+            "kind": "doc",
+            "title": "OPTION"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "An option gives you the [[right]], not the [[duty]], to buy or sell at a set price.",
+          "visual": {
+            "arcText": "the right to buy or sell",
+            "midText": "you may, or may not",
+            "left": {
+              "icon": "doc",
+              "title": "THE CONTRACT",
+              "sub": "A right, not a duty"
+            },
+            "right": {
+              "icon": "tag",
+              "title": "A SET PRICE",
+              "sub": "By a set date"
+            }
+          },
+          "footer": "You pay a price, the premium, for that right."
+        },
+        {
+          "type": "steps",
+          "headline": "A share costs [[$100]]. You think it will rise.",
+          "steps": [
+            {
+              "icon": "doc",
+              "title": "You pay $5 for an option",
+              "sub": "The right to buy at $100 later."
+            },
+            {
+              "icon": "chart",
+              "title": "The price jumps to $120",
+              "sub": "You can buy at $100 instead."
+            },
+            {
+              "icon": "wallet",
+              "title": "Your profit: $15",
+              "sub": "$20 gain - $5 cost = $15."
+            }
+          ],
+          "closing": "That right to buy is a call [[option]]."
+        },
+        {
+          "type": "points",
+          "label": "BEST AND WORST",
+          "headline": "You know your [[worst case]].",
+          "sub": "When you buy an option, your loss is capped.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Best case: gains can be large"
+            },
+            {
+              "dir": "down",
+              "text": "Worst case: you lose the $5 you paid"
+            },
+            {
+              "mark": "TIME",
+              "text": "The option expires on a set date"
+            }
+          ],
+          "note": "Selling options can carry much bigger risks."
+        },
+        {
+          "type": "points",
+          "label": "TWO FLAVORS",
+          "headline": "Call or [[put]].",
+          "sub": "The two basic types of options.",
+          "rows": [
+            {
+              "mark": "CALL",
+              "text": "The right to buy at a set price"
+            },
+            {
+              "mark": "PUT",
+              "text": "The right to sell at a set price"
+            },
+            {
+              "mark": "RISK",
+              "text": "Options can expire worthless"
+            }
+          ],
+          "note": "Options are complex. Educational only, not advice."
+        },
+        {
+          "type": "recap",
+          "title": "Option = A right, not a duty",
+          "sub": "You choose whether to use it.",
+          "checks": [
+            "A **contract** with a set price and date",
+            "You have the **right**, not the duty",
+            "It can **expire worthless**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-26-short-selling",
+      "date": "2026-10-26",
+      "term": "Short selling",
+      "caption": "Short selling, explained simply 👇\n\nShort selling is a way to profit when a price falls: you borrow shares, sell them, and buy them back later, hopefully cheaper. It carries big risks.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#shortselling #markets #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Short selling",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                130
+              ],
+              [
+                230,
+                200
+              ],
+              [
+                330,
+                170
+              ],
+              [
+                470,
+                300
+              ],
+              [
+                590,
+                280
+              ],
+              [
+                720,
+                400
+              ],
+              [
+                850,
+                430
+              ],
+              [
+                1000,
+                520
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Short selling is [[borrowing]] shares, [[selling]] them, and buying them back later.",
+          "visual": {
+            "arcText": "sell first, buy later",
+            "midText": "a bet on a fall",
+            "left": {
+              "icon": "person",
+              "title": "BORROW",
+              "sub": "Take shares on loan"
+            },
+            "right": {
+              "icon": "wallet",
+              "title": "SELL HIGH",
+              "sub": "Buy back lower"
+            }
+          },
+          "footer": "You profit if the price falls."
+        },
+        {
+          "type": "steps",
+          "headline": "You think a [[$50]] share will fall.",
+          "steps": [
+            {
+              "icon": "cart",
+              "title": "You borrow a share and sell it",
+              "sub": "You receive $50 today."
+            },
+            {
+              "icon": "arrowdown",
+              "title": "The price falls to $30",
+              "sub": "You buy one back for $30."
+            },
+            {
+              "icon": "wallet",
+              "title": "You return it and keep $20",
+              "sub": "$50 - $30 = $20 profit."
+            }
+          ],
+          "closing": "Profiting from a fall is [[short selling]]."
+        },
+        {
+          "type": "compare",
+          "label": "IF YOU'RE WRONG",
+          "headline": "Losses can grow.",
+          "sub": "A price can only fall to zero, but it can rise without limit.",
+          "chart": {
+            "title": "Profit or loss per share, sold at $50",
+            "bars": [
+              {
+                "label": "Falls to $30",
+                "value": 20,
+                "text": "+$20"
+              },
+              {
+                "label": "Rises to $80",
+                "value": 30,
+                "text": "-$30"
+              }
+            ]
+          },
+          "note": "Simplified: ignores fees and borrowing costs."
+        },
+        {
+          "type": "points",
+          "label": "HANDLE WITH CARE",
+          "headline": "Very [[risky]].",
+          "sub": "Short selling is one of the riskier moves in investing.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "Losses have no upper limit"
+            },
+            {
+              "dir": "down",
+              "text": "You pay fees to borrow the shares"
+            },
+            {
+              "dir": "down",
+              "text": "A sharp rise can force a costly buy-back"
+            }
+          ],
+          "note": "Not for beginners. Rules differ by country."
+        },
+        {
+          "type": "recap",
+          "title": "Short selling = Bet on a fall",
+          "sub": "Sell first, buy back later.",
+          "checks": [
+            "**Borrow**, sell, then **buy back**",
+            "You profit if the price **falls**",
+            "Losses can be **unlimited**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    }
+  ]
+}
