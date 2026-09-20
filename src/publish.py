@@ -13,6 +13,9 @@ Safety rules built in:
   * At most one post per London calendar day, and a check against Instagram itself so a
     post that already went out is never sent twice.
   * A post is marked "published" in the queue only after Instagram confirms it.
+  * Posts live in queue/*.json (posts.json, batch-2.json, ...). A new batch is a NEW file, so
+    nothing that records what was already published is ever overwritten.
+  * A term/id that was already published is never posted again: duplicates are skipped and reported.
 """
 import argparse
 import json
@@ -32,7 +35,8 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).parent))
 
-QUEUE_PATH = ROOT / "queue" / "posts.json"
+QUEUE_DIR = ROOT / "queue"
+QUEUE_PATH = QUEUE_DIR / "posts.json"
 API_BASE = "https://graph.instagram.com/v25.0"
 EXPECTED_USERNAME = "equivisionbasics"
 LONDON = ZoneInfo("Europe/London")
@@ -82,7 +86,94 @@ def save_queue(data, path=QUEUE_PATH):
     tmp.replace(path)
 
 
+class Queue:
+    """Every queue/*.json file, treated as one long list of posts.
+
+    Each post is written back to the file it came from, and a file is only rewritten if
+    something in it changed. Files that cannot be read are reported in `.errors` and ignored.
+    """
+
+    def __init__(self, source=QUEUE_DIR):
+        source = Path(source)
+        paths = sorted(source.glob("*.json")) if source.is_dir() else [source]
+        self.files, self.errors = [], []
+        for path in paths:
+            try:
+                text = path.read_text(encoding="utf-8")
+                data = json.loads(text)
+                if not isinstance(data, dict) or not isinstance(data.get("posts"), list):
+                    raise ValueError('must look like {"posts": [ ... ]}')
+                for p in data["posts"]:
+                    if not isinstance(p, dict):
+                        raise ValueError("every post must be an object")
+            except (OSError, ValueError) as e:
+                self.errors.append(f"{path.name}: {e}")
+                continue
+            self.files.append((path, data, self._dump(data)))
+        if not self.files and not self.errors:
+            raise PublishError(f"no queue files found in {source}")
+
+    @staticmethod
+    def _dump(data):
+        return json.dumps(data, indent=2, ensure_ascii=False) + "\n"
+
+    @property
+    def data(self):
+        return {"posts": [p for _, d, _ in self.files for p in d["posts"]]}
+
+    def save(self, *_ignored):
+        for i, (path, data, original) in enumerate(self.files):
+            new = self._dump(data)
+            if new != original:
+                tmp = path.with_suffix(".tmp")
+                tmp.write_text(new, encoding="utf-8")
+                tmp.replace(path)
+                self.files[i] = (path, data, new)
+
+
 # ------------------------------------------------------------------ validation
+def term_key(post):
+    return re.sub(r"[^a-z0-9]+", "", str(post.get("term", "")).lower())
+
+
+def caption_key(post):
+    return _first_line(post.get("caption", "")).lower()
+
+
+def validate_queue(posts):
+    """Return a list of problems that involve more than one post (duplicates)."""
+    problems = []
+    for label, key in (("id", lambda p: p.get("id")), ("term", term_key), ("caption title", caption_key)):
+        seen = {}
+        for p in posts:
+            k = key(p)
+            if not k:
+                continue
+            if k in seen:
+                problems.append(f"duplicate {label}: '{p.get('term')}' ({p.get('id')}) repeats {seen[k].get('id')}")
+            else:
+                seen[k] = p
+    dates = {}
+    for p in posts:
+        if p.get("published") or p.get("skipped"):
+            continue
+        d = p.get("date")
+        if d in dates:
+            problems.append(f"two unpublished posts share the date {d}: {dates[d]} and {p.get('id')}")
+        dates[d] = p.get("id")
+    return problems
+
+
+def duplicate_of(post, posts):
+    """The already-published post this one repeats (same id, term or caption title), if any."""
+    for other in posts:
+        if other is post or not other.get("published"):
+            continue
+        if other.get("id") == post.get("id") or term_key(other) == term_key(post) or caption_key(other) == caption_key(post):
+            return other
+    return None
+
+
 def validate_post(post):
     """Raise PublishError if the post could not be published as written."""
     problems = []
@@ -256,27 +347,38 @@ def _first_line(text):
     return lines[0].strip() if lines else ""
 
 
-def find_existing(ig, post, hours=48):
-    """Return the Instagram media dict if this post already went out recently."""
-    want = _first_line(post["caption"])
+class DuplicateError(PublishError):
+    """The post's term is already on Instagram (or already published from the queue)."""
+
+
+def instagram_matches(ig, post, limit=30):
+    """[(media, age_in_hours_or_None)] for recent Instagram posts whose caption title equals this post's."""
+    want = caption_key(post)
     now = datetime.now(timezone.utc)
-    for m in ig.recent_media(10):
-        if _first_line(m.get("caption")) != want:
+    found = []
+    for m in ig.recent_media(limit):
+        if _first_line(m.get("caption")).lower() != want:
             continue
         try:
-            ts = datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")
-            if now - ts > timedelta(hours=hours):
-                continue
+            age = (now - datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")).total_seconds() / 3600
         except (KeyError, ValueError):
-            pass  # unknown time: assume recent, the safe choice
-        return m
+            age = None  # unknown time: treated as recent, the safe choice
+        found.append((m, age))
+    return found
+
+
+def find_existing(ig, post, hours=48):
+    """Return the Instagram media dict if this post already went out in the last `hours` hours."""
+    for m, age in instagram_matches(ig, post, limit=10):
+        if age is None or age <= hours:
+            return m
     return None
 
 
 # ------------------------------------------------------------------ choosing what to post
 def select_post(posts, today, mode="scheduled"):
     """Return (post_or_None, reason). `today` is a YYYY-MM-DD string in London time."""
-    approved = [p for p in posts if p.get("approved") and not p.get("published")]
+    approved = [p for p in posts if p.get("approved") and not p.get("published") and not p.get("skipped")]
     if mode == "publish_next":
         if not approved:
             return None, "no approved, unpublished posts left in the queue"
@@ -288,16 +390,16 @@ def select_post(posts, today, mode="scheduled"):
         return due[0], "due today" if due[0]["date"] == today else f"catching up (was dated {due[0]['date']})"
     if approved:
         return None, f"nothing due yet (next approved post is dated {min(p['date'] for p in approved)})"
-    unapproved = [p for p in posts if not p.get("published") and not p.get("approved")]
+    unapproved = [p for p in posts if not p.get("published") and not p.get("approved") and not p.get("skipped")]
     hint = f" ({len(unapproved)} waiting for approval)" if unapproved else ""
     raise PublishError("the queue has no approved posts left" + hint)
 
 
-def mark_published(post, media_id, permalink):
+def mark_published(post, media_id, permalink, published_date=None):
     now = datetime.now(timezone.utc)
     post["published"] = True
     post["published_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    post["published_date"] = now.astimezone(LONDON).strftime("%Y-%m-%d")
+    post["published_date"] = published_date or now.astimezone(LONDON).strftime("%Y-%m-%d")
     post["ig_media_id"] = media_id
     post["permalink"] = permalink
 
@@ -311,10 +413,14 @@ def render_default(post, out_dir):
 def publish_post(post, ig, render=render_default, host=None, out_root=None, sleep=time.sleep, verify=verify_urls):
     """Render -> host -> Instagram containers -> publish. Returns (media_id, permalink, how)."""
     validate_post(post)
-    existing = find_existing(ig, post)
-    if existing:
-        log(f"Instagram already has this post ({existing.get('permalink')}). Not posting again.")
-        return existing["id"], existing.get("permalink"), "already-on-instagram"
+    matches = instagram_matches(ig, post)
+    recent = [m for m, age in matches if age is None or age <= 48]
+    if recent:
+        log(f"Instagram already has this post ({recent[0].get('permalink')}). Not posting again.")
+        return recent[0]["id"], recent[0].get("permalink"), "already-on-instagram"
+    if matches:
+        m, age = matches[0]
+        raise DuplicateError(f"'{post['term']}' was already posted {age / 24:.0f} days ago ({m.get('permalink')})")
 
     out_dir = Path(out_root or ROOT / "out") / post["id"]
     log(f"Rendering {len(post['slides'])} slides ...")
@@ -357,8 +463,8 @@ def check_account(ig):
 
 
 # ------------------------------------------------------------------ modes
-def run_check(data, ig, host, render=render_default, verify=verify_urls):
-    rows = []
+def run_check(data, ig, host, render=render_default, verify=verify_urls, file_errors=()):
+    rows, failures = [], []
     username = check_account(ig)
     log(f"OK  token is valid and belongs to @{username}")
     rows.append(f"- Token valid, account **@{username}**")
@@ -370,20 +476,44 @@ def run_check(data, ig, host, render=render_default, verify=verify_urls):
     except PublishError:
         pass
 
-    bad = 0
-    for p in data["posts"]:
+    for e in file_errors:
+        failures.append(f"queue file cannot be read: {e}")
+    posts = data["posts"]
+    for p in posts:
         try:
             validate_post(p)
         except PublishError as e:
-            bad += 1
-            log(f"BAD {e}")
-    if bad:
-        raise PublishError(f"{bad} post(s) in the queue are invalid")
-    ready = [p for p in data["posts"] if p.get("approved") and not p.get("published")]
-    waiting = [p for p in data["posts"] if not p.get("approved") and not p.get("published")]
-    log(f"OK  queue: {len(ready)} approved & waiting, {len(waiting)} not yet approved, "
-        f"{sum(1 for p in data['posts'] if p.get('published'))} published")
-    rows.append(f"- Queue: **{len(ready)}** approved and waiting, {len(waiting)} not yet approved")
+            failures.append(str(e))
+    failures += validate_queue(posts)
+
+    live = [p for p in posts if not p.get("published") and not p.get("skipped")]
+    for p in live:
+        d = duplicate_of(p, posts)
+        if d:
+            failures.append(f"'{p.get('term')}' ({p.get('id')}) repeats an already published post ({d.get('id')})")
+    try:
+        for p in live:
+            for m, age in instagram_matches(ig, p):
+                if age is not None and age > 48:
+                    failures.append(f"'{p.get('term')}' is already on Instagram ({m.get('permalink')})")
+    except PublishError as e:
+        log(f"::warning::could not compare with Instagram's recent posts: {e}")
+
+    ready = [p for p in live if p.get("approved")]
+    waiting = [p for p in live if not p.get("approved")]
+    done = sum(1 for p in posts if p.get("published"))
+    log(f"     queue: {len(ready)} approved & waiting, {len(waiting)} not yet approved, {done} published")
+    rows.append(f"- Queue: **{len(ready)}** approved and waiting, {len(waiting)} not yet approved, {done} already published")
+    if ready:
+        rows.append(f"- Approved posts cover **{min(p['date'] for p in ready)}** to **{max(p['date'] for p in ready)}**")
+
+    if failures:
+        for f in failures:
+            log(f"BAD {f}")
+        summary("### Check failed\n" + "\n".join(f"- {f}" for f in failures))
+        raise PublishError(f"{len(failures)} problem(s) found in the queue (see above)")
+    log("OK  no duplicate ids, terms or dates; every post is valid; nothing repeats what is already on Instagram")
+    rows.append("- No duplicates, every post valid")
 
     nxt = sorted(ready or waiting, key=lambda p: p["date"])[:1]
     if nxt:
@@ -401,37 +531,75 @@ def run_check(data, ig, host, render=render_default, verify=verify_urls):
 
 def run_publish(data, ig, mode, today, enforce_window, host, dry_run=False, render=render_default,
                 sleep=time.sleep, verify=verify_urls, save=save_queue, now=None):
+    """Post at most one post. Posts that are duplicates or invalid are skipped (and reported at the end)
+    so one bad entry can never block the days after it."""
     now = now or london_now()
     if enforce_window and now.hour not in POST_HOURS:
         log(f"London time is {now:%H:%M}; posts only go out between 08:00 and 11:59. Skipping this run.")
         return "skipped-window"
-    post, why = select_post(data["posts"], today, mode)
-    if not post:
-        log(f"Nothing to post: {why}.")
-        summary(f"Nothing to post: {why}.")
-        return "nothing-due"
-    log(f"Selected '{post['term']}' ({post['id']}): {why}")
-    validate_post(post)
-    username = check_account(ig)
-    log(f"Account check passed: @{username}")
+    posts = data["posts"]
+    problems = []
 
-    if dry_run:
-        paths = render(post, ROOT / "out" / post["id"])
-        log(f"Dry run: rendered {len(paths)} slides, nothing published.")
-        return "dry-run"
+    def skip(post, reason):
+        post["skipped"] = reason
+        problems.append(f"'{post.get('term')}' ({post.get('id')}) was skipped: {reason}")
+        log(f"::warning::{problems[-1]}")
+        if not dry_run:
+            save(data)
 
-    media_id, permalink, how = publish_post(post, ig, render=render, host=host, sleep=sleep, verify=verify)
-    mark_published(post, media_id, permalink)
-    save(data)
-    log(f"DONE ({how}): {permalink}")
-    summary(f"### Posted '{post['term']}'\n{permalink}")
+    result = "nothing-due"
+    for _ in range(len(posts) + 1):
+        try:
+            post, why = select_post(posts, today, mode)
+        except PublishError as e:
+            if not problems:
+                raise
+            log(f"Nothing left to post: {e}")
+            break
+        if not post:
+            log(f"Nothing to post: {why}.")
+            summary(f"Nothing to post: {why}.")
+            break
+        log(f"Selected '{post['term']}' ({post['id']}): {why}")
+        try:
+            validate_post(post)
+        except PublishError as e:
+            skip(post, f"invalid ({e})")
+            continue
+        dup = duplicate_of(post, posts)
+        if dup:
+            skip(post, f"duplicate of the already published post {dup.get('id')}")
+            continue
+        username = check_account(ig)
+        log(f"Account check passed: @{username}")
 
-    left = [p for p in data["posts"] if p.get("approved") and not p.get("published")]
-    if len(left) < 3:
-        msg = f"Only {len(left)} approved post(s) left in the queue. Add more soon."
-        log(f"::warning::{msg}")
-        summary(f"**{msg}**")
-    return "published"
+        if dry_run:
+            paths = render(post, ROOT / "out" / post["id"])
+            log(f"Dry run: rendered {len(paths)} slides, nothing published.")
+            result = "dry-run"
+            break
+        try:
+            media_id, permalink, how = publish_post(post, ig, render=render, host=host, sleep=sleep, verify=verify)
+        except DuplicateError as e:
+            skip(post, f"already on Instagram - {e}")
+            continue
+        mark_published(post, media_id, permalink, published_date=today)
+        save(data)
+        log(f"DONE ({how}): {permalink}")
+        summary(f"### Posted '{post['term']}'\n{permalink}")
+        result = "published"
+        break
+
+    if result == "published":
+        left = [p for p in posts if p.get("approved") and not p.get("published") and not p.get("skipped")]
+        if len(left) < 3:
+            msg = f"Only {len(left)} approved post(s) left in the queue. Add a new batch file to the queue folder soon."
+            log(f"::warning::{msg}")
+            summary(f"**{msg}**")
+    if problems:
+        summary("### Skipped posts\n" + "\n".join(f"- {x}" for x in problems))
+        raise PublishError("; ".join(problems))
+    return result
 
 
 def main(argv=None):
@@ -439,7 +607,7 @@ def main(argv=None):
     ap.add_argument("--mode", choices=["scheduled", "check", "publish_next"], default="scheduled")
     ap.add_argument("--enforce-window", action="store_true", help="only post between 08:00 and 11:59 London time")
     ap.add_argument("--dry-run", action="store_true", help="render only, publish nothing")
-    ap.add_argument("--queue", default=str(QUEUE_PATH))
+    ap.add_argument("--queue", default=str(QUEUE_DIR), help="queue folder (default) or a single queue file")
     args = ap.parse_args(argv)
 
     token, user_id = os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID")
@@ -447,17 +615,22 @@ def main(argv=None):
         raise PublishError("secrets IG_ACCESS_TOKEN and IG_USER_ID are not set (Settings > Secrets and variables > Actions)")
     repo, gh_token = os.environ.get("GITHUB_REPOSITORY"), os.environ.get("GITHUB_TOKEN")
     ig = IG(token, user_id)
-    data = load_queue(args.queue)
+    queue = Queue(args.queue)
+    for e in queue.errors:
+        # an unreadable batch file must never stop the other files from being posted
+        log(f"::warning::ignoring unreadable queue file {e}")
+        summary(f"**Ignored unreadable queue file:** {e}")
 
     def host(paths, post_id):
         return host_images(paths, post_id, repo, gh_token)
 
     if args.mode == "check":
-        run_check(data, ig, host)
+        run_check(queue.data, ig, host, file_errors=queue.errors)
         return 0
     today = london_now().strftime("%Y-%m-%d")
-    run_publish(data, ig, args.mode, today, args.enforce_window, host, dry_run=args.dry_run,
-                save=lambda d: save_queue(d, args.queue))
+    run_publish(queue.data, ig, args.mode, today, args.enforce_window, host, dry_run=args.dry_run, save=queue.save)
+    if queue.errors:
+        raise PublishError("some queue files could not be read: " + "; ".join(queue.errors))
     return 0
 
 

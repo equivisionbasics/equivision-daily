@@ -133,7 +133,9 @@ def art_coins(a):
     defs = """<defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8fa2b2"/><stop offset=".5" stop-color="#eef3f7"/><stop offset="1" stop-color="#7f93a4"/></linearGradient>
     <linearGradient id="ct" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f8fb"/><stop offset="1" stop-color="#9fd3ea"/></linearGradient></defs>"""
     out = [defs]
-    for cx, n in ((250, 4), (540, 8), (830, 5)):
+    stacks = a.get("stacks") or (4, 8, 5)
+    mid_top = 560 - (stacks[1] - 1) * 30 - 30
+    for cx, n in zip((250, 540, 830), stacks):
         base = 560
         for i in range(n):
             y = base - i * 30
@@ -142,7 +144,7 @@ def art_coins(a):
         top = base - (n - 1) * 30 - 30
         out.append(f'<ellipse cx="{cx}" cy="{top}" rx="115" ry="34" fill="url(#ct)"/>')
         out.append(f'<ellipse cx="{cx}" cy="{top}" rx="78" ry="20" fill="none" stroke="#6b7c8a" stroke-width="4"/>')
-    out.append('<g transform="translate(540 110) rotate(-10)"><circle r="92" fill="url(#ct)" stroke="#fff" stroke-opacity=".6" stroke-width="4"/><circle r="70" fill="none" stroke="#6b7c8a" stroke-width="5"/>'
+    out.append(f'<g transform="translate(540 {max(110, mid_top - 205)}) rotate(-10)"><circle r="92" fill="url(#ct)" stroke="#fff" stroke-opacity=".6" stroke-width="4"/><circle r="70" fill="none" stroke="#6b7c8a" stroke-width="5"/>'
                '<text y="26" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="84" fill="#3b6f8c">$</text></g>')
     return "".join(out)
 
@@ -248,7 +250,7 @@ def s_cover(s, ctx):
     return f"""
 <div class="wrap" style="top:250px">
   <div style="display:inline-block;padding:14px 30px;border:2px solid rgba(126,200,232,.6);border-radius:999px;font-size:26px;letter-spacing:.22em;color:var(--ice);font-weight:600">{esc(s.get('kicker', 'TERM OF THE DAY'))}</div>
-  <div style="height:300px;display:flex;align-items:center"><h1 class="fit" data-maxw="936" data-min="90" style="font-size:270px;white-space:nowrap;letter-spacing:-.02em;background:linear-gradient(90deg,#ffffff,#8fd3f0);-webkit-background-clip:text;color:transparent;line-height:1.15;padding-bottom:10px">{esc(s['term'])}</h1></div>
+  <div style="height:300px;display:flex;align-items:center"><h1 class="fit" data-maxw="936" data-min="52" style="font-size:270px;white-space:nowrap;letter-spacing:-.02em;background:linear-gradient(90deg,#ffffff,#8fd3f0);-webkit-background-clip:text;color:transparent;line-height:1.15;padding-bottom:10px">{esc(s['term'])}</h1></div>
   <p style="font-size:44px;line-height:1.35;color:var(--silver);margin-top:0">{l1}<br><span style="color:var(--muted)">{l2}</span></p>
 </div>
 <svg style="position:absolute;left:0;top:725px" width="1080" height="520" viewBox="0 0 1080 590" preserveAspectRatio="xMidYMin meet">{art_svg}</svg>"""
