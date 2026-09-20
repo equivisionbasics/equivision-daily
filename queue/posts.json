@@ -1,0 +1,761 @@
+{
+  "posts": [
+    {
+      "id": "2026-09-20-inflation",
+      "date": "2026-09-20",
+      "term": "Inflation",
+      "caption": "Inflation, explained simply 👇\n\nInflation means prices rise over time, so the same money buys less. It's why your coffee costs more than it used to.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#inflation #prices #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Inflation",
+          "art": {
+            "kind": "tag",
+            "text1": "$4.00",
+            "text2": "$4.20"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Inflation means [[prices rise]] over time, so your money [[buys less]].",
+          "visual": {
+            "arcText": "same money, less stuff",
+            "midText": "prices creep up",
+            "left": {
+              "icon": "basket",
+              "title": "TODAY",
+              "sub": "$20 buys 10 items"
+            },
+            "right": {
+              "icon": "basket",
+              "title": "LATER",
+              "sub": "$20 buys 9 items"
+            }
+          },
+          "footer": "Your money didn't shrink. [[Prices grew]]."
+        },
+        {
+          "type": "steps",
+          "headline": "Your morning coffee costs [[$4.00]]. A year later, it costs $4.20.",
+          "steps": [
+            {
+              "icon": "tag",
+              "title": "The price creeps up",
+              "sub": "$4.00 becomes $4.20."
+            },
+            {
+              "icon": "wallet",
+              "title": "Your $4.00 no longer covers it",
+              "sub": "You're 20 cents short."
+            },
+            {
+              "icon": "percent",
+              "title": "That 5% rise is the inflation rate",
+              "sub": "$0.20 ÷ $4.00 = 5%."
+            }
+          ],
+          "closing": "Prices up 5%. That's [[inflation]]."
+        },
+        {
+          "type": "compare",
+          "label": "THE EFFECT",
+          "headline": "Same money, less stuff.",
+          "sub": "When prices rise, each dollar [[buys less]] than before.",
+          "chart": {
+            "title": "$105 for the same groceries",
+            "bars": [
+              {
+                "label": "Last year",
+                "value": 100,
+                "text": "$100"
+              },
+              {
+                "label": "This year",
+                "value": 100,
+                "text": "$100",
+                "extra": 5,
+                "extraText": "+$5"
+              }
+            ]
+          },
+          "note": "Example uses 5% inflation. Real rates vary by country and year."
+        },
+        {
+          "type": "points",
+          "headline": "Why it [[matters]] to you.",
+          "sub": "If your pay or savings don't keep up, you can afford less.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "Cash sitting still **slowly loses buying power**"
+            },
+            {
+              "dir": "up",
+              "text": "Pay and savings that **grow faster than prices** keep up"
+            }
+          ],
+          "note": "Many central banks aim for about 2% inflation a year."
+        },
+        {
+          "type": "recap",
+          "title": "Inflation = Rising prices",
+          "sub": "Your money didn't shrink. Prices grew.",
+          "checks": [
+            "Prices rise a little **every year**",
+            "So the same money **buys less**",
+            "Aim to [[grow money faster]] than prices"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-21-stocks",
+      "date": "2026-09-21",
+      "term": "Stocks",
+      "caption": "Stocks, explained simply 👇\n\nA stock is a tiny slice of a company that you can own. If the company does well, your slice can grow in value. If not, it can fall.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#stocks #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Stocks",
+          "art": "chart"
+        },
+        {
+          "type": "definition",
+          "headline": "A stock is a [[tiny slice]] of a company that you can own.",
+          "visual": {
+            "arcText": "buy a share",
+            "midText": "split into shares",
+            "left": {
+              "icon": "store",
+              "title": "COMPANY",
+              "sub": "The whole business"
+            },
+            "right": {
+              "icon": "pie",
+              "title": "YOUR SLICE",
+              "sub": "A small share of it"
+            }
+          },
+          "footer": "Own a slice, share in the [[ups and downs]]."
+        },
+        {
+          "type": "steps",
+          "headline": "Imagine a pizza shop worth [[$1,000]], split into 100 slices.",
+          "steps": [
+            {
+              "icon": "store",
+              "title": "The shop is split into 100 shares",
+              "sub": "Each share is 1% of the business."
+            },
+            {
+              "icon": "wallet",
+              "title": "You buy 1 share for $10",
+              "sub": "$1,000 ÷ 100 = $10 per share."
+            },
+            {
+              "icon": "chart",
+              "title": "Shop does well? Price rises",
+              "sub": "Your share might be worth $12 later."
+            }
+          ],
+          "closing": "You own a piece of the shop. That's a [[stock]]."
+        },
+        {
+          "type": "compare",
+          "label": "THE UPS AND DOWNS",
+          "headline": "Prices move both ways.",
+          "sub": "A share's price can [[rise or fall]] with the company and the market.",
+          "chart": {
+            "title": "One share, one possible outcome",
+            "bars": [
+              {
+                "label": "You pay",
+                "value": 10,
+                "text": "$10"
+              },
+              {
+                "label": "It could rise to",
+                "value": 10,
+                "text": "$10",
+                "extra": 2,
+                "extraText": "+$2"
+              }
+            ]
+          },
+          "note": "It could also fall below $10. Stock prices are never guaranteed."
+        },
+        {
+          "type": "points",
+          "headline": "Why people [[buy stocks]].",
+          "sub": "Over long periods stocks have often grown, but the past isn't a promise.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Company grows: the **share can rise** in value"
+            },
+            {
+              "dir": "down",
+              "text": "Company struggles: the **share can fall**"
+            }
+          ],
+          "note": "You can lose money. Never invest what you can't afford to lose."
+        },
+        {
+          "type": "recap",
+          "title": "Stock = Ownership",
+          "sub": "You own a small piece of a company.",
+          "checks": [
+            "A stock is **one slice** of a company",
+            "Its price can [[rise or fall]]",
+            "It's **never guaranteed**: you can lose money"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-22-dividend",
+      "date": "2026-09-22",
+      "term": "Dividend",
+      "caption": "Dividend, explained simply 👇\n\nA dividend is a cash payment a company shares with the people who own its stock. Think of it as a slice of the profit, paid out.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#dividends #stocks #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Dividend",
+          "art": "coins"
+        },
+        {
+          "type": "definition",
+          "headline": "A dividend is a [[cash payment]] a company shares with its owners.",
+          "visual": {
+            "arcText": "a slice of the profit",
+            "midText": "profit shared",
+            "left": {
+              "icon": "store",
+              "title": "COMPANY",
+              "sub": "Makes a profit"
+            },
+            "right": {
+              "icon": "wallet",
+              "title": "YOU",
+              "sub": "Get a share of it"
+            }
+          },
+          "footer": "Own the stock, get [[paid]] too."
+        },
+        {
+          "type": "steps",
+          "headline": "You own [[100 shares]]. Each pays [[$0.50]].",
+          "steps": [
+            {
+              "icon": "store",
+              "title": "The company earns a profit",
+              "sub": "It decides to share some of it."
+            },
+            {
+              "icon": "coins",
+              "title": "It pays $0.50 for every share",
+              "sub": "100 shares × $0.50 = $50."
+            },
+            {
+              "icon": "wallet",
+              "title": "You receive $50 in cash",
+              "sub": "Often paid a few times a year."
+            }
+          ],
+          "closing": "That payout is a [[dividend]]."
+        },
+        {
+          "type": "compare",
+          "label": "HOW IT ADDS UP",
+          "headline": "Small payments add up.",
+          "sub": "Dividends are usually paid [[a few times a year]].",
+          "chart": {
+            "title": "Example: $50 per payment",
+            "bars": [
+              {
+                "label": "1 payment",
+                "value": 50,
+                "text": "$50"
+              },
+              {
+                "label": "4 payments in a year",
+                "value": 200,
+                "text": "$200"
+              }
+            ]
+          },
+          "note": "Illustrative example. Companies can raise, cut or skip dividends."
+        },
+        {
+          "type": "points",
+          "headline": "Dividends aren't [[guaranteed]].",
+          "sub": "A company chooses whether to pay one, and how much.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Steady payers can give **regular income**"
+            },
+            {
+              "dir": "down",
+              "text": "A company can **cut or skip** its dividend"
+            }
+          ],
+          "note": "Not every company pays one. Many growing companies reinvest instead."
+        },
+        {
+          "type": "recap",
+          "title": "Dividend = Payout",
+          "sub": "A slice of profit paid to shareholders.",
+          "checks": [
+            "Paid to people who **own shares**",
+            "Usually **cash, a few times a year**",
+            "Never guaranteed: it can be **cut**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-23-etf",
+      "date": "2026-09-23",
+      "term": "ETF",
+      "caption": "ETF, explained simply 👇\n\nAn ETF (Exchange-Traded Fund) is a basket of many investments that you can buy in one go, just like a single share.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#etf #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "ETF",
+          "art": "pie"
+        },
+        {
+          "type": "definition",
+          "headline": "An ETF is a [[basket]] of many investments you buy in one go.",
+          "visual": {
+            "arcText": "a slice of each one",
+            "midText": "inside the basket",
+            "left": {
+              "icon": "wallet",
+              "title": "1 BUY",
+              "sub": "One purchase"
+            },
+            "right": {
+              "icon": "pie",
+              "title": "MANY STOCKS",
+              "sub": "Lots of companies"
+            }
+          },
+          "footer": "ETF stands for [[Exchange-Traded Fund]]."
+        },
+        {
+          "type": "steps",
+          "headline": "Instead of picking [[100 stocks]] one by one...",
+          "steps": [
+            {
+              "icon": "basket",
+              "title": "A fund company builds a basket",
+              "sub": "It holds lots of different stocks."
+            },
+            {
+              "icon": "wallet",
+              "title": "You buy one share of the ETF",
+              "sub": "That one purchase covers the basket."
+            },
+            {
+              "icon": "chart",
+              "title": "It trades like a normal share",
+              "sub": "You can buy or sell during market hours."
+            }
+          ],
+          "closing": "One buy, many holdings. That's an [[ETF]]."
+        },
+        {
+          "type": "points",
+          "headline": "Why people like [[ETFs]].",
+          "sub": "They spread your money across many companies.",
+          "gauge": {
+            "left": "One stock",
+            "right": "Many stocks",
+            "needle": 0.85
+          },
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Often **low fees**"
+            },
+            {
+              "dir": "up",
+              "text": "Easy to **buy and sell** like a share"
+            }
+          ],
+          "note": "Fees and holdings vary from one ETF to another."
+        },
+        {
+          "type": "points",
+          "headline": "Check before you [[buy]].",
+          "sub": "Not all ETFs are the same.",
+          "rows": [
+            {
+              "mark": "1",
+              "text": "What's **inside** the basket?"
+            },
+            {
+              "mark": "2",
+              "text": "What are the **fees**?"
+            },
+            {
+              "mark": "3",
+              "text": "Does it fit **your goal**?"
+            }
+          ],
+          "note": "Educational only. Not a recommendation of any fund."
+        },
+        {
+          "type": "recap",
+          "title": "ETF = A basket",
+          "sub": "One purchase, many investments.",
+          "checks": [
+            "A basket that holds **many stocks**",
+            "Buy it **in one go**, like a share",
+            "Check the **fees** and what's inside"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-24-diversification",
+      "date": "2026-09-24",
+      "term": "Diversification",
+      "caption": "Diversification, explained simply 👇\n\nDiversification means spreading your money across different investments, so one bad result doesn't sink everything. It reduces risk, but it can't remove it.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#diversification #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Diversification",
+          "art": {
+            "kind": "pie",
+            "values": [
+              26,
+              22,
+              20,
+              18,
+              14
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Diversification means [[not putting all your eggs]] in one basket.",
+          "visual": {
+            "arcText": "spread it out",
+            "midText": "vs",
+            "left": {
+              "icon": "basket",
+              "title": "ONE BASKET",
+              "sub": "Drop it, lose it all"
+            },
+            "right": {
+              "icon": "pie",
+              "title": "MANY BASKETS",
+              "sub": "One slip hurts less"
+            }
+          },
+          "footer": "Spread your money to spread your [[risk]]."
+        },
+        {
+          "type": "steps",
+          "headline": "You have [[$300]] to invest.",
+          "steps": [
+            {
+              "icon": "chart",
+              "title": "All $300 in one company",
+              "sub": "If it falls 50%, you lose $150."
+            },
+            {
+              "icon": "pie",
+              "title": "$100 in each of three",
+              "sub": "If one falls 50%, you lose $50."
+            },
+            {
+              "icon": "shield",
+              "title": "The others cushion the fall",
+              "sub": "Your loss is smaller."
+            }
+          ],
+          "closing": "Spread out. That's [[diversification]]."
+        },
+        {
+          "type": "compare",
+          "label": "SAME DROP, LESS PAIN",
+          "headline": "Spread it out.",
+          "sub": "One company falls 50%. See the difference.",
+          "chart": {
+            "title": "Money lost when one company falls 50%",
+            "bars": [
+              {
+                "label": "All in one",
+                "value": 150,
+                "text": "-$150"
+              },
+              {
+                "label": "Spread over three",
+                "value": 50,
+                "text": "-$50"
+              }
+            ]
+          },
+          "note": "Illustrative example. Diversifying reduces risk but doesn't remove it."
+        },
+        {
+          "type": "points",
+          "headline": "A [[smoother]] ride.",
+          "sub": "Different investments rise and fall at different times.",
+          "gauge": {
+            "left": "Bumpy",
+            "right": "Smoother",
+            "needle": 0.72
+          },
+          "rows": [
+            {
+              "dir": "up",
+              "text": "One loss **hurts less**"
+            },
+            {
+              "dir": "down",
+              "text": "It **doesn't remove** risk or guarantee profit"
+            }
+          ],
+          "note": "The idea applies to stocks, bonds, funds and more."
+        },
+        {
+          "type": "recap",
+          "title": "Diversify = Spread",
+          "sub": "Different baskets, smaller shocks.",
+          "checks": [
+            "Don't put **all your money** in one place",
+            "Spreading out **shrinks the damage** of one loss",
+            "It **reduces** risk but can't remove it"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-25-compounding",
+      "date": "2026-09-25",
+      "term": "Compounding",
+      "caption": "Compounding, explained simply 👇\n\nCompounding means earning interest on your interest too, so growth builds on growth. Think of a snowball that gets bigger the longer it rolls.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#compoundinterest #compounding #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Compounding",
+          "art": "growth"
+        },
+        {
+          "type": "definition",
+          "headline": "Compounding is earning [[interest]] on your interest too.",
+          "visual": {
+            "arcText": "growth builds on growth",
+            "midText": "each year",
+            "left": {
+              "icon": "plant",
+              "title": "YEAR 1",
+              "sub": "Interest on $100"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "YEAR 2",
+              "sub": "Interest on interest"
+            }
+          },
+          "footer": "Think snowball: it grows [[faster as it rolls]]."
+        },
+        {
+          "type": "steps",
+          "headline": "You save [[$100]] at 10% interest a year.",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "Year 1: you earn $10",
+              "sub": "$100 becomes $110."
+            },
+            {
+              "icon": "plant",
+              "title": "Year 2: you earn $11",
+              "sub": "10% of $110, not just $100."
+            },
+            {
+              "icon": "arrowup",
+              "title": "Year 3: you earn $12.10",
+              "sub": "$121 becomes $133.10."
+            }
+          ],
+          "closing": "Interest on interest. That's [[compounding]]."
+        },
+        {
+          "type": "compare",
+          "label": "TIME IS THE SECRET",
+          "headline": "Same money, more time.",
+          "sub": "Compounding gets [[stronger the longer]] you wait.",
+          "chart": {
+            "title": "$100 after 10 years at 10%",
+            "bars": [
+              {
+                "label": "Interest on $100 only",
+                "value": 200,
+                "text": "$200"
+              },
+              {
+                "label": "Compounding",
+                "value": 200,
+                "text": "$200",
+                "extra": 59,
+                "extraText": "+$59 extra"
+              }
+            ]
+          },
+          "note": "Assumes a steady 10% a year, which is high. Real returns vary."
+        },
+        {
+          "type": "points",
+          "headline": "It works for you, and [[against]] you.",
+          "sub": "The same effect applies to savings and to debt.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Start early: **more time to grow**"
+            },
+            {
+              "dir": "down",
+              "text": "Debt compounds too: **interest on interest** works against you"
+            }
+          ],
+          "note": "Example numbers are for illustration only."
+        },
+        {
+          "type": "recap",
+          "title": "Compounding = Snowball",
+          "sub": "Interest that earns interest.",
+          "checks": [
+            "You earn interest on **your interest**",
+            "**Time** is the key ingredient",
+            "It works on **debt** too"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-09-26-bond",
+      "date": "2026-09-26",
+      "term": "Bond",
+      "caption": "Bond, explained simply 👇\n\nA bond is a loan you give to a company or a government. In return they pay you interest and give your money back on a set date.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#bonds #investing #finance #personalfinance #financialliteracy #moneybasics #learnfinance",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Bond",
+          "art": {
+            "kind": "doc",
+            "title": "BOND"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A bond is a [[loan]] you give to a company or government.",
+          "visual": {
+            "arcText": "an IOU with a schedule",
+            "midText": "over the years",
+            "left": {
+              "icon": "person",
+              "title": "YOU",
+              "sub": "Lend the money"
+            },
+            "right": {
+              "icon": "bank",
+              "title": "BORROWER",
+              "sub": "Pays you back"
+            }
+          },
+          "footer": "You're the [[lender]], not the owner."
+        },
+        {
+          "type": "steps",
+          "headline": "You lend a government [[$1,000]] for 5 years.",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "You buy the bond for $1,000",
+              "sub": "That's the loan."
+            },
+            {
+              "icon": "coins",
+              "title": "It pays interest, say 4% a year",
+              "sub": "$1,000 × 4% = $40 each year."
+            },
+            {
+              "icon": "bank",
+              "title": "At the end, you get $1,000 back",
+              "sub": "That date is called maturity."
+            }
+          ],
+          "closing": "A loan with a schedule. That's a [[bond]]."
+        },
+        {
+          "type": "points",
+          "label": "BOND VS STOCK",
+          "headline": "Lender or [[owner]]?",
+          "sub": "The two behave very differently.",
+          "rows": [
+            {
+              "mark": "STOCK",
+              "text": "You **own** a slice. Payouts **vary**."
+            },
+            {
+              "mark": "BOND",
+              "text": "You **lent** money. Payments are **set in advance**."
+            }
+          ],
+          "note": "Terms differ from bond to bond."
+        },
+        {
+          "type": "points",
+          "headline": "Bonds have [[risks]] too.",
+          "sub": "They're often steadier than stocks, but not risk-free.",
+          "rows": [
+            {
+              "mark": "1",
+              "text": "The borrower can **miss payments**"
+            },
+            {
+              "mark": "2",
+              "text": "When rates rise, existing bonds **lose value**"
+            },
+            {
+              "mark": "3",
+              "text": "Inflation makes fixed payments **buy less**"
+            }
+          ],
+          "note": "Educational only. Not a recommendation."
+        },
+        {
+          "type": "recap",
+          "title": "Bond = A loan",
+          "sub": "You lend. They repay with interest.",
+          "checks": [
+            "You're the **lender**, not the owner",
+            "Payments are usually **set in advance**",
+            "It carries **risks** too"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    }
+  ]
+}

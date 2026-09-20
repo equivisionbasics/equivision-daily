@@ -1,0 +1,30 @@
+{
+  "term": "Credit",
+  "slides": [
+    {"type": "cover", "term": "Credit", "art": "card"},
+    {"type": "definition", "headline": "Credit means getting something [[now]] and paying for it [[later]].",
+     "visual": {"arcText": "a promise to pay back", "midText": "time passes",
+       "left": {"icon": "gift", "title": "TODAY", "sub": "You get it"},
+       "right": {"icon": "coins", "title": "LATER", "sub": "You pay it back"}},
+     "footer": "It's all built on [[trust]]."},
+    {"type": "steps", "headline": "You want $100 sneakers, but you only have [[$20]].",
+     "steps": [
+       {"icon": "store", "title": "You take the sneakers home", "sub": "You leave the store with them today."},
+       {"icon": "bank", "title": "The bank pays the store $100", "sub": "The store gets paid in full."},
+       {"icon": "person", "title": "Later, you pay the bank back", "sub": "Because you owe it $100."}],
+     "closing": "That deal is [[credit]]."},
+    {"type": "compare", "label": "THE CATCH", "headline": "Credit isn't free.",
+     "sub": "The bank charges a fee for lending you money. It's called [[interest]].",
+     "chart": {"title": "$120 to pay back", "bars": [
+       {"label": "You borrow", "value": 100, "text": "$100"},
+       {"label": "You owe a year later", "value": 100, "text": "$100", "extra": 20, "extraText": "+$20 interest"}]},
+     "note": "Example uses 20% interest for one year with nothing repaid. Real rates vary."},
+    {"type": "points", "headline": "Your [[credit score]] is your reliability grade.",
+     "sub": "A number lenders check to see if you repay on time.",
+     "gauge": {"left": "Low", "right": "Great", "needle": 0.79},
+     "rows": [{"dir": "up", "text": "Repay on time: score up, loans cheaper"}, {"dir": "down", "text": "Repay late: score down, loans pricier"}],
+     "note": "Scoring systems differ from country to country."},
+    {"type": "recap", "title": "Credit = Trust", "sub": "Someone trusts you to pay them back later.",
+     "checks": ["Get it now, **pay it back later**", "Borrowing costs extra, called [[interest]]", "Paying on time builds your **credit score**"]}
+  ]
+}
