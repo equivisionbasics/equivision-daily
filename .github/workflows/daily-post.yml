@@ -1,0 +1,82 @@
+name: Daily Instagram post
+
+on:
+  schedule:
+    # GitHub cron runs in UTC. Three slots so British Summer Time / winter time both work
+    # and a delayed or dropped run gets a second chance. The script only posts between
+    # 08:00 and 11:59 London time and never posts twice in one day.
+    - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check = safe test, posts nothing.  publish_next = post the next approved post right now."
+        type: choice
+        options: [check, publish_next]
+        default: check
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Is it posting time in London?
+        id: gate
+        run: |
+          H=$(TZ=Europe/London date +%H)
+          if [ "${{ github.event_name }}" != "schedule" ] || { [ "$((10#$H))" -ge 8 ] && [ "$((10#$H))" -lt 12 ]; }; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "London hour is $H - not posting time, skipping."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        if: steps.gate.outputs.go == 'true'
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run
+        if: steps.gate.outputs.go == 'true'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python src/publish.py --mode scheduled --enforce-window
+          else
+            python src/publish.py --mode "${{ inputs.mode }}"
+          fi
+
+      - name: Save queue state
+        if: always() && steps.gate.outputs.go == 'true'
+        run: |
+          git config user.name "equivision-bot"
+          git config user.email "equivision-bot@users.noreply.github.com"
+          if ! git diff --quiet -- queue/posts.json; then
+            git add queue/posts.json
+            git commit -m "Mark post as published"
+            for i in 1 2 3 4; do
+              git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break
+              sleep 5
+            done
+          fi
