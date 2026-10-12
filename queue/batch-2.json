@@ -1785,7 +1785,11 @@
         }
       ],
       "approved": true,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-12T07:17:24Z",
+      "published_date": "2026-10-12",
+      "ig_media_id": "17893864134610522",
+      "permalink": "https://www.instagram.com/p/DeYrWpAlSkx/"
     },
     {
       "id": "2026-10-12-index-fund",
