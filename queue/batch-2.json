@@ -1893,7 +1893,11 @@
         }
       ],
       "approved": true,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-13T07:16:37Z",
+      "published_date": "2026-10-13",
+      "ig_media_id": "18130644202704999",
+      "permalink": "https://www.instagram.com/p/DebQDtpm2d6/"
     },
     {
       "id": "2026-10-13-dollar-cost-averaging",
