@@ -2390,7 +2390,11 @@
         }
       ],
       "approved": true,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-17T07:25:52Z",
+      "published_date": "2026-10-17",
+      "ig_media_id": "18217008235358498",
+      "permalink": "https://www.instagram.com/p/DelkS8FEeKQ/"
     },
     {
       "id": "2026-10-17-asset-allocation",
