@@ -26,7 +26,7 @@ import subprocess
 import sys
 import tempfile
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -40,7 +40,11 @@ QUEUE_PATH = QUEUE_DIR / "posts.json"
 API_BASE = "https://graph.instagram.com/v25.0"
 EXPECTED_USERNAME = "equivisionbasics"
 LONDON = ZoneInfo("Europe/London")
-POST_HOURS = range(8, 12)  # London hours (inclusive start, exclusive end) in which a scheduled run may post
+POST_HOURS = range(6, 23)  # London hours (inclusive start, exclusive end) in which a scheduled run may post
+# GitHub has been seen to run this repo's scheduled workflow hours late (observed up to 6+ hours,
+# and growing). POST_HOURS is wide on purpose so a late run still lands inside it; this constant is
+# the separate backstop that raises a loud, emailed failure if posting stops altogether.
+STALE_DAYS = 2
 SLIDE_TYPES = {"cover", "definition", "steps", "compare", "points", "recap"}
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{2,80}$")
 
@@ -395,6 +399,26 @@ def select_post(posts, today, mode="scheduled"):
     raise PublishError("the queue has no approved posts left" + hint)
 
 
+def stale_warning(posts, today, stale_days=STALE_DAYS):
+    """If posts are waiting but nothing has gone out in a while, say so, so GitHub emails about it.
+    A 1-2 day gap is normal catch-up after a single missed run; anything longer means posting has
+    actually stopped (as happened when every scheduled run landed outside POST_HOURS for 12 days
+    straight with no alert at all)."""
+    due_left = any(
+        p.get("approved") and not p.get("published") and not p.get("skipped") and p["date"] <= today
+        for p in posts
+    )
+    if not due_left:
+        return None
+    posted_dates = [p["published_date"] for p in posts if p.get("published_date")]
+    if not posted_dates:
+        return None
+    gap = (date.fromisoformat(today) - date.fromisoformat(max(posted_dates))).days
+    if gap > stale_days:
+        return f"no post has gone out in {gap} days even though approved posts are waiting - something is stuck"
+    return None
+
+
 def mark_published(post, media_id, permalink, published_date=None):
     now = datetime.now(timezone.utc)
     post["published"] = True
@@ -534,9 +558,6 @@ def run_publish(data, ig, mode, today, enforce_window, host, dry_run=False, rend
     """Post at most one post. Posts that are duplicates or invalid are skipped (and reported at the end)
     so one bad entry can never block the days after it."""
     now = now or london_now()
-    if enforce_window and now.hour not in POST_HOURS:
-        log(f"London time is {now:%H:%M}; posts only go out between 08:00 and 11:59. Skipping this run.")
-        return "skipped-window"
     posts = data["posts"]
     problems = []
 
@@ -546,6 +567,18 @@ def run_publish(data, ig, mode, today, enforce_window, host, dry_run=False, rend
         log(f"::warning::{problems[-1]}")
         if not dry_run:
             save(data)
+
+    stale = stale_warning(posts, today)
+    if stale:
+        log(f"::warning::{stale}")
+        problems.append(stale)
+
+    if enforce_window and now.hour not in POST_HOURS:
+        log(f"London time is {now:%H:%M}; posts only go out between "
+            f"{POST_HOURS.start:02d}:00 and {POST_HOURS.stop - 1:02d}:59. Skipping this run.")
+        if problems:
+            raise PublishError("; ".join(problems))
+        return "skipped-window"
 
     result = "nothing-due"
     for _ in range(len(posts) + 1):
@@ -596,6 +629,8 @@ def run_publish(data, ig, mode, today, enforce_window, host, dry_run=False, rend
             msg = f"Only {len(left)} approved post(s) left in the queue. Add a new batch file to the queue folder soon."
             log(f"::warning::{msg}")
             summary(f"**{msg}**")
+        if stale and stale in problems:
+            problems.remove(stale)  # this run just posted, so the gap it warned about is resolved
     if problems:
         summary("### Skipped posts\n" + "\n".join(f"- {x}" for x in problems))
         raise PublishError("; ".join(problems))
