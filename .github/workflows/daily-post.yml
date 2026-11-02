@@ -2,12 +2,21 @@ name: Daily Instagram post
 
 on:
   schedule:
-    # GitHub cron runs in UTC. Three slots so British Summer Time / winter time both work
-    # and a delayed or dropped run gets a second chance. The script only posts between
-    # 08:00 and 11:59 London time and never posts twice in one day.
-    - cron: "0 7 * * *"
+    # GitHub cron runs in UTC and has been observed to fire this repo's schedule several hours
+    # late (over 6 hours, and growing, on a low-activity repo like this one - that's a GitHub
+    # Actions limitation, not something this workflow controls). So there are many slots spread
+    # across the day, not just one: as long as ANY of them actually fires within the posting
+    # window, the day's post goes out. The window and the "once per London day" rule (in
+    # publish.py) make extra slots harmless - they just find nothing left to do and exit quickly.
+    - cron: "0 6 * * *"
     - cron: "0 8 * * *"
     - cron: "0 10 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 14 * * *"
+    - cron: "0 16 * * *"
+    - cron: "0 18 * * *"
+    - cron: "0 20 * * *"
+    - cron: "0 22 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -32,7 +41,7 @@ jobs:
         id: gate
         run: |
           H=$(TZ=Europe/London date +%H)
-          if [ "${{ github.event_name }}" != "schedule" ] || { [ "$((10#$H))" -ge 8 ] && [ "$((10#$H))" -lt 12 ]; }; then
+          if [ "${{ github.event_name }}" != "schedule" ] || { [ "$((10#$H))" -ge 6 ] && [ "$((10#$H))" -lt 23 ]; }; then
             echo "go=true" >> "$GITHUB_OUTPUT"
           else
             echo "London hour is $H - not posting time, skipping."
@@ -79,4 +88,5 @@ jobs:
               git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break
               sleep 5
             done
+          fi
           fi
