@@ -3008,7 +3008,11 @@
         }
       ],
       "approved": true,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-03T13:55:30Z",
+      "published_date": "2026-11-03",
+      "ig_media_id": "18131707718500832",
+      "permalink": "https://www.instagram.com/p/DfSCZnbG8gh/"
     },
     {
       "id": "2026-10-22-volatility",
