@@ -3159,7 +3159,11 @@
         }
       ],
       "approved": true,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-04T14:05:40Z",
+      "published_date": "2026-11-04",
+      "ig_media_id": "18072849572597622",
+      "permalink": "https://www.instagram.com/p/DfUoWwvHO7y/"
     },
     {
       "id": "2026-10-23-hedging",
