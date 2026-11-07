@@ -3504,7 +3504,11 @@
         }
       ],
       "approved": true,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-07T12:45:35Z",
+      "published_date": "2026-11-07",
+      "ig_media_id": "17912918727566065",
+      "permalink": "https://www.instagram.com/p/DfcNlH9FbAq/"
     },
     {
       "id": "2026-10-26-short-selling",
