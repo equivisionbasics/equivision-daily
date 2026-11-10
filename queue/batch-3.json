@@ -1,0 +1,3457 @@
+{
+  "posts": [
+    {
+      "id": "2026-10-27-blue-chip-stock",
+      "date": "2026-10-27",
+      "term": "Blue chip stock",
+      "caption": "Blue chip stock, explained simply 👇\n\nA blue chip stock is a share in a large, financially strong company with a long record of weathering ups and downs - think of the oldest, steadiest names on the stock market.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Blue chip stock",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                420
+              ],
+              [
+                230,
+                400
+              ],
+              [
+                360,
+                410
+              ],
+              [
+                500,
+                360
+              ],
+              [
+                640,
+                370
+              ],
+              [
+                780,
+                300
+              ],
+              [
+                920,
+                260
+              ],
+              [
+                1000,
+                230
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A blue chip stock is shares in a **large**, well-established company with a [[long history]] of stability.",
+          "visual": {
+            "arcText": "stood the test of time",
+            "midText": "many decades",
+            "left": {
+              "icon": "shield",
+              "title": "DECADES OLD",
+              "sub": "Proven track record"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "STEADY",
+              "sub": "Slow, reliable growth"
+            }
+          },
+          "footer": "Named after the highest-value chip in poker."
+        },
+        {
+          "type": "steps",
+          "headline": "A company has paid investors for [[40 years straight]], through recessions and booms.",
+          "steps": [
+            {
+              "icon": "clock",
+              "title": "Decades of history",
+              "sub": "Survived many downturns"
+            },
+            {
+              "icon": "coins",
+              "title": "Pays steady dividends",
+              "sub": "Even in tough years"
+            },
+            {
+              "icon": "shield",
+              "title": "Huge and well known",
+              "sub": "A household name"
+            }
+          ],
+          "closing": "That reliability is what makes it a **blue chip**."
+        },
+        {
+          "type": "points",
+          "headline": "Steady, not flashy.",
+          "sub": "What investors expect from a blue chip.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Lower risk than smaller, newer companies"
+            },
+            {
+              "dir": "down",
+              "text": "Usually grows more slowly than a hot startup"
+            }
+          ],
+          "note": "No stock is risk-free. 'Blue chip' means relatively stable, not guaranteed.",
+          "label": "THE TRADE-OFF"
+        },
+        {
+          "type": "compare",
+          "headline": "Size isn't the same everywhere.",
+          "sub": "Blue chips anchor a portfolio; smaller companies can grow faster.",
+          "chart": {
+            "title": "Typical price swings in a year",
+            "bars": [
+              {
+                "label": "Blue chip company",
+                "value": 160,
+                "text": "Steady"
+              },
+              {
+                "label": "Small growth company",
+                "value": 400,
+                "text": "Bumpier"
+              }
+            ]
+          },
+          "note": "Illustrative, not a forecast.",
+          "label": "STEADIER RIDE"
+        },
+        {
+          "type": "recap",
+          "title": "Blue chip = Steady giant",
+          "sub": "A large, stable, trusted company.",
+          "checks": [
+            "A **large**, financially strong company",
+            "A **long history** of weathering downturns",
+            "Often pays **steady dividends**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-28-growth-stock",
+      "date": "2026-10-28",
+      "term": "Growth stock",
+      "caption": "Growth stock, explained simply 👇\n\nA growth stock is a company that reinvests its profits to expand quickly instead of paying dividends - investors are betting on a much bigger company down the road.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Growth stock",
+          "art": {
+            "kind": "growth"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A growth stock is a company that [[reinvests its profits]] to **grow fast** instead of paying dividends.",
+          "visual": {
+            "arcText": "fuels expansion",
+            "midText": "instead of a payout",
+            "left": {
+              "icon": "plant",
+              "title": "REINVESTS",
+              "sub": "Profits go back in"
+            },
+            "right": {
+              "icon": "chart",
+              "title": "GROWS FAST",
+              "sub": "Revenue climbs quickly"
+            }
+          },
+          "footer": "The bet is on a bigger company tomorrow, not cash today."
+        },
+        {
+          "type": "steps",
+          "headline": "A company earns [[$10 million]] this year and plows it all back into the business.",
+          "steps": [
+            {
+              "icon": "coins",
+              "title": "Earns $10M in profit",
+              "sub": "A good year"
+            },
+            {
+              "icon": "plant",
+              "title": "Reinvests all of it",
+              "sub": "New products, new markets"
+            },
+            {
+              "icon": "chart",
+              "title": "Aims to grow much bigger",
+              "sub": "Instead of paying a dividend"
+            }
+          ],
+          "closing": "No dividend today - the goal is a **much bigger company** later."
+        },
+        {
+          "type": "points",
+          "headline": "Bigger swings, bigger hopes.",
+          "sub": "What makes a growth stock different.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Share price can climb quickly if growth delivers"
+            },
+            {
+              "dir": "down",
+              "text": "Can fall hard if growth slows or disappoints"
+            }
+          ],
+          "note": "Growth stocks are usually more volatile than blue chips.",
+          "label": "HIGHER STAKES"
+        },
+        {
+          "type": "compare",
+          "headline": "Payout now, or growth later?",
+          "sub": "Growth stocks skip the dividend to fund expansion.",
+          "chart": {
+            "title": "Typical dividend paid",
+            "bars": [
+              {
+                "label": "Blue chip",
+                "value": 300,
+                "text": "High"
+              },
+              {
+                "label": "Growth stock",
+                "value": 100,
+                "text": "$0"
+              }
+            ]
+          },
+          "note": "Illustrative example.",
+          "label": "WHERE THE CASH GOES"
+        },
+        {
+          "type": "recap",
+          "title": "Growth stock = Bet on bigger",
+          "sub": "Profits reinvested, not paid out.",
+          "checks": [
+            "Profits are **reinvested**, not paid as dividends",
+            "The goal is **rapid growth**",
+            "Usually more **volatile** than steady companies"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-29-value-investing",
+      "date": "2026-10-29",
+      "term": "Value investing",
+      "caption": "Value investing, explained simply 👇\n\nValue investing means looking for shares that trade below what the underlying business is really worth, then waiting patiently for the price to catch up.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Value investing",
+          "art": {
+            "kind": "tag",
+            "text1": "$40",
+            "text2": "$70"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Value investing means buying shares for **less** than what the company is [[actually worth]].",
+          "visual": {
+            "arcText": "a gap between them",
+            "midText": "the market catches up",
+            "left": {
+              "icon": "tag",
+              "title": "PRICE",
+              "sub": "What you pay"
+            },
+            "right": {
+              "icon": "scale",
+              "title": "WORTH",
+              "sub": "What it's really worth"
+            }
+          },
+          "footer": "You're hunting for a discount on a solid company."
+        },
+        {
+          "type": "steps",
+          "headline": "You think a company is worth [[$70]] a share, but it's trading at [[$40]].",
+          "steps": [
+            {
+              "icon": "scale",
+              "title": "Estimate it's worth $70",
+              "sub": "Based on its business"
+            },
+            {
+              "icon": "tag",
+              "title": "It trades at $40",
+              "sub": "A $30 discount"
+            },
+            {
+              "icon": "clock",
+              "title": "You buy and wait",
+              "sub": "For the price to catch up"
+            }
+          ],
+          "closing": "Buying below worth is the heart of **value investing**."
+        },
+        {
+          "type": "points",
+          "headline": "Patience is part of the strategy.",
+          "sub": "What value investors look for.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "A real business with real earnings, priced cheaply"
+            },
+            {
+              "dir": "down",
+              "text": "Can take years for the price to catch up - or never fully does"
+            }
+          ],
+          "note": "A low price alone isn't enough; the business still has to be sound.",
+          "label": "THE CATCH"
+        },
+        {
+          "type": "compare",
+          "headline": "Cheap isn't always a bargain.",
+          "sub": "Value investors compare price to what a business actually earns.",
+          "chart": {
+            "title": "Estimated worth vs. trading price",
+            "bars": [
+              {
+                "label": "Fairly priced",
+                "value": 70,
+                "text": "$70"
+              },
+              {
+                "label": "Trading price",
+                "value": 40,
+                "text": "$40"
+              }
+            ]
+          },
+          "note": "Simplified example.",
+          "label": "THE GAP"
+        },
+        {
+          "type": "recap",
+          "title": "Value investing = Buy low",
+          "sub": "Price below worth.",
+          "checks": [
+            "Buy shares for **less than they're worth**",
+            "Requires research into the real business",
+            "Often means **waiting** for the gap to close"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-30-reit",
+      "date": "2026-10-30",
+      "term": "REIT",
+      "caption": "REIT, explained simply 👇\n\nA REIT (Real Estate Investment Trust) owns income-producing property like offices or shopping centers and pays most of the rent it collects out to investors as dividends.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #realestate #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "REIT",
+          "art": {
+            "kind": "doc",
+            "title": "REIT"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A REIT lets you invest in **real estate** [[without buying a building]] yourself.",
+          "visual": {
+            "arcText": "owns and collects rent",
+            "midText": "pays most of it out",
+            "left": {
+              "icon": "house",
+              "title": "PROPERTIES",
+              "sub": "Offices, malls, flats"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "RENT INCOME",
+              "sub": "Shared with investors"
+            }
+          },
+          "footer": "Short for Real Estate Investment Trust."
+        },
+        {
+          "type": "steps",
+          "headline": "A REIT owns [[50 shopping centers]] and collects rent from every tenant.",
+          "steps": [
+            {
+              "icon": "house",
+              "title": "Owns many properties",
+              "sub": "Offices, flats, or malls"
+            },
+            {
+              "icon": "coins",
+              "title": "Collects rent from tenants",
+              "sub": "That's its income"
+            },
+            {
+              "icon": "gift",
+              "title": "Pays most of it to investors",
+              "sub": "As regular dividends"
+            }
+          ],
+          "closing": "You own a slice of the rent, not the building itself."
+        },
+        {
+          "type": "points",
+          "headline": "Property, without the hassle.",
+          "sub": "Why people buy REITs.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Easy to buy and sell, unlike an actual property"
+            },
+            {
+              "dir": "down",
+              "text": "Share price can still fall if property values drop"
+            }
+          ],
+          "note": "REITs must pay out most of their income, so dividends are often sizeable.",
+          "label": "WHY IT'S POPULAR"
+        },
+        {
+          "type": "compare",
+          "headline": "Two ways to own property.",
+          "sub": "A REIT trades like a stock; a building doesn't.",
+          "chart": {
+            "title": "Roughly how fast you can buy in",
+            "bars": [
+              {
+                "label": "Buying a REIT share",
+                "value": 300,
+                "text": "Minutes"
+              },
+              {
+                "label": "Buying a building",
+                "value": 100,
+                "text": "Months"
+              }
+            ]
+          },
+          "note": "Illustrative comparison.",
+          "label": "SPEED TO INVEST"
+        },
+        {
+          "type": "recap",
+          "title": "REIT = Rent, not a building",
+          "sub": "Property income without owning a building.",
+          "checks": [
+            "Owns and manages **real estate**",
+            "Pays out most income as **dividends**",
+            "Buys and sells like a normal **stock**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-10-31-ipo",
+      "date": "2026-10-31",
+      "term": "IPO",
+      "caption": "IPO, explained simply 👇\n\nAn IPO (Initial Public Offering) is when a private company sells shares to the public for the first time, moving from private ownership to trading on the stock market.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "IPO",
+          "art": {
+            "kind": "doc",
+            "title": "IPO"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "An IPO is the **first time** a private company [[sells shares]] to the public.",
+          "visual": {
+            "arcText": "goes public",
+            "midText": "shares start trading",
+            "left": {
+              "icon": "doc",
+              "title": "PRIVATE",
+              "sub": "Owned by founders"
+            },
+            "right": {
+              "icon": "store",
+              "title": "PUBLIC",
+              "sub": "Anyone can buy in"
+            }
+          },
+          "footer": "Short for Initial Public Offering."
+        },
+        {
+          "type": "steps",
+          "headline": "A private company decides to [[list on the stock market]] for the first time.",
+          "steps": [
+            {
+              "icon": "doc",
+              "title": "Files with regulators",
+              "sub": "Opens its books publicly"
+            },
+            {
+              "icon": "tag",
+              "title": "Sets a starting price",
+              "sub": "With help from banks"
+            },
+            {
+              "icon": "store",
+              "title": "Shares start trading",
+              "sub": "Anyone can now buy in"
+            }
+          ],
+          "closing": "After the IPO, the company's shares trade freely on the market."
+        },
+        {
+          "type": "points",
+          "headline": "Exciting, but unpredictable.",
+          "sub": "What can happen right after an IPO.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Early investors can see big gains if demand is strong"
+            },
+            {
+              "dir": "down",
+              "text": "New stocks can be very volatile in the first months"
+            }
+          ],
+          "note": "Hype around an IPO doesn't always match the company's results.",
+          "label": "BUYER BEWARE"
+        },
+        {
+          "type": "compare",
+          "headline": "Before and after.",
+          "sub": "Going public usually means raising a lot of cash at once.",
+          "chart": {
+            "title": "Funding available, illustrative",
+            "bars": [
+              {
+                "label": "Before the IPO",
+                "value": 120,
+                "text": "Private"
+              },
+              {
+                "label": "After the IPO",
+                "value": 400,
+                "text": "Funded"
+              }
+            ]
+          },
+          "note": "Simplified example.",
+          "label": "WHY COMPANIES DO IT"
+        },
+        {
+          "type": "recap",
+          "title": "IPO = Going public",
+          "sub": "A company's shares trade for the first time.",
+          "checks": [
+            "A private company **sells shares publicly** for the first time",
+            "Raises cash to grow the business",
+            "New listings can be **volatile** early on"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-01-stock-buyback",
+      "date": "2026-11-01",
+      "term": "Stock buyback",
+      "caption": "Stock buyback, explained simply 👇\n\nA stock buyback is when a company purchases its own shares on the market, shrinking the number outstanding so each remaining share represents a slightly bigger piece of the pie.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Stock buyback",
+          "art": {
+            "kind": "pie",
+            "values": [
+              30,
+              70
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A buyback is when a company [[purchases its own shares]], shrinking the **number left**.",
+          "visual": {
+            "arcText": "removes them from trading",
+            "midText": "each share owns more",
+            "left": {
+              "icon": "store",
+              "title": "COMPANY",
+              "sub": "Buys its own shares"
+            },
+            "right": {
+              "icon": "pie",
+              "title": "FEWER SHARES",
+              "sub": "Left in the market"
+            }
+          },
+          "footer": "Fewer slices of the same pie - each slice gets bigger."
+        },
+        {
+          "type": "steps",
+          "headline": "A company has [[1,000 shares]] and buys back [[100]] of them.",
+          "steps": [
+            {
+              "icon": "coins",
+              "title": "Starts with 1,000 shares",
+              "sub": "Split among owners"
+            },
+            {
+              "icon": "store",
+              "title": "Buys back 100 shares",
+              "sub": "Using company cash"
+            },
+            {
+              "icon": "pie",
+              "title": "900 shares remain",
+              "sub": "Each one owns a bit more"
+            }
+          ],
+          "closing": "Fewer shares outstanding means each remaining share is worth **a bit more**."
+        },
+        {
+          "type": "points",
+          "headline": "A way to return cash.",
+          "sub": "Why companies do buybacks.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Can boost the value of each remaining share"
+            },
+            {
+              "dir": "down",
+              "text": "Uses cash that could have funded growth or dividends instead"
+            }
+          ],
+          "note": "Critics say buybacks sometimes prioritize the stock price over the business.",
+          "label": "THE DEBATE"
+        },
+        {
+          "type": "compare",
+          "headline": "Two ways to reward shareholders.",
+          "sub": "A buyback and a dividend both return cash, differently.",
+          "chart": {
+            "title": "Cash returned to shareholders",
+            "bars": [
+              {
+                "label": "Dividend",
+                "value": 200,
+                "text": "Payout"
+              },
+              {
+                "label": "Buyback",
+                "value": 200,
+                "text": "Reduced"
+              }
+            ]
+          },
+          "note": "Illustrative, equal amounts.",
+          "label": "SAME GOAL, DIFFERENT PATH"
+        },
+        {
+          "type": "recap",
+          "title": "Buyback = Fewer shares",
+          "sub": "The company buys back its own stock.",
+          "checks": [
+            "The company **buys its own shares**",
+            "Reduces the number outstanding",
+            "Each remaining share can be worth **slightly more**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-02-401k",
+      "date": "2026-11-02",
+      "term": "401(k)",
+      "caption": "401(k), explained simply 👇\n\nA 401(k) is a US workplace retirement account: money is set aside from your paycheck, often matched in part by your employer, and grows with tax advantages until retirement.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #retirement #401k",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "401(k)",
+          "art": {
+            "kind": "growth"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A 401(k) is a US [[workplace retirement account]] with **tax advantages**.",
+          "visual": {
+            "arcText": "deducted automatically",
+            "midText": "until retirement",
+            "left": {
+              "icon": "wallet",
+              "title": "YOUR PAY",
+              "sub": "A slice goes in"
+            },
+            "right": {
+              "icon": "plant",
+              "title": "GROWS",
+              "sub": "Tax-deferred for decades"
+            }
+          },
+          "footer": "Named after a section of the US tax code."
+        },
+        {
+          "type": "steps",
+          "headline": "You earn [[$3,000]] a month and send [[10%]] into your 401(k).",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "$300 a month set aside",
+              "sub": "Taken from your paycheck"
+            },
+            {
+              "icon": "store",
+              "title": "Employer may add a match",
+              "sub": "Often free extra money"
+            },
+            {
+              "icon": "plant",
+              "title": "It grows for decades",
+              "sub": "Taxed only when withdrawn"
+            }
+          ],
+          "closing": "A 401(k) is one of the most common ways Americans save for **retirement**."
+        },
+        {
+          "type": "points",
+          "headline": "Free money and a trade-off.",
+          "sub": "What's worth knowing.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Many employers match part of what you contribute"
+            },
+            {
+              "dir": "down",
+              "text": "Withdrawing early usually means taxes and a penalty"
+            }
+          ],
+          "note": "Rules and limits vary and can change; check your plan's details.",
+          "label": "GOOD TO KNOW"
+        },
+        {
+          "type": "points",
+          "headline": "Match it if you can.",
+          "sub": "An employer match is often the single best return available.",
+          "rows": [
+            {
+              "mark": "TIP",
+              "text": "Contribute at least enough to get the **full match**"
+            }
+          ],
+          "note": "Not every employer offers a match.",
+          "gauge": {
+            "left": "Skip it",
+            "right": "Get the match",
+            "needle": 0.85
+          },
+          "label": "A SIMPLE RULE"
+        },
+        {
+          "type": "recap",
+          "title": "401(k) = Workplace savings",
+          "sub": "A US account. Pay in, grow it for decades.",
+          "checks": [
+            "A **US** workplace retirement account",
+            "Often includes an **employer match**",
+            "Grows **tax-deferred** until retirement"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-03-roth-ira",
+      "date": "2026-11-03",
+      "term": "Roth IRA",
+      "caption": "Roth IRA, explained simply 👇\n\nA Roth IRA is a US retirement account funded with money you've already paid tax on, so qualified withdrawals in retirement, including all the growth, come out completely tax-free.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #retirement #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Roth IRA",
+          "art": {
+            "kind": "growth"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A Roth IRA is a **US** retirement account funded with [[already-taxed money]], so withdrawals later are tax-free.",
+          "visual": {
+            "arcText": "grows for decades",
+            "midText": "tax-free in retirement",
+            "left": {
+              "icon": "wallet",
+              "title": "AFTER-TAX",
+              "sub": "You pay tax now"
+            },
+            "right": {
+              "icon": "gift",
+              "title": "TAX-FREE",
+              "sub": "Withdrawals later"
+            }
+          },
+          "footer": "The trade: pay tax today, skip it later."
+        },
+        {
+          "type": "steps",
+          "headline": "Say you contribute [[$6,000]] of money you've already paid tax on.",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "You contribute $6,000",
+              "sub": "Just an example amount"
+            },
+            {
+              "icon": "plant",
+              "title": "It grows for decades",
+              "sub": "Through investments"
+            },
+            {
+              "icon": "gift",
+              "title": "Withdraw it tax-free",
+              "sub": "In retirement, growth included"
+            }
+          ],
+          "closing": "The growth, not just your contribution, can come out **tax-free**."
+        },
+        {
+          "type": "points",
+          "headline": "Pay now, or pay later.",
+          "sub": "A Roth IRA vs. a traditional account.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "No tax on withdrawals in retirement, including growth"
+            },
+            {
+              "dir": "down",
+              "text": "No upfront tax break the year you contribute"
+            }
+          ],
+          "note": "Income limits and contribution caps apply and can change over time.",
+          "label": "THE TRADE-OFF"
+        },
+        {
+          "type": "compare",
+          "headline": "Taxed once, or taxed twice?",
+          "sub": "A Roth IRA is taxed going in; a traditional account is taxed coming out.",
+          "chart": {
+            "title": "When the tax is paid",
+            "bars": [
+              {
+                "label": "Roth IRA",
+                "value": 100,
+                "text": "Now"
+              },
+              {
+                "label": "Traditional",
+                "value": 100,
+                "text": "Later"
+              }
+            ]
+          },
+          "note": "Simplified comparison.",
+          "label": "TIMING OF TAX"
+        },
+        {
+          "type": "recap",
+          "title": "Roth IRA = Tax-free later",
+          "sub": "A US account, taxed going in, free coming out.",
+          "checks": [
+            "Funded with **after-tax** money",
+            "A **US** retirement account",
+            "Qualified withdrawals are **tax-free**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-04-treasury-bond",
+      "date": "2026-11-04",
+      "term": "Treasury bond",
+      "caption": "Treasury bond, explained simply 👇\n\nA treasury bond is a loan you make to the government for a set number of years in exchange for fixed interest, and it's considered one of the safest investments you can make.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #bonds #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Treasury bond",
+          "art": {
+            "kind": "doc",
+            "title": "T-BOND"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A treasury bond is a [[loan to the government]], seen as one of the **safest investments** there is.",
+          "visual": {
+            "arcText": "for many years",
+            "midText": "backed by the government",
+            "left": {
+              "icon": "wallet",
+              "title": "YOU LEND",
+              "sub": "To the government"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "GOVERNMENT PAYS",
+              "sub": "Interest, then it back"
+            }
+          },
+          "footer": "Considered among the lowest-risk investments around."
+        },
+        {
+          "type": "steps",
+          "headline": "You lend the government [[$1,000]] for [[10 years]] at a fixed rate.",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "You lend $1,000",
+              "sub": "Buying the bond"
+            },
+            {
+              "icon": "coins",
+              "title": "Collect interest yearly",
+              "sub": "At a fixed rate"
+            },
+            {
+              "icon": "shield",
+              "title": "Get your $1,000 back",
+              "sub": "When it matures"
+            }
+          ],
+          "closing": "Backed by the government, treasury bonds are considered very **low risk**."
+        },
+        {
+          "type": "points",
+          "headline": "Safety has a price.",
+          "sub": "Why treasuries pay less than riskier bonds.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Among the safest investments you can buy"
+            },
+            {
+              "dir": "down",
+              "text": "Lower interest rate than riskier bonds"
+            }
+          ],
+          "note": "Low risk usually means a lower return - that's the trade-off.",
+          "label": "WHY IT MATTERS"
+        },
+        {
+          "type": "compare",
+          "headline": "Safety vs. reward.",
+          "sub": "Riskier borrowers have to pay more to attract lenders.",
+          "chart": {
+            "title": "Typical interest rate offered",
+            "bars": [
+              {
+                "label": "Treasury bond",
+                "value": 100,
+                "text": "Lower"
+              },
+              {
+                "label": "Riskier bond",
+                "value": 280,
+                "text": "Higher"
+              }
+            ]
+          },
+          "note": "Illustrative, not current rates.",
+          "label": "RISK AND RATE"
+        },
+        {
+          "type": "recap",
+          "title": "T-bond = A government loan",
+          "sub": "About as safe as lending gets.",
+          "checks": [
+            "A **loan to the government**",
+            "Pays fixed interest over time",
+            "One of the **safest** investments available"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-05-municipal-bond",
+      "date": "2026-11-05",
+      "term": "Municipal bond",
+      "caption": "Municipal bond, explained simply 👇\n\nA municipal bond is a loan to a state or city government that funds public projects like schools and roads, and its interest is often exempt from certain taxes.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #bonds #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Municipal bond",
+          "art": {
+            "kind": "doc",
+            "title": "MUNI"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A municipal bond is a [[loan to a state or city]], often with **tax-free interest**.",
+          "visual": {
+            "arcText": "funds local projects",
+            "midText": "like schools and roads",
+            "left": {
+              "icon": "house",
+              "title": "CITY/STATE",
+              "sub": "Borrows the money"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "YOU EARN",
+              "sub": "Interest, often tax-free"
+            }
+          },
+          "footer": "'Muni' for short."
+        },
+        {
+          "type": "steps",
+          "headline": "A city wants to build a [[new school]] and borrows from investors.",
+          "steps": [
+            {
+              "icon": "house",
+              "title": "City issues a bond",
+              "sub": "To fund the school"
+            },
+            {
+              "icon": "wallet",
+              "title": "You lend them money",
+              "sub": "Buying the bond"
+            },
+            {
+              "icon": "coins",
+              "title": "You earn interest",
+              "sub": "Often free of federal tax"
+            }
+          ],
+          "closing": "Munis fund roads, schools, and other **public projects**."
+        },
+        {
+          "type": "points",
+          "headline": "A local, often tax-friendly loan.",
+          "sub": "What makes munis different.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Interest is often exempt from federal (and sometimes state) tax"
+            },
+            {
+              "dir": "down",
+              "text": "A city or town can still struggle to repay, though rare"
+            }
+          ],
+          "note": "Tax treatment varies by country and by the bond; check the specifics.",
+          "label": "GOOD TO KNOW"
+        },
+        {
+          "type": "compare",
+          "headline": "Two local uses for the money.",
+          "sub": "Munis fund projects that benefit the public.",
+          "chart": {
+            "title": "Typical use of funds raised",
+            "bars": [
+              {
+                "label": "Schools & roads",
+                "value": 260,
+                "text": "Common"
+              },
+              {
+                "label": "Other projects",
+                "value": 140,
+                "text": "Less"
+              }
+            ]
+          },
+          "note": "Illustrative split.",
+          "label": "WHERE THE MONEY GOES"
+        },
+        {
+          "type": "recap",
+          "title": "Muni bond = A local loan",
+          "sub": "Often tax-friendly interest.",
+          "checks": [
+            "A **loan to a state or city**",
+            "Funds public projects like schools and roads",
+            "Interest is often **tax-advantaged**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-06-junk-bond",
+      "date": "2026-11-06",
+      "term": "Junk bond",
+      "caption": "Junk bond, explained simply 👇\n\nA junk bond is a bond from a borrower with a low credit rating, which means more risk of not being repaid - so it has to pay a higher interest rate to attract lenders.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #bonds #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Junk bond",
+          "art": {
+            "kind": "doc",
+            "title": "BOND"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A junk bond is a bond with a **low credit rating**, meaning [[higher risk]] - and higher yield.",
+          "visual": {
+            "arcText": "pays more interest",
+            "midText": "to offset the risk",
+            "left": {
+              "icon": "scale",
+              "title": "LOW RATING",
+              "sub": "More risk of default"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "HIGHER YIELD",
+              "sub": "To compensate lenders"
+            }
+          },
+          "footer": "Also called a 'high-yield bond'."
+        },
+        {
+          "type": "steps",
+          "headline": "A struggling company offers [[9%]] interest instead of the usual [[4%]].",
+          "steps": [
+            {
+              "icon": "scale",
+              "title": "Company has weak finances",
+              "sub": "Rated below investment grade"
+            },
+            {
+              "icon": "tag",
+              "title": "Offers a high 9% rate",
+              "sub": "To attract lenders anyway"
+            },
+            {
+              "icon": "coins",
+              "title": "Investors weigh the risk",
+              "sub": "Could pay off - or default"
+            }
+          ],
+          "closing": "Higher yield is the reward for taking on **more risk**."
+        },
+        {
+          "type": "points",
+          "headline": "More reward, more danger.",
+          "sub": "What to weigh with junk bonds.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Pays noticeably more interest than safer bonds"
+            },
+            {
+              "dir": "down",
+              "text": "A real chance the company can't repay in full"
+            }
+          ],
+          "note": "Not for every investor; the risk of default is meaningfully higher.",
+          "gauge": {
+            "left": "Safer",
+            "right": "Riskier",
+            "needle": 0.8
+          },
+          "label": "HANDLE WITH CARE"
+        },
+        {
+          "type": "compare",
+          "headline": "Rate reflects risk.",
+          "sub": "Weaker borrowers pay more to attract lenders.",
+          "chart": {
+            "title": "Typical interest rate",
+            "bars": [
+              {
+                "label": "Treasury bond",
+                "value": 100,
+                "text": "~4%"
+              },
+              {
+                "label": "Junk bond",
+                "value": 230,
+                "text": "~9%"
+              }
+            ]
+          },
+          "note": "Illustrative, not current rates.",
+          "label": "WHY THE RATE IS HIGHER"
+        },
+        {
+          "type": "recap",
+          "title": "Junk bond = Risk for yield",
+          "sub": "A low rating means more risk.",
+          "checks": [
+            "Carries a **low credit rating**",
+            "Pays **higher interest** to compensate",
+            "Real risk the borrower **can't repay**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-07-credit-rating",
+      "date": "2026-11-07",
+      "term": "Credit rating",
+      "caption": "Credit rating, explained simply 👇\n\nA credit rating is a grade given to a company or government that shows how likely it is to repay its debts - the better the grade, the cheaper it usually is for them to borrow.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #bonds #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Credit rating",
+          "art": {
+            "kind": "doc",
+            "title": "RATING"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A credit rating is a **grade** given to a borrower showing how [[likely they are to repay]] debt.",
+          "visual": {
+            "arcText": "assesses the finances",
+            "midText": "then assigns a grade",
+            "left": {
+              "icon": "scale",
+              "title": "AGENCY",
+              "sub": "Studies the borrower"
+            },
+            "right": {
+              "icon": "shield",
+              "title": "GRADE",
+              "sub": "From very safe to risky"
+            }
+          },
+          "footer": "Companies and governments both get rated."
+        },
+        {
+          "type": "steps",
+          "headline": "A rating agency studies a company's [[finances]] and assigns a grade.",
+          "steps": [
+            {
+              "icon": "doc",
+              "title": "Reviews the finances",
+              "sub": "Income, debt, cash flow"
+            },
+            {
+              "icon": "scale",
+              "title": "Assigns a letter grade",
+              "sub": "Like AAA, BBB, or lower"
+            },
+            {
+              "icon": "coins",
+              "title": "Rate paid reflects the grade",
+              "sub": "Lower grade, higher rate"
+            }
+          ],
+          "closing": "A better grade usually means a **lower** borrowing cost."
+        },
+        {
+          "type": "points",
+          "headline": "Letters that move markets.",
+          "sub": "How ratings are commonly grouped.",
+          "rows": [
+            {
+              "mark": "AAA-BBB",
+              "text": "'Investment grade' - considered relatively safe"
+            },
+            {
+              "mark": "BB & below",
+              "text": "'Below investment grade' - higher risk, often junk bonds"
+            }
+          ],
+          "note": "Rating scales and labels differ slightly between agencies.",
+          "label": "ROUGH SCALE"
+        },
+        {
+          "type": "compare",
+          "headline": "Grade affects the rate.",
+          "sub": "Borrowers with weaker grades pay more to borrow.",
+          "chart": {
+            "title": "Typical borrowing cost by grade",
+            "bars": [
+              {
+                "label": "High grade (AAA)",
+                "value": 100,
+                "text": "Lower"
+              },
+              {
+                "label": "Low grade (B)",
+                "value": 260,
+                "text": "Higher"
+              }
+            ]
+          },
+          "note": "Illustrative, not real rates.",
+          "label": "GRADE VS. COST"
+        },
+        {
+          "type": "recap",
+          "title": "Credit rating = A debt grade",
+          "sub": "Shows how risky a borrower is.",
+          "checks": [
+            "A **grade** for how likely a borrower repays",
+            "Set by independent rating agencies",
+            "A lower grade means a **higher** borrowing cost"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-08-yield-curve",
+      "date": "2026-11-08",
+      "term": "Yield curve",
+      "caption": "Yield curve, explained simply 👇\n\nThe yield curve plots the interest rates on government bonds of different lengths, from short-term to long-term, and its shape is closely watched as a signal about the economy.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #bonds #economy",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Yield curve",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                460
+              ],
+              [
+                260,
+                400
+              ],
+              [
+                440,
+                340
+              ],
+              [
+                620,
+                300
+              ],
+              [
+                800,
+                260
+              ],
+              [
+                1000,
+                220
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "The yield curve is a line showing **interest rates** on government bonds of [[different lengths]].",
+          "visual": {
+            "arcText": "rates usually rise",
+            "midText": "the longer you lend",
+            "left": {
+              "icon": "clock",
+              "title": "SHORT-TERM",
+              "sub": "e.g. 2 years"
+            },
+            "right": {
+              "icon": "clock",
+              "title": "LONG-TERM",
+              "sub": "e.g. 30 years"
+            }
+          },
+          "footer": "Plotted with time on one axis, rate on the other."
+        },
+        {
+          "type": "steps",
+          "headline": "A 2-year bond pays [[3%]]; a 30-year bond pays [[5%]].",
+          "steps": [
+            {
+              "icon": "clock",
+              "title": "2-year bond: 3%",
+              "sub": "Shorter commitment"
+            },
+            {
+              "icon": "clock",
+              "title": "30-year bond: 5%",
+              "sub": "Longer commitment"
+            },
+            {
+              "icon": "chart",
+              "title": "Plot rate vs. time",
+              "sub": "That line is the yield curve"
+            }
+          ],
+          "closing": "Normally, lending for **longer** pays a bit more."
+        },
+        {
+          "type": "points",
+          "headline": "A line investors watch closely.",
+          "sub": "What the shape usually means.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Rising curve (normal): longer loans pay more - a healthy sign"
+            },
+            {
+              "dir": "down",
+              "text": "Flat or falling curve: can signal investor worry about growth"
+            }
+          ],
+          "note": "The curve's shape is watched as an early economic signal.",
+          "label": "READING THE SHAPE"
+        },
+        {
+          "type": "compare",
+          "headline": "Short vs. long-term rates.",
+          "sub": "Normally, longer bonds pay a higher rate.",
+          "chart": {
+            "title": "Typical rate by bond length",
+            "bars": [
+              {
+                "label": "2-year bond",
+                "value": 120,
+                "text": "3%"
+              },
+              {
+                "label": "30-year bond",
+                "value": 200,
+                "text": "5%"
+              }
+            ]
+          },
+          "note": "Illustrative rates.",
+          "label": "A NORMAL CURVE"
+        },
+        {
+          "type": "recap",
+          "title": "Yield curve = Rate by term",
+          "sub": "Shows rates for short vs. long loans.",
+          "checks": [
+            "Plots interest rates by **how long** you lend",
+            "Normally **rises** the longer you lend",
+            "Its shape is a watched **economic signal**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-09-inverted-yield-curve",
+      "date": "2026-11-09",
+      "term": "Inverted yield curve",
+      "caption": "Inverted yield curve, explained simply 👇\n\nAn inverted yield curve is when short-term government bonds pay more interest than long-term ones - the reverse of normal, and a pattern that has often preceded recessions.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #bonds #economy",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Inverted yield curve",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                220
+              ],
+              [
+                260,
+                260
+              ],
+              [
+                440,
+                300
+              ],
+              [
+                620,
+                340
+              ],
+              [
+                800,
+                380
+              ],
+              [
+                1000,
+                420
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "An inverted yield curve is when **short-term rates** are [[higher]] than long-term rates - the opposite of normal.",
+          "visual": {
+            "arcText": "flips the usual order",
+            "midText": "a watched warning sign",
+            "left": {
+              "icon": "clock",
+              "title": "SHORT-TERM",
+              "sub": "Pays more, unusually"
+            },
+            "right": {
+              "icon": "clock",
+              "title": "LONG-TERM",
+              "sub": "Pays less"
+            }
+          },
+          "footer": "It has preceded many past recessions."
+        },
+        {
+          "type": "steps",
+          "headline": "A 2-year bond pays [[5%]]; a 10-year bond pays only [[4%]].",
+          "steps": [
+            {
+              "icon": "clock",
+              "title": "2-year bond: 5%",
+              "sub": "Higher than usual"
+            },
+            {
+              "icon": "clock",
+              "title": "10-year bond: 4%",
+              "sub": "Lower than the short-term rate"
+            },
+            {
+              "icon": "chart",
+              "title": "The curve flips downward",
+              "sub": "Short-term now pays more"
+            }
+          ],
+          "closing": "This flip is what people mean by an **inverted** yield curve."
+        },
+        {
+          "type": "points",
+          "headline": "A closely watched warning sign.",
+          "sub": "Why people pay attention.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "Can suggest investors expect slower growth ahead"
+            },
+            {
+              "mark": "NOTE",
+              "text": "It's a signal, not a guarantee - timing varies a lot"
+            }
+          ],
+          "note": "Past patterns don't guarantee future outcomes.",
+          "label": "WHY IT'S WATCHED"
+        },
+        {
+          "type": "compare",
+          "headline": "Flipped from the usual order.",
+          "sub": "Short-term rates rise above long-term rates.",
+          "chart": {
+            "title": "Rate by bond length, inverted",
+            "bars": [
+              {
+                "label": "2-year bond",
+                "value": 250,
+                "text": "5%"
+              },
+              {
+                "label": "10-year bond",
+                "value": 200,
+                "text": "4%"
+              }
+            ]
+          },
+          "note": "Illustrative rates.",
+          "label": "THE FLIP"
+        },
+        {
+          "type": "recap",
+          "title": "Inverted curve = Rates flip",
+          "sub": "An unusual, closely watched flip.",
+          "checks": [
+            "**Short-term** rates exceed long-term rates",
+            "The reverse of the normal pattern",
+            "Watched as a possible **recession signal**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-10-quantitative-easing",
+      "date": "2026-11-10",
+      "term": "Quantitative easing",
+      "caption": "Quantitative easing, explained simply 👇\n\nQuantitative easing (QE) is when a central bank creates new money to buy bonds, pushing cash into the economy to lower borrowing costs and encourage spending and investment.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #economy #centralbank",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Quantitative easing",
+          "art": {
+            "kind": "coins",
+            "stacks": [
+              4,
+              10,
+              4
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Quantitative easing is when a **central bank** creates money to [[buy bonds]] and add cash to the economy.",
+          "visual": {
+            "arcText": "buys bonds with it",
+            "midText": "pushing cash into the system",
+            "left": {
+              "icon": "bank",
+              "title": "CENTRAL BANK",
+              "sub": "Creates new money"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "ECONOMY",
+              "sub": "Gets more cash flowing"
+            }
+          },
+          "footer": "Often called 'QE' for short."
+        },
+        {
+          "type": "steps",
+          "headline": "A central bank creates money and buys [[$100 billion]] of bonds.",
+          "steps": [
+            {
+              "icon": "bank",
+              "title": "Creates new money",
+              "sub": "Electronically, not printed"
+            },
+            {
+              "icon": "doc",
+              "title": "Buys government bonds",
+              "sub": "From banks and investors"
+            },
+            {
+              "icon": "coins",
+              "title": "Cash enters the economy",
+              "sub": "Aiming to lower rates"
+            }
+          ],
+          "closing": "The goal: cheaper borrowing and more **spending and investment**."
+        },
+        {
+          "type": "points",
+          "headline": "A tool for tough times.",
+          "sub": "When central banks have used QE.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Used to support the economy when rates are already very low"
+            },
+            {
+              "dir": "down",
+              "text": "Can contribute to inflation if overused"
+            }
+          ],
+          "note": "QE is one of several tools in a central bank's toolkit.",
+          "label": "WHEN IT'S USED"
+        },
+        {
+          "type": "compare",
+          "headline": "Before and after QE.",
+          "sub": "The goal is more cash moving through the economy.",
+          "chart": {
+            "title": "Cash circulating, illustrative",
+            "bars": [
+              {
+                "label": "Before QE",
+                "value": 140,
+                "text": "Less"
+              },
+              {
+                "label": "After QE",
+                "value": 380,
+                "text": "More"
+              }
+            ]
+          },
+          "note": "Simplified example.",
+          "label": "THE GOAL"
+        },
+        {
+          "type": "recap",
+          "title": "QE = Central bank buys bonds",
+          "sub": "Adds cash to the economy.",
+          "checks": [
+            "A **central bank** creates new money",
+            "Uses it to **buy bonds**",
+            "Aims to lower rates and boost **spending**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-11-fiscal-policy",
+      "date": "2026-11-11",
+      "term": "Fiscal policy",
+      "caption": "Fiscal policy, explained simply 👇\n\nFiscal policy is how a government uses its spending and tax decisions to influence the economy - speeding growth up or cooling it down, separate from a central bank's tools.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #economy",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Fiscal policy",
+          "art": {
+            "kind": "doc",
+            "title": "BUDGET"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Fiscal policy is how a **government** uses [[spending and taxes]] to influence the economy.",
+          "visual": {
+            "arcText": "spends or taxes",
+            "midText": "to speed up or cool down growth",
+            "left": {
+              "icon": "bank",
+              "title": "GOVERNMENT",
+              "sub": "Sets the budget"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "ECONOMY",
+              "sub": "Spending and taxes shift it"
+            }
+          },
+          "footer": "Decided by elected government, not a central bank."
+        },
+        {
+          "type": "steps",
+          "headline": "A government wants to boost a [[slowing economy]].",
+          "steps": [
+            {
+              "icon": "bank",
+              "title": "Economy is slowing",
+              "sub": "Spending has dropped"
+            },
+            {
+              "icon": "coins",
+              "title": "Government spends more",
+              "sub": "Or cuts taxes"
+            },
+            {
+              "icon": "chart",
+              "title": "Aims to boost activity",
+              "sub": "More jobs, more spending"
+            }
+          ],
+          "closing": "Fiscal policy is the government's **spending and tax** lever."
+        },
+        {
+          "type": "points",
+          "headline": "Two levers, one goal.",
+          "sub": "The main fiscal policy tools.",
+          "rows": [
+            {
+              "mark": "SPEND",
+              "text": "More government spending can boost activity"
+            },
+            {
+              "mark": "TAX",
+              "text": "Lower taxes can leave people more to spend"
+            }
+          ],
+          "note": "The opposite moves (spend less, tax more) can help cool an overheated economy.",
+          "label": "THE TOOLKIT"
+        },
+        {
+          "type": "compare",
+          "headline": "Two different levers.",
+          "sub": "Fiscal policy (government) and monetary policy (central bank) are not the same.",
+          "chart": {
+            "title": "Who controls each lever",
+            "bars": [
+              {
+                "label": "Fiscal policy",
+                "value": 100,
+                "text": "Govt"
+              },
+              {
+                "label": "Monetary policy",
+                "value": 100,
+                "text": "Bank"
+              }
+            ]
+          },
+          "note": "Simplified comparison.",
+          "label": "DON'T MIX THEM UP"
+        },
+        {
+          "type": "recap",
+          "title": "Fiscal policy = Spend & tax",
+          "sub": "The government's lever on the economy.",
+          "checks": [
+            "Set by the **government**, not a central bank",
+            "Uses **spending** and **taxes** as tools",
+            "Aims to speed up or cool down growth"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-12-monetary-policy",
+      "date": "2026-11-12",
+      "term": "Monetary policy",
+      "caption": "Monetary policy, explained simply 👇\n\nMonetary policy is how a central bank uses interest rates to influence the economy - raising them to cool inflation, or cutting them to encourage borrowing and growth.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #economy #centralbank",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Monetary policy",
+          "art": {
+            "kind": "coins",
+            "stacks": [
+              6,
+              9,
+              6
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Monetary policy is how a **central bank** uses [[interest rates]] to influence the economy.",
+          "visual": {
+            "arcText": "raises or cuts rates",
+            "midText": "to cool or boost growth",
+            "left": {
+              "icon": "bank",
+              "title": "CENTRAL BANK",
+              "sub": "Sets interest rates"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "ECONOMY",
+              "sub": "Borrowing shifts with it"
+            }
+          },
+          "footer": "Set by the central bank, not elected officials."
+        },
+        {
+          "type": "steps",
+          "headline": "Prices are rising too fast, so the central bank [[raises rates]].",
+          "steps": [
+            {
+              "icon": "bank",
+              "title": "Inflation is too high",
+              "sub": "Prices rising fast"
+            },
+            {
+              "icon": "percent",
+              "title": "Central bank raises rates",
+              "sub": "Borrowing gets pricier"
+            },
+            {
+              "icon": "chart",
+              "title": "Spending tends to slow",
+              "sub": "Which can cool inflation"
+            }
+          ],
+          "closing": "Higher rates make borrowing **more expensive**, which can cool the economy."
+        },
+        {
+          "type": "points",
+          "headline": "Two directions, two goals.",
+          "sub": "The basic moves.",
+          "rows": [
+            {
+              "mark": "RAISE",
+              "text": "Higher rates: cool spending, fight inflation"
+            },
+            {
+              "mark": "CUT",
+              "text": "Lower rates: encourage borrowing, boost growth"
+            }
+          ],
+          "note": "Rate decisions ripple through mortgages, loans, and savings accounts.",
+          "label": "THE TOOLKIT"
+        },
+        {
+          "type": "compare",
+          "headline": "Rates move the economy.",
+          "sub": "Higher rates cool it; lower rates warm it up.",
+          "chart": {
+            "title": "Effect on borrowing & spending",
+            "bars": [
+              {
+                "label": "Rates raised",
+                "value": 120,
+                "text": "Cooler"
+              },
+              {
+                "label": "Rates cut",
+                "value": 380,
+                "text": "Warmer"
+              }
+            ]
+          },
+          "note": "Illustrative, directional only.",
+          "label": "THE EFFECT"
+        },
+        {
+          "type": "recap",
+          "title": "Monetary policy = Rate lever",
+          "sub": "Interest rates steer the economy.",
+          "checks": [
+            "Set by the **central bank**",
+            "Uses **interest rates** as its main tool",
+            "Aims to balance growth and inflation"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-13-gdp",
+      "date": "2026-11-13",
+      "term": "GDP",
+      "caption": "GDP, explained simply 👇\n\nGDP (Gross Domestic Product) is the total value of all the goods and services a country produces in a year - the single most-watched measure of how an economy is doing.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #economy",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "GDP",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                480
+              ],
+              [
+                250,
+                440
+              ],
+              [
+                420,
+                420
+              ],
+              [
+                590,
+                370
+              ],
+              [
+                760,
+                340
+              ],
+              [
+                1000,
+                260
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "GDP is the **total value** of everything a country [[produces in a year]].",
+          "visual": {
+            "arcText": "all added together",
+            "midText": "= the country's GDP",
+            "left": {
+              "icon": "store",
+              "title": "GOODS",
+              "sub": "Made and sold"
+            },
+            "right": {
+              "icon": "doc",
+              "title": "SERVICES",
+              "sub": "Performed and sold"
+            }
+          },
+          "footer": "Short for Gross Domestic Product."
+        },
+        {
+          "type": "steps",
+          "headline": "A country makes cars, grows food, and offers services all year.",
+          "steps": [
+            {
+              "icon": "store",
+              "title": "Add up goods made",
+              "sub": "Cars, food, electronics"
+            },
+            {
+              "icon": "doc",
+              "title": "Add up services",
+              "sub": "Healthcare, banking, and more"
+            },
+            {
+              "icon": "chart",
+              "title": "Total it for the year",
+              "sub": "That total is GDP"
+            }
+          ],
+          "closing": "GDP growing usually means the **economy is expanding**."
+        },
+        {
+          "type": "points",
+          "headline": "The economy's headline number.",
+          "sub": "What GDP tells you.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Rising GDP: the economy is generally growing"
+            },
+            {
+              "dir": "down",
+              "text": "Falling GDP for two straight quarters often signals recession"
+            }
+          ],
+          "note": "GDP doesn't capture everything, like unpaid work or wellbeing.",
+          "label": "WHY IT'S WATCHED"
+        },
+        {
+          "type": "compare",
+          "headline": "Growing vs. shrinking.",
+          "sub": "Two quarters of shrinking GDP is a common recession marker.",
+          "chart": {
+            "title": "Direction of GDP",
+            "bars": [
+              {
+                "label": "Growing economy",
+                "value": 320,
+                "text": "Up"
+              },
+              {
+                "label": "Shrinking economy",
+                "value": 110,
+                "text": "Down"
+              }
+            ]
+          },
+          "note": "Illustrative, not real figures.",
+          "label": "WHY IT'S WATCHED"
+        },
+        {
+          "type": "recap",
+          "title": "GDP = The economy's size",
+          "sub": "Total output in a year.",
+          "checks": [
+            "Total value of **goods and services** produced",
+            "Measured over a year (or quarter)",
+            "Rising GDP usually signals **growth**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-14-cpi",
+      "date": "2026-11-14",
+      "term": "CPI",
+      "caption": "CPI, explained simply 👇\n\nCPI (Consumer Price Index) tracks how the average price of everyday goods like food, rent, and fuel changes over time, and it's the main way inflation gets measured.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #economy #inflation",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "CPI",
+          "art": {
+            "kind": "pie",
+            "values": [
+              28,
+              22,
+              18,
+              17,
+              15
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "CPI tracks the **average price change** of a [[basket of everyday goods]] over time.",
+          "visual": {
+            "arcText": "priced every month",
+            "midText": "tracked over time",
+            "left": {
+              "icon": "cart",
+              "title": "BASKET",
+              "sub": "Food, rent, fuel..."
+            },
+            "right": {
+              "icon": "percent",
+              "title": "% CHANGE",
+              "sub": "Measured monthly"
+            }
+          },
+          "footer": "Short for Consumer Price Index."
+        },
+        {
+          "type": "steps",
+          "headline": "Statisticians track the price of [[groceries, rent, and fuel]] every month.",
+          "steps": [
+            {
+              "icon": "cart",
+              "title": "Pick a basket of goods",
+              "sub": "What typical households buy"
+            },
+            {
+              "icon": "tag",
+              "title": "Price it every month",
+              "sub": "Across many stores"
+            },
+            {
+              "icon": "percent",
+              "title": "Compare to last year",
+              "sub": "That % change is CPI"
+            }
+          ],
+          "closing": "CPI is the main way **inflation** gets measured."
+        },
+        {
+          "type": "points",
+          "headline": "The inflation yardstick.",
+          "sub": "How CPI is used.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Rising CPI means prices, on average, are climbing"
+            },
+            {
+              "mark": "USE",
+              "text": "Central banks often target a specific CPI growth rate"
+            }
+          ],
+          "note": "Your own cost of living can rise faster or slower than the average.",
+          "label": "HOW IT'S USED"
+        },
+        {
+          "type": "compare",
+          "headline": "What's in the basket.",
+          "sub": "Housing and food are typically large shares of CPI.",
+          "chart": {
+            "title": "Rough weight in the basket",
+            "bars": [
+              {
+                "label": "Housing",
+                "value": 300,
+                "text": "Large"
+              },
+              {
+                "label": "Other goods",
+                "value": 200,
+                "text": "Smaller"
+              }
+            ]
+          },
+          "note": "Illustrative, varies by country.",
+          "label": "A ROUGH SPLIT"
+        },
+        {
+          "type": "recap",
+          "title": "CPI = The inflation ruler",
+          "sub": "Tracks prices of everyday goods.",
+          "checks": [
+            "Tracks prices of a **basket of goods**",
+            "Compared **month to month** or year to year",
+            "The main way **inflation** is measured"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-15-stagflation",
+      "date": "2026-11-15",
+      "term": "Stagflation",
+      "caption": "Stagflation, explained simply 👇\n\nStagflation is a rare and difficult combination of slow economic growth and high inflation happening at the same time, which makes it hard to fix with the usual tools.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #economy #inflation",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Stagflation",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                360
+              ],
+              [
+                260,
+                380
+              ],
+              [
+                440,
+                360
+              ],
+              [
+                620,
+                390
+              ],
+              [
+                800,
+                370
+              ],
+              [
+                1000,
+                400
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Stagflation is a **rare mix** of [[slow growth]] and **high inflation** at the same time.",
+          "visual": {
+            "arcText": "happening together",
+            "midText": "an unusual combination",
+            "left": {
+              "icon": "chart",
+              "title": "SLOW GROWTH",
+              "sub": "Economy barely expands"
+            },
+            "right": {
+              "icon": "percent",
+              "title": "HIGH INFLATION",
+              "sub": "Prices still climb"
+            }
+          },
+          "footer": "A blend of 'stagnation' and 'inflation'."
+        },
+        {
+          "type": "steps",
+          "headline": "Growth stalls at [[0.5%]] while prices still rise [[7%]] a year.",
+          "steps": [
+            {
+              "icon": "chart",
+              "title": "Growth nearly stalls",
+              "sub": "Jobs and output barely move"
+            },
+            {
+              "icon": "percent",
+              "title": "Prices keep rising",
+              "sub": "Inflation stays high"
+            },
+            {
+              "icon": "scale",
+              "title": "Both happen together",
+              "sub": "That combination is unusual"
+            }
+          ],
+          "closing": "Normally slow growth cools inflation - stagflation defies that pattern."
+        },
+        {
+          "type": "points",
+          "headline": "A hard problem to fix.",
+          "sub": "Why stagflation is tricky.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "Raising rates to fight inflation can slow growth further"
+            },
+            {
+              "dir": "down",
+              "text": "Cutting rates to boost growth can push inflation higher"
+            }
+          ],
+          "note": "There's no easy single lever - it's a genuinely hard trade-off.",
+          "label": "WHY IT'S TOUGH"
+        },
+        {
+          "type": "compare",
+          "headline": "Not the usual pattern.",
+          "sub": "Normally, slow growth and inflation move apart.",
+          "chart": {
+            "title": "Inflation during slow growth",
+            "bars": [
+              {
+                "label": "Typical slowdown",
+                "value": 100,
+                "text": "Low"
+              },
+              {
+                "label": "Stagflation",
+                "value": 280,
+                "text": "High"
+              }
+            ]
+          },
+          "note": "Illustrative, not real data.",
+          "label": "WHAT'S UNUSUAL"
+        },
+        {
+          "type": "recap",
+          "title": "Stagflation = Stuck, pricey",
+          "sub": "Slow growth, high inflation, together.",
+          "checks": [
+            "**Slow growth** and **high inflation** at once",
+            "An unusual, hard-to-fix combination",
+            "Standard tools can make one problem **worse**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-16-market-correction",
+      "date": "2026-11-16",
+      "term": "Market correction",
+      "caption": "Market correction, explained simply 👇\n\nA market correction is a drop of 10% or more from a recent high - smaller than a bear market, and common enough to be considered a normal part of investing.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #investing",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Market correction",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                220
+              ],
+              [
+                260,
+                250
+              ],
+              [
+                440,
+                300
+              ],
+              [
+                620,
+                280
+              ],
+              [
+                800,
+                320
+              ],
+              [
+                1000,
+                300
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A market correction is a **drop of 10% or more** from a [[recent high]].",
+          "visual": {
+            "arcText": "falls from the peak",
+            "midText": "a common, normal event",
+            "left": {
+              "icon": "chart",
+              "title": "RECENT HIGH",
+              "sub": "A peak price"
+            },
+            "right": {
+              "icon": "arrowdown",
+              "title": "10%+ DROP",
+              "sub": "Counts as a correction"
+            }
+          },
+          "footer": "Smaller than a bear market's 20%+ drop."
+        },
+        {
+          "type": "steps",
+          "headline": "The market peaks, then falls [[12%]] over a few weeks.",
+          "steps": [
+            {
+              "icon": "chart",
+              "title": "Market hits a high",
+              "sub": "Prices near a peak"
+            },
+            {
+              "icon": "arrowdown",
+              "title": "Falls 12% from there",
+              "sub": "Over days or weeks"
+            },
+            {
+              "icon": "clock",
+              "title": "Often recovers in time",
+              "sub": "Corrections are usually short"
+            }
+          ],
+          "closing": "A 10%+ drop from a high is labeled a **correction**."
+        },
+        {
+          "type": "points",
+          "headline": "Common, and usually temporary.",
+          "sub": "What's worth knowing.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Corrections happen fairly often, even in healthy markets"
+            },
+            {
+              "dir": "down",
+              "text": "A correction can sometimes deepen into a bear market"
+            }
+          ],
+          "note": "Short-term drops are a normal part of investing over the long run.",
+          "label": "GOOD TO KNOW"
+        },
+        {
+          "type": "compare",
+          "headline": "Correction vs. bear market.",
+          "sub": "A correction is the smaller, more common drop.",
+          "chart": {
+            "title": "Size of the drop from a high",
+            "bars": [
+              {
+                "label": "Correction",
+                "value": 100,
+                "text": "10%+"
+              },
+              {
+                "label": "Bear market",
+                "value": 200,
+                "text": "20%+"
+              }
+            ]
+          },
+          "note": "Common thresholds used."
+        },
+        {
+          "type": "recap",
+          "title": "Correction = A 10%+ dip",
+          "sub": "A common, usually short-lived drop.",
+          "checks": [
+            "A drop of **10% or more** from a recent high",
+            "More common than a full bear market",
+            "Usually **temporary**, though not always"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-17-bid-ask-spread",
+      "date": "2026-11-17",
+      "term": "Bid-ask spread",
+      "caption": "Bid-ask spread, explained simply 👇\n\nThe bid-ask spread is the gap between the highest price a buyer is willing to pay (the bid) and the lowest price a seller will accept (the ask) - a small, often overlooked trading cost.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #trading",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Bid-ask spread",
+          "art": {
+            "kind": "tag",
+            "text1": "$49.90",
+            "text2": "$50.10"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "The bid-ask spread is the **gap** between the highest [[buying price]] and lowest [[selling price]] offered.",
+          "visual": {
+            "arcText": "the gap between them",
+            "midText": "is the spread",
+            "left": {
+              "icon": "tag",
+              "title": "BID",
+              "sub": "Highest buyer offer"
+            },
+            "right": {
+              "icon": "tag",
+              "title": "ASK",
+              "sub": "Lowest seller offer"
+            }
+          },
+          "footer": "A narrower spread usually means an easier trade."
+        },
+        {
+          "type": "steps",
+          "headline": "Buyers offer [[$49.90]]; sellers want at least [[$50.10]].",
+          "steps": [
+            {
+              "icon": "tag",
+              "title": "Best buy offer: $49.90",
+              "sub": "The 'bid'"
+            },
+            {
+              "icon": "tag",
+              "title": "Best sell offer: $50.10",
+              "sub": "The 'ask'"
+            },
+            {
+              "icon": "scale",
+              "title": "Spread = $0.20",
+              "sub": "The gap between them"
+            }
+          ],
+          "closing": "A trade happens when a buyer and seller **meet in the middle**."
+        },
+        {
+          "type": "points",
+          "headline": "Narrow or wide, it matters.",
+          "sub": "What affects the spread.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Popular, heavily traded stocks usually have narrow spreads"
+            },
+            {
+              "dir": "down",
+              "text": "Thinly traded stocks often have wider, costlier spreads"
+            }
+          ],
+          "note": "A wider spread quietly adds to the cost of trading.",
+          "label": "WHY IT MATTERS"
+        },
+        {
+          "type": "compare",
+          "headline": "Popular vs. thinly traded.",
+          "sub": "Heavily traded stocks usually have tighter spreads.",
+          "chart": {
+            "title": "Typical spread size",
+            "bars": [
+              {
+                "label": "Popular stock",
+                "value": 100,
+                "text": "Narrow"
+              },
+              {
+                "label": "Thinly traded",
+                "value": 320,
+                "text": "Wider"
+              }
+            ]
+          },
+          "note": "Illustrative, cents vs. dollars."
+        },
+        {
+          "type": "recap",
+          "title": "Bid-ask spread = The gap",
+          "sub": "Between what buyers and sellers offer.",
+          "checks": [
+            "**Bid**: highest price a buyer offers",
+            "**Ask**: lowest price a seller accepts",
+            "The gap is a hidden **cost of trading**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-18-limit-order",
+      "date": "2026-11-18",
+      "term": "Limit order",
+      "caption": "Limit order, explained simply 👇\n\nA limit order is an instruction to buy or sell a stock only at a specific price or better, giving you control over the price - with no guarantee the order ever fills.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #trading",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Limit order",
+          "art": {
+            "kind": "tag",
+            "text1": "$48",
+            "text2": "$45"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A limit order says [[buy or sell]] only at a **specific price** or better.",
+          "visual": {
+            "arcText": "set the price",
+            "midText": "the order waits",
+            "left": {
+              "icon": "tag",
+              "title": "YOUR PRICE",
+              "sub": "The limit you set"
+            },
+            "right": {
+              "icon": "clock",
+              "title": "WAITS",
+              "sub": "Until the market meets it"
+            }
+          },
+          "footer": "The opposite is a 'market order' - trade now, at any price."
+        },
+        {
+          "type": "steps",
+          "headline": "A stock trades at [[$50]]; you set a limit order to buy at [[$45]].",
+          "steps": [
+            {
+              "icon": "tag",
+              "title": "Set your price: $45",
+              "sub": "Below today's $50"
+            },
+            {
+              "icon": "clock",
+              "title": "Order waits patiently",
+              "sub": "Doesn't fill right away"
+            },
+            {
+              "icon": "shield",
+              "title": "Fills only at $45 or less",
+              "sub": "If the price ever drops there"
+            }
+          ],
+          "closing": "You control the price - but there's **no guarantee** it executes."
+        },
+        {
+          "type": "points",
+          "headline": "Control, with a trade-off.",
+          "sub": "Limit order vs. market order.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "You decide the exact price you're willing to accept"
+            },
+            {
+              "dir": "down",
+              "text": "The order might never fill if the price never gets there"
+            }
+          ],
+          "note": "A market order fills fast but at whatever price is currently available.",
+          "label": "THE TRADE-OFF"
+        },
+        {
+          "type": "compare",
+          "headline": "Price control vs. speed.",
+          "sub": "Limit orders control price; market orders trade instantly.",
+          "chart": {
+            "title": "What you control",
+            "bars": [
+              {
+                "label": "Limit order",
+                "value": 300,
+                "text": "Control"
+              },
+              {
+                "label": "Market order",
+                "value": 100,
+                "text": "Speed"
+              }
+            ]
+          },
+          "note": "Illustrative comparison."
+        },
+        {
+          "type": "recap",
+          "title": "Limit order = Your price",
+          "sub": "Waits for your terms.",
+          "checks": [
+            "You set the **exact price**",
+            "The order waits until it's met",
+            "**No guarantee** it ever fills"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-19-day-trading",
+      "date": "2026-11-19",
+      "term": "Day trading",
+      "caption": "Day trading, explained simply 👇\n\nDay trading means buying and selling the same stock within a single day to try to profit from small price moves - a fast-paced, high-risk style that most people lose money at.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #trading",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Day trading",
+          "art": {
+            "kind": "chart",
+            "points": [
+              [
+                80,
+                380
+              ],
+              [
+                220,
+                300
+              ],
+              [
+                360,
+                420
+              ],
+              [
+                500,
+                260
+              ],
+              [
+                640,
+                440
+              ],
+              [
+                780,
+                280
+              ],
+              [
+                1000,
+                380
+              ]
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Day trading means [[buying and selling]] the same stock **within one day**, chasing short moves.",
+          "visual": {
+            "arcText": "open and close fast",
+            "midText": "all before the day ends",
+            "left": {
+              "icon": "clock",
+              "title": "SAME DAY",
+              "sub": "Bought and sold"
+            },
+            "right": {
+              "icon": "chart",
+              "title": "SMALL MOVES",
+              "sub": "The target profit"
+            }
+          },
+          "footer": "No position is held overnight."
+        },
+        {
+          "type": "steps",
+          "headline": "A trader buys a stock at [[9:35am]] and sells it by [[11:00am]].",
+          "steps": [
+            {
+              "icon": "clock",
+              "title": "Buys at 9:35am",
+              "sub": "Spots a short-term move"
+            },
+            {
+              "icon": "chart",
+              "title": "Watches it closely",
+              "sub": "Minute by minute"
+            },
+            {
+              "icon": "coins",
+              "title": "Sells by 11:00am",
+              "sub": "Locks in the result"
+            }
+          ],
+          "closing": "The goal is profit from **small, fast** price moves."
+        },
+        {
+          "type": "points",
+          "headline": "Fast-paced and risky.",
+          "sub": "What makes day trading hard.",
+          "rows": [
+            {
+              "dir": "down",
+              "text": "Most day traders lose money over time, studies suggest"
+            },
+            {
+              "dir": "down",
+              "text": "Fees and taxes add up with frequent trading"
+            }
+          ],
+          "note": "It demands time, skill, and a high tolerance for risk.",
+          "gauge": {
+            "left": "Safer",
+            "right": "Riskier",
+            "needle": 0.9
+          },
+          "label": "HANDLE WITH CARE"
+        },
+        {
+          "type": "compare",
+          "headline": "Frequency is the difference.",
+          "sub": "Day trading means far more trades than typical investing.",
+          "chart": {
+            "title": "Trades per month, illustrative",
+            "bars": [
+              {
+                "label": "Long-term investor",
+                "value": 110,
+                "text": "Few"
+              },
+              {
+                "label": "Day trader",
+                "value": 330,
+                "text": "Many"
+              }
+            ]
+          },
+          "note": "Simplified example."
+        },
+        {
+          "type": "recap",
+          "title": "Day trading = Same-day",
+          "sub": "Fast, frequent, and risky.",
+          "checks": [
+            "Buys and sells **within the same day**",
+            "Aims to profit from small price moves",
+            "**High risk** - most lose money over time"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-20-margin-trading",
+      "date": "2026-11-20",
+      "term": "Margin trading",
+      "caption": "Margin trading, explained simply 👇\n\nMargin trading means borrowing money from a broker to buy more stock than your own cash allows, which magnifies both potential gains and potential losses.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #stocks #trading",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Margin trading",
+          "art": {
+            "kind": "coins",
+            "stacks": [
+              3,
+              7,
+              3
+            ]
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Margin trading means [[borrowing money]] from a broker to buy **more stock** than your cash allows.",
+          "visual": {
+            "arcText": "adds to your cash",
+            "midText": "to buy more shares",
+            "left": {
+              "icon": "wallet",
+              "title": "YOUR CASH",
+              "sub": "$1,000 of your own"
+            },
+            "right": {
+              "icon": "bank",
+              "title": "BORROWED",
+              "sub": "From the broker"
+            }
+          },
+          "footer": "Similar to leverage, applied to trading."
+        },
+        {
+          "type": "steps",
+          "headline": "You have [[$1,000]] and borrow another [[$1,000]] on margin.",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "You put in $1,000",
+              "sub": "Your own money"
+            },
+            {
+              "icon": "bank",
+              "title": "Broker lends $1,000",
+              "sub": "You buy $2,000 of stock"
+            },
+            {
+              "icon": "percent",
+              "title": "You pay interest on it",
+              "sub": "Until you repay the loan"
+            }
+          ],
+          "closing": "Gains and losses are now based on **$2,000**, not $1,000."
+        },
+        {
+          "type": "points",
+          "headline": "Bigger bets, bigger risk.",
+          "sub": "What margin changes.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Can amplify gains if the stock rises"
+            },
+            {
+              "dir": "down",
+              "text": "Can amplify losses, and you still owe the loan if it falls"
+            }
+          ],
+          "note": "A broker can force a sale (a margin call) if losses get too large.",
+          "gauge": {
+            "left": "Safer",
+            "right": "Riskier",
+            "needle": 0.85
+          },
+          "label": "HANDLE WITH CARE"
+        },
+        {
+          "type": "compare",
+          "headline": "Cash only vs. on margin.",
+          "sub": "Margin doubles your exposure to the same move.",
+          "chart": {
+            "title": "Amount exposed to price moves",
+            "bars": [
+              {
+                "label": "Cash only",
+                "value": 100,
+                "text": "$1,000"
+              },
+              {
+                "label": "On margin",
+                "value": 200,
+                "text": "$2,000"
+              }
+            ]
+          },
+          "note": "Simplified example."
+        },
+        {
+          "type": "recap",
+          "title": "Margin trading = Bigger bets",
+          "sub": "Bigger bets, bigger risk.",
+          "checks": [
+            "**Borrows money** from a broker to trade",
+            "Magnifies both **gains and losses**",
+            "A broker can force a sale in a **margin call**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-21-derivatives",
+      "date": "2026-11-21",
+      "term": "Derivatives",
+      "caption": "Derivatives, explained simply 👇\n\nA derivative is a contract whose value is based on, or derived from, another asset like a stock or commodity - options and futures are two common examples.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #investing #markets",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Derivatives",
+          "art": {
+            "kind": "doc",
+            "title": "DERIV."
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A derivative is a contract whose value is [[based on]] another asset, like a **stock or commodity**.",
+          "visual": {
+            "arcText": "derives its value from",
+            "midText": "the underlying asset's price",
+            "left": {
+              "icon": "doc",
+              "title": "CONTRACT",
+              "sub": "The derivative"
+            },
+            "right": {
+              "icon": "chart",
+              "title": "UNDERLYING ASSET",
+              "sub": "Its value is based on it"
+            }
+          },
+          "footer": "Options and futures are common types."
+        },
+        {
+          "type": "steps",
+          "headline": "A contract's value moves with the price of [[oil]], without owning any oil.",
+          "steps": [
+            {
+              "icon": "doc",
+              "title": "You hold the contract",
+              "sub": "Not the actual asset"
+            },
+            {
+              "icon": "chart",
+              "title": "Oil's price changes",
+              "sub": "The contract tracks it"
+            },
+            {
+              "icon": "coins",
+              "title": "Contract's value shifts too",
+              "sub": "Up or down with oil"
+            }
+          ],
+          "closing": "You can gain or lose from an asset's price **without owning it**."
+        },
+        {
+          "type": "points",
+          "headline": "Useful, and complex.",
+          "sub": "Why derivatives exist.",
+          "rows": [
+            {
+              "mark": "HEDGE",
+              "text": "Can protect against unwanted price swings"
+            },
+            {
+              "mark": "SPECULATE",
+              "text": "Can also be used to bet on price moves"
+            }
+          ],
+          "note": "Derivatives can be complex and are often used by experienced investors.",
+          "label": "TWO MAIN USES"
+        },
+        {
+          "type": "compare",
+          "headline": "Owning vs. tracking.",
+          "sub": "A derivative tracks an asset without owning it.",
+          "chart": {
+            "title": "Upfront cost, illustrative",
+            "bars": [
+              {
+                "label": "Own the asset",
+                "value": 200,
+                "text": "Full"
+              },
+              {
+                "label": "Derivative contract",
+                "value": 90,
+                "text": "Less"
+              }
+            ]
+          },
+          "note": "Simplified example."
+        },
+        {
+          "type": "recap",
+          "title": "Derivatives = Tracks value",
+          "sub": "A contract tracking a price.",
+          "checks": [
+            "Value is **derived** from another asset",
+            "Includes options, futures, and more",
+            "Used to **hedge** risk or to **speculate**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-22-futures-contract",
+      "date": "2026-11-22",
+      "term": "Futures contract",
+      "caption": "Futures contract, explained simply 👇\n\nA futures contract is an agreement to buy or sell an asset, often a commodity like oil or wheat, at a price set today but delivered on a future date.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #investing #markets",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Futures contract",
+          "art": {
+            "kind": "doc",
+            "title": "FUTURES"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A futures contract is an agreement to [[buy or sell]] an asset at a **set price**, on a future date.",
+          "visual": {
+            "arcText": "locks in a price",
+            "midText": "for a future date",
+            "left": {
+              "icon": "doc",
+              "title": "TODAY",
+              "sub": "Price agreed now"
+            },
+            "right": {
+              "icon": "clock",
+              "title": "LATER",
+              "sub": "Trade happens then"
+            }
+          },
+          "footer": "Common for commodities like oil, gold, and wheat."
+        },
+        {
+          "type": "steps",
+          "headline": "A farmer agrees to sell wheat at [[$6]] a bushel, delivered in [[6 months]].",
+          "steps": [
+            {
+              "icon": "doc",
+              "title": "Agree on $6 today",
+              "sub": "A set future price"
+            },
+            {
+              "icon": "clock",
+              "title": "Wait 6 months",
+              "sub": "The price may rise or fall"
+            },
+            {
+              "icon": "coins",
+              "title": "Trade happens at $6",
+              "sub": "Whatever the market price is then"
+            }
+          ],
+          "closing": "Both sides lock in **certainty** about the future price."
+        },
+        {
+          "type": "points",
+          "headline": "Certainty, both ways.",
+          "sub": "Why people use futures.",
+          "rows": [
+            {
+              "mark": "PROTECT",
+              "text": "A farmer locks in a price to avoid a future drop"
+            },
+            {
+              "mark": "SPECULATE",
+              "text": "A trader can bet on where prices are headed"
+            }
+          ],
+          "note": "If the market price moves against your contract, you still honor it.",
+          "label": "TWO SIDES"
+        },
+        {
+          "type": "compare",
+          "headline": "Locked-in vs. market price.",
+          "sub": "A futures price can end up above or below the eventual market price.",
+          "chart": {
+            "title": "Agreed price vs. actual outcome",
+            "bars": [
+              {
+                "label": "Locked-in price",
+                "value": 150,
+                "text": "$6"
+              },
+              {
+                "label": "Market price later",
+                "value": 150,
+                "text": "Varies"
+              }
+            ]
+          },
+          "note": "Illustrative example."
+        },
+        {
+          "type": "recap",
+          "title": "Futures = A locked-in trade",
+          "sub": "Price set now, trade happens later.",
+          "checks": [
+            "Locks in a **price today** for a **future date**",
+            "Common for commodities",
+            "Used to **protect against** or **bet on** price moves"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-23-hedge-fund",
+      "date": "2026-11-23",
+      "term": "Hedge fund",
+      "caption": "Hedge fund, explained simply 👇\n\nA hedge fund is a pooled investment fund, usually open only to wealthy or institutional investors, that uses flexible and often aggressive strategies to chase returns.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #investing #markets",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Hedge fund",
+          "art": {
+            "kind": "doc",
+            "title": "FUND"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "A hedge fund is a **pooled fund** that uses [[varied, often aggressive]] strategies to chase returns.",
+          "visual": {
+            "arcText": "pool their capital",
+            "midText": "manager invests freely",
+            "left": {
+              "icon": "wallet",
+              "title": "INVESTORS",
+              "sub": "Pool their money"
+            },
+            "right": {
+              "icon": "chart",
+              "title": "MANAGER",
+              "sub": "Uses flexible strategies"
+            }
+          },
+          "footer": "Usually open only to wealthy or institutional investors."
+        },
+        {
+          "type": "steps",
+          "headline": "Wealthy investors pool [[$500 million]] with an experienced manager.",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "Investors pool money",
+              "sub": "Often a high minimum"
+            },
+            {
+              "icon": "chart",
+              "title": "Manager invests freely",
+              "sub": "Stocks, bonds, and more"
+            },
+            {
+              "icon": "coins",
+              "title": "Fees tied to performance",
+              "sub": "A cut of the profits"
+            }
+          ],
+          "closing": "Hedge funds can use strategies **regular funds don't**."
+        },
+        {
+          "type": "points",
+          "headline": "Flexible, and costly.",
+          "sub": "What sets hedge funds apart.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Can profit in both rising and falling markets"
+            },
+            {
+              "dir": "down",
+              "text": "Often charge high fees and require large minimums"
+            }
+          ],
+          "note": "Despite the name, hedge funds don't always reduce risk - some add a lot of it.",
+          "label": "GOOD TO KNOW"
+        },
+        {
+          "type": "compare",
+          "headline": "Access is limited.",
+          "sub": "Hedge funds typically require far more money to join.",
+          "chart": {
+            "title": "Typical minimum investment",
+            "bars": [
+              {
+                "label": "Typical mutual fund",
+                "value": 110,
+                "text": "Low"
+              },
+              {
+                "label": "Hedge fund",
+                "value": 340,
+                "text": "High"
+              }
+            ]
+          },
+          "note": "Illustrative, varies widely."
+        },
+        {
+          "type": "recap",
+          "title": "Hedge fund = A flexible fund",
+          "sub": "For wealthy or institutional investors.",
+          "checks": [
+            "A **pooled fund** with flexible strategies",
+            "Often limited to wealthy investors",
+            "Charges **performance-based** fees"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-24-private-equity",
+      "date": "2026-11-24",
+      "term": "Private equity",
+      "caption": "Private equity, explained simply 👇\n\nPrivate equity firms buy companies, often taking them private, work to improve their finances and operations, then sell them years later for a profit.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #investing #markets",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Private equity",
+          "art": {
+            "kind": "doc",
+            "title": "PRIVATE"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Private equity firms **buy companies**, aim to [[improve them]], then sell for a profit.",
+          "visual": {
+            "arcText": "restructures it",
+            "midText": "then exits for a profit",
+            "left": {
+              "icon": "wallet",
+              "title": "BUYS IN",
+              "sub": "Takes a company private"
+            },
+            "right": {
+              "icon": "chart",
+              "title": "IMPROVES IT",
+              "sub": "Then sells it later"
+            }
+          },
+          "footer": "Often shortened to 'PE'."
+        },
+        {
+          "type": "steps",
+          "headline": "A firm buys a struggling company for [[$200 million]].",
+          "steps": [
+            {
+              "icon": "wallet",
+              "title": "Buys the company",
+              "sub": "Often taking it private"
+            },
+            {
+              "icon": "chart",
+              "title": "Works to improve it",
+              "sub": "Cuts costs, grows revenue"
+            },
+            {
+              "icon": "coins",
+              "title": "Sells it years later",
+              "sub": "Aiming for a higher price"
+            }
+          ],
+          "closing": "The profit comes from **buying low and improving**, then selling high."
+        },
+        {
+          "type": "points",
+          "headline": "High stakes, high reward.",
+          "sub": "What's involved.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "Can generate large returns if the turnaround works"
+            },
+            {
+              "dir": "down",
+              "text": "Often uses a lot of borrowed money, adding risk"
+            }
+          ],
+          "note": "Typically requires large sums and a long time horizon, often years.",
+          "label": "GOOD TO KNOW"
+        },
+        {
+          "type": "compare",
+          "headline": "Public vs. private ownership.",
+          "sub": "A PE deal often takes a public company private.",
+          "chart": {
+            "title": "Ownership structure",
+            "bars": [
+              {
+                "label": "Public company",
+                "value": 100,
+                "text": "Public"
+              },
+              {
+                "label": "After a PE buyout",
+                "value": 100,
+                "text": "Private"
+              }
+            ]
+          },
+          "note": "Simplified comparison."
+        },
+        {
+          "type": "recap",
+          "title": "Private equity = Buy & grow",
+          "sub": "A long-term ownership bet.",
+          "checks": [
+            "**Buys companies**, often taking them private",
+            "Works to **improve** the business",
+            "Aims to **sell later** at a profit"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    },
+    {
+      "id": "2026-11-25-venture-capital",
+      "date": "2026-11-25",
+      "term": "Venture capital",
+      "caption": "Venture capital, explained simply 👇\n\nVenture capital is funding given to early-stage startups in exchange for an ownership stake, betting that a few big winners will cover the many that don't pan out.\n\nSave this for the next time someone throws finance jargon at you. 🔖\n\nNew term every day. Follow @equivisionbasics.\n\nEducational content only, not financial advice.\n\n#finance #personalfinance #financialliteracy #moneybasics #learnfinance #investing #startups",
+      "slides": [
+        {
+          "type": "cover",
+          "term": "Venture capital",
+          "art": {
+            "kind": "growth"
+          }
+        },
+        {
+          "type": "definition",
+          "headline": "Venture capital is funding given to **early-stage startups** in exchange for [[equity]], betting on future growth.",
+          "visual": {
+            "arcText": "funds the idea",
+            "midText": "hoping it grows huge",
+            "left": {
+              "icon": "plant",
+              "title": "STARTUP",
+              "sub": "Early, unproven"
+            },
+            "right": {
+              "icon": "coins",
+              "title": "FUNDING",
+              "sub": "In exchange for equity"
+            }
+          },
+          "footer": "Many startups fail; a few huge wins can cover the rest."
+        },
+        {
+          "type": "steps",
+          "headline": "A startup with just an idea raises [[$2 million]] from investors.",
+          "steps": [
+            {
+              "icon": "plant",
+              "title": "Startup has a strong idea",
+              "sub": "But little revenue yet"
+            },
+            {
+              "icon": "wallet",
+              "title": "VC firm invests $2M",
+              "sub": "In exchange for equity"
+            },
+            {
+              "icon": "chart",
+              "title": "Startup tries to scale fast",
+              "sub": "Investors hope for a big exit"
+            }
+          ],
+          "closing": "VC firms bet on a **few big winners** covering many losers."
+        },
+        {
+          "type": "points",
+          "headline": "High risk, high potential.",
+          "sub": "What makes venture capital different.",
+          "rows": [
+            {
+              "dir": "up",
+              "text": "A successful startup can return many times the investment"
+            },
+            {
+              "dir": "down",
+              "text": "Most startups fail or return little to nothing"
+            }
+          ],
+          "note": "VC firms spread bets across many startups to manage this risk.",
+          "gauge": {
+            "left": "Safer",
+            "right": "Riskier",
+            "needle": 0.9
+          },
+          "label": "HANDLE WITH CARE"
+        },
+        {
+          "type": "compare",
+          "headline": "A few big wins carry the rest.",
+          "sub": "Most startups return little; a few return a lot.",
+          "chart": {
+            "title": "Typical outcome spread",
+            "bars": [
+              {
+                "label": "Most startups",
+                "value": 110,
+                "text": "Little"
+              },
+              {
+                "label": "A rare big win",
+                "value": 330,
+                "text": "Huge"
+              }
+            ]
+          },
+          "note": "Illustrative, not real data."
+        },
+        {
+          "type": "recap",
+          "title": "Venture capital = Early bets",
+          "sub": "Funding startups for equity.",
+          "checks": [
+            "Funds **early-stage startups**",
+            "Given in exchange for **equity**",
+            "A few big wins can cover many **losses**"
+          ]
+        }
+      ],
+      "approved": true,
+      "published": false
+    }
+  ]
+}
