@@ -139,7 +139,11 @@
         }
       ],
       "approved": true,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-10T14:39:25Z",
+      "published_date": "2026-11-10",
+      "ig_media_id": "18068301104789737",
+      "permalink": "https://www.instagram.com/p/DfkI_JAkbkw/"
     },
     {
       "id": "2026-10-28-growth-stock",
