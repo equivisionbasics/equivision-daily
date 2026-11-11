@@ -250,7 +250,11 @@
         }
       ],
       "approved": true,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T17:43:59Z",
+      "published_date": "2026-11-11",
+      "ig_media_id": "17955476760325958",
+      "permalink": "https://www.instagram.com/p/DfnC7U-GNPe/"
     },
     {
       "id": "2026-10-29-value-investing",
